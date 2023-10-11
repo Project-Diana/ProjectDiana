@@ -1,0 +1,440 @@
+## Entity IDs ##
+AgriCraft.leash
+AgriCraft.villagerFarmer
+Arrow
+Avaritia.EndestPearl
+Avaritia.GapingVoid
+Avaritia.HeavenArrow
+Avaritia.HeavenSubArrow
+Basalz
+Bat
+BiblioCraft.SeatEntity
+Blaze
+Blitz
+Blizz
+Boat
+Botania.botania:babylonWeapon
+Botania.botania:corporeaSpark
+Botania.botania:doppleganger
+Botania.botania:enderAirBottle
+Botania.botania:fallingStar
+Botania.botania:flameRing
+Botania.botania:magicLandmine
+Botania.botania:magicMissile
+Botania.botania:manaBurst
+Botania.botania:manaStorm
+Botania.botania:pinkWither
+Botania.botania:pixie
+Botania.botania:playerMover
+Botania.botania:poolMinecart
+Botania.botania:signalFlare
+Botania.botania:spark
+Botania.botania:thornChakram
+Botania.botania:thrownItem
+Botania.botania:vineBall
+BuildCraft|Robotics.bcRobot
+BuildCraft|Silicon.bcPackageThrowable
+CarpentersBlocks.CarpentersTile
+CaveSpider
+Chicken
+Cow
+Creeper
+DraconicEvolution.Arrow
+DraconicEvolution.ChaosBolt
+DraconicEvolution.ChaosCrystal
+DraconicEvolution.ChaosGuardian
+DraconicEvolution.CustomArrow
+DraconicEvolution.Dragon Heart Item
+DraconicEvolution.DragonProjectile
+DraconicEvolution.Ender Arrow
+DraconicEvolution.EnderDragon
+DraconicEvolution.EntityChaosEnergyVortex
+DraconicEvolution.Persistent Item
+ESM_Ghast
+EnderCrystal
+EnderDragon
+EnderIO.weather_rocket
+Enderman
+EntityFluidCow
+EntityHorse
+ExtraPlanets.ExtraPlanetsFireBombPrimed
+ExtraPlanets.ExtraPlanetsNuclearBombPrimed
+ExtraPlanets.extraplanets.EntityMarsRover
+ExtraPlanets.extraplanets.EntityTier10Rocket
+ExtraPlanets.extraplanets.EntityTier4Rocket
+ExtraPlanets.extraplanets.EntityTier5Rocket
+ExtraPlanets.extraplanets.EntityTier6Rocket
+ExtraPlanets.extraplanets.EntityTier7Rocket
+ExtraPlanets.extraplanets.EntityTier8Rocket
+ExtraPlanets.extraplanets.EntityTier9Rocket
+ExtraPlanets.extraplanets.EntityVenusRover
+ExtraPlanets.extraplanets.SmallSnowBall
+EyeOfEnderSignal
+FallingSand
+Fireball
+FireworksRocketEntity
+GalacticraftCore.AlienVillager
+GalacticraftCore.Buggy
+GalacticraftCore.CelestialScreen
+GalacticraftCore.EvolvedCreeper
+GalacticraftCore.EvolvedSkeleton
+GalacticraftCore.EvolvedSkeletonBoss
+GalacticraftCore.EvolvedSpider
+GalacticraftCore.EvolvedZombie
+GalacticraftCore.GCFlag
+GalacticraftCore.Lander
+GalacticraftCore.Meteor
+GalacticraftCore.MeteorChunk
+GalacticraftCore.ParaChest
+GalacticraftCore.Spaceship
+GalacticraftMars.AstroMiner
+GalacticraftMars.CargoRocket
+GalacticraftMars.CreeperBoss
+GalacticraftMars.EntryPodAsteroids
+GalacticraftMars.GrappleHookGC
+GalacticraftMars.LandingBalloons
+GalacticraftMars.ProjectileTNT
+GalacticraftMars.Slimeling
+GalacticraftMars.Sludgeling
+GalacticraftMars.SmallAsteroidGC
+GalacticraftMars.SpaceshipT2
+GalacticraftMars.Tier3RocketGC
+Ghast
+Giant
+ImmersiveEngineering.chemthrowerShot
+ImmersiveEngineering.railgunShot
+ImmersiveEngineering.revolverShot
+ImmersiveEngineering.revolverShotHoming
+ImmersiveEngineering.revolverShotWolfpack
+ImmersiveEngineering.skylineCrate
+ImmersiveEngineering.skylineHook
+Item
+ItemFrame
+LavaSlime
+LeashKnot
+Mekanism.BabySkeleton
+Mekanism.Balloon
+Mekanism.Flame
+Mekanism.ObsidianTNT
+Mekanism.Robit
+MineFactoryReloaded.DebugTracker
+MineFactoryReloaded.FishingRod
+MineFactoryReloaded.Item
+MineFactoryReloaded.Needle
+MineFactoryReloaded.Rocket
+MineFactoryReloaded.SafariNet
+MineFactoryReloaded.mfrEntityPinkSlime
+MinecartChest
+MinecartCommandBlock
+MinecartFurnace
+MinecartHopper
+MinecartRideable
+MinecartSpawner
+MinecartTNT
+Mob
+Monster
+MushroomCow
+NEAT_Zombie
+Natura.FlameSpider
+Natura.FlameSpiderBaby
+Natura.FusewoodArrow
+Natura.Imp
+Natura.NitroCreeper
+NetherOres.ArmedOre
+NetherOres.netherOresHellfish
+OpenBlocks.Cartographer
+OpenBlocks.EntityItemProjectile
+OpenBlocks.GoldenEye
+OpenBlocks.Hang Glider
+OpenBlocks.Luggage
+OpenBlocks.Magnet
+OpenBlocks.MiniMe
+OpenBlocks.MountedBlock
+OpenBlocks.Player-Magnet
+OpenBlocks.XPOrbNoFly
+OpenMods.Block
+Ozelot
+Painting
+Pig
+PigZombie
+PortalGun.portal_entityapg
+PortalGun.portal_entityball
+PortalGun.portal_entityblock
+PortalGun.portal_entitycube
+PortalGun.portal_entityhep
+PortalGun.portal_entityradio
+PrimedTnt
+ProjectE.FireProjectile
+ProjectE.HomingArrow
+ProjectE.LavaProjectile
+ProjectE.LensProjectile
+ProjectE.LightningProjectile
+ProjectE.LootBall
+ProjectE.MobRandomizer
+ProjectE.NovaCataclysmPrimed
+ProjectE.NovaCatalystPrimed
+ProjectE.WaterProjectile
+RandomThings.HealingOrb
+RandomThings.bloodmoonCircle
+RandomThings.playerSoul
+RandomThings.reviveCircle
+RandomThings.spirit
+Sheep
+Silverfish
+Skeleton
+Slime
+SmallFireball
+SnowMan
+Snowball
+Spider
+Squid
+TConstruct.Arrow
+TConstruct.Bolt
+TConstruct.Crystal
+TConstruct.Dagger
+TConstruct.EdibleSlime
+TConstruct.Fancy Item
+TConstruct.Javelin
+TConstruct.KingSlime
+TConstruct.LandmineFirework
+TConstruct.Launched Potion
+TConstruct.Shuriken
+TConstruct.SlimeExplosive
+TConstruct.ThrowingKnife
+ThermalDynamics.Transport
+ThermalExpansion.florb
+ThermalFoundation.basalzBolt
+ThermalFoundation.blitzBolt
+ThermalFoundation.blizzBolt
+ThrownEnderpearl
+ThrownExpBottle
+ThrownPotion
+Villager
+VillagerGolem
+Witch
+WitherBoss
+WitherSkull
+Wolf
+XPOrb
+Zombie
+aether_legacy.aechor_plant
+aether_legacy.aerbunny
+aether_legacy.aerwhale
+aether_legacy.aether_item
+aether_legacy.cockatrice
+aether_legacy.crystal
+aether_legacy.enchanted_dart
+aether_legacy.fire_minion
+aether_legacy.floating_block
+aether_legacy.flying_cow
+aether_legacy.golden_dart
+aether_legacy.hammer_projectile
+aether_legacy.lightning_knife
+aether_legacy.mimic
+aether_legacy.mini_cloud
+aether_legacy.moa
+aether_legacy.parachute
+aether_legacy.phoenix_arrow
+aether_legacy.phyg
+aether_legacy.poison_dart
+aether_legacy.poison_needle
+aether_legacy.sentry
+aether_legacy.sheepuff
+aether_legacy.slider
+aether_legacy.sun_spirit
+aether_legacy.swet
+aether_legacy.tnt_present
+aether_legacy.valkyrie
+aether_legacy.valkyrie_queen
+aether_legacy.whirlwind
+aether_legacy.zephyr
+aether_legacy.zephyr_snowball
+appliedenergistics2.EntityChargedQuartz
+appliedenergistics2.EntityGrowingCrystal
+appliedenergistics2.EntitySingularity
+appliedenergistics2.EntityTinyTNTPrimed
+betterquesting.placeholder
+cfm.MountableBlock
+chisel.BallOMoss
+chisel.CloudInABottle
+chisel.SmashingRock
+chisel.snowman
+erebus.animatedBambooCrate
+erebus.animatedBlock
+erebus.animatedChest
+erebus.antlion
+erebus.antlionBoss
+erebus.antlionMiniBoss
+erebus.armchairMount
+erebus.bedBug
+erebus.beetle
+erebus.beetleLarva
+erebus.blackAnt
+erebus.blackWidow
+erebus.bloodSnail
+erebus.bombardierBeetle
+erebus.bombardierBeetleLarva
+erebus.botFly
+erebus.botFlyLarva
+erebus.centipede
+erebus.chameleonTick
+erebus.cicada
+erebus.crushling
+erebus.crushroom
+erebus.dragonfly
+erebus.erebusLightning
+erebus.extractedBlock
+erebus.fireAnt
+erebus.fireAntSoldier
+erebus.fireResistentItem
+erebus.fly
+erebus.gasVent
+erebus.glowWorm
+erebus.gooBall
+erebus.grasshopper
+erebus.honeyPotAnt
+erebus.jumpingSpider
+erebus.lavaWebSpider
+erebus.leech
+erebus.locust
+erebus.magmaCrawler
+erebus.midgeSwarm
+erebus.moneySpider
+erebus.mosquito
+erebus.moth
+erebus.mucusBombPrimed
+erebus.poisonjet
+erebus.pondskater
+erebus.prayingMantis
+erebus.preservedBlock
+erebus.punchroom
+erebus.rhinoBeetle
+erebus.scorpion
+erebus.scytodes
+erebus.snapper
+erebus.solifuge
+erebus.solifugeSmall
+erebus.sporeBall
+erebus.sporeJet
+erebus.stagBeetle
+erebus.tarantula
+erebus.tarantulababy
+erebus.tarantulaegg
+erebus.tarantulaminiboss
+erebus.thrownSand
+erebus.titanBeetle
+erebus.umberGolem
+erebus.umberGolemIdol
+erebus.velvetWorm
+erebus.wasp
+erebus.waspDagger
+erebus.webSling
+erebus.wheatWeevil
+erebus.wisp
+erebus.woodlouse
+erebus.woodlouseBall
+erebus.workerBee
+erebus.zombieAnt
+erebus.zombieAntSoldier
+exnihilo.Broken Stone
+extraplanets.CreeperBossEris
+extraplanets.CreeperBossPluto
+extraplanets.EvolvedBlaze
+extraplanets.EvolvedBlueCreeper
+extraplanets.EvolvedEnderman
+extraplanets.EvolvedFireBatBoss
+extraplanets.EvolvedGhastBoss
+extraplanets.EvolvedGiantSpider
+extraplanets.EvolvedIceSlime
+extraplanets.EvolvedIceSlimeBoss
+extraplanets.EvolvedMagmaCube
+extraplanets.EvolvedMagmaCubeBoss
+extraplanets.EvolvedMiniEnderman
+extraplanets.EvolvedPowerSkeleton
+extraplanets.EvolvedRedCreeper
+extraplanets.EvolvedSnowmanBoss
+extraplanets.EvolvedWitch
+hardcorewither.BlazeMinion
+hardcorewither.GhastMinion
+hardcorewither.SkeletonMinion
+lootplusplus.Label
+lootplusplus.ThrownItem
+openmodularturrets.blazingClayProjectile
+openmodularturrets.bulletProjectile
+openmodularturrets.grenadeProjectile
+openmodularturrets.laserProjectile
+openmodularturrets.rocketProjectile
+rangeEntity
+soundEntity
+xreliquary.entityBlazeShot
+xreliquary.entityBusterShot
+xreliquary.entityConcussiveShot
+xreliquary.entityEnderShot
+xreliquary.entityEnderStaffProjectile
+xreliquary.entityExorcismShot
+xreliquary.entityHGrenade
+xreliquary.entityHolyWater
+xreliquary.entityKSlime
+xreliquary.entityNeutralShot
+xreliquary.entitySandShot
+xreliquary.entitySeekerShot
+xreliquary.entitySpecialSnowball
+xreliquary.entitySplashAphrodite
+xreliquary.entitySplashFertility
+xreliquary.entityStormShot
+xreliquary.entityThrownPotion
+## Spawn Egg IDs: in the form <number id> - <entity string id (which it spawns)> ##
+7 - extraplanets.EvolvedMagmaCubeBoss
+23 - extraplanets.EvolvedFireBatBoss
+24 - extraplanets.EvolvedGhastBoss
+25 - extraplanets.EvolvedIceSlimeBoss
+26 - extraplanets.EvolvedSnowmanBoss
+27 - extraplanets.CreeperBossPluto
+28 - extraplanets.CreeperBossEris
+29 - extraplanets.EvolvedMagmaCube
+30 - extraplanets.EvolvedIceSlime
+31 - extraplanets.EvolvedWitch
+32 - extraplanets.EvolvedEnderman
+33 - extraplanets.EvolvedBlaze
+34 - extraplanets.EvolvedBlueCreeper
+35 - extraplanets.EvolvedRedCreeper
+36 - extraplanets.EvolvedPowerSkeleton
+37 - extraplanets.EvolvedGiantSpider
+38 - extraplanets.EvolvedMiniEnderman
+39 - EntityFluidCow
+50 - Creeper
+51 - Skeleton
+52 - Spider
+54 - Zombie
+55 - Slime
+56 - Ghast
+57 - PigZombie
+58 - Enderman
+59 - CaveSpider
+60 - Silverfish
+61 - Blaze
+62 - LavaSlime
+65 - Bat
+66 - Witch
+67 - Blizz
+68 - Blitz
+69 - Basalz
+90 - Pig
+91 - Sheep
+92 - Cow
+93 - Chicken
+94 - Squid
+95 - Wolf
+96 - MushroomCow
+98 - Ozelot
+100 - EntityHorse
+120 - Villager
+256 - GalacticraftCore.EvolvedSpider
+257 - GalacticraftCore.EvolvedZombie
+258 - GalacticraftCore.EvolvedCreeper
+259 - GalacticraftCore.EvolvedSkeleton
+260 - GalacticraftCore.EvolvedSkeletonBoss
+261 - GalacticraftCore.AlienVillager
+262 - GalacticraftMars.Sludgeling
+263 - GalacticraftMars.Slimeling
+264 - GalacticraftMars.CreeperBoss

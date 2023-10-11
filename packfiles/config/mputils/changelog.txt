@@ -1,0 +1,197 @@
+§6 2.4.0  (Backup your world before updating)
+§9Updated Mods:
+# Avaritiaddons
+# Buildcraft/ Buildcraft compat
+# Eiramoticons
+# ExtraCells 2
+# Extra Planets
+# Iron Chests
+# Mekanism
+# Portal Gun
+# Storage Drawers
+# Veinminer
+# Wireless Crafting Terminal
+# AppleCore
+# PneumaticCraft
+§9Features:
+# Changed all BQ crafting tasks to retrieval
+§9Fixes:
+# Fixed emc values
+# Removed PackGuard
+Note:
+For skyblock island spread /botania-skyblock-spread username 1000 (1000 = range)
+Hopefully all BQ quests are fine now
+-----------------------------------------------------------------
+§6 2.3.0 Changelog I'm not updating this anymore >.>  (Backup your world before updating)
+# Config and recipe work
+-----------------------------------------------------------------
+§6 2.2.9 Changelog Final Update 6 (Backup your world before updating)
+# Updated ExtraPlanets
+-----------------------------------------------------------------
+§6 2.2.8 Changelog Final Update 5 (Backup your world before updating)
+# Updated mods
+# §9Changed yellorium to uranium recipe config to false
+# Can now complete quests in BQ before they are unlocked
+# §9Regenerated Extra Planets and PackGuard config
+# Added Morpheus
+# §9Added OreDict to Barrels
+# Made small adjustments to HQM
+# §9Removed InPureCore because weird mod interaction with mekanism
+-----------------------------------------------------------------
+§6 2.2.7 Changelog Emergency Final Update 4
+# Fixed Karat Carrot reward for both HQM and BQ
+# §9Reinstalled HQM however its disabled (re-enable in curse instance of PO2)
+# Fixed Karat Carrot quest in HQM ( now matches BQ's Karat Carrot quest)
+# §9HQM Book will now be in your inventory if you begin the pack with HQM
+# ProjectE should no longer crash due to disabling BQ
+# §9Fixed recipe derpage for the machine chassis in Kappa mode
+# Turned down capacitor seeds giving capacitors by half (still more than default though)
+# §9PLEASE LET THIS BE THE FINAL UPDATE 
+§6 Note | Backup before updating
+# Ignore PackGuard in terms of HQM and Fastcraft
+# Here is an interesting GoG seed I found: -2621745414360128968
+# When starting BQM use "/bq_admin default load" if the quests don't appear and "/bqs_loot default load" if you're not getting the correct loot from loot chests
+# §9Ignore CraftTweaker duplicate recipe errors
+-----------------------------------------------------------------
+§6 2.2.6 Changelog Emergency Final Update 3 "The Quality of Life Update"
+# Updated Better Questing, Karat Garden, OpenModsLib, OpenBlocks, and Extra Planets
+# §9Reinstalled HQM however its disabled (re-enable in curse instance of PO2)
+# Fixed misspelled magicalcrop seeds
+# §9Specific items can now be crafted outside of the QED for automation purposes (machines still need the QED themselves)
+# Neutronium Compressors can now compress some ingots into their storage block forms in kappa mode
+# §9Adjusted capacitor seeds capacitor drop rate
+§6 Note | Backup before updating
+# Here is an interesting GoG seed I found: -2621745414360128968
+# When starting BQM use "/bq_admin default load" if the quests don't appear and "/bqs_loot default load" if you're not getting the correct loot from loot chests
+# §9Ignore CraftTweaker duplicate recipe errors
+-----------------------------------------------------------------
+§6 2.2.5 Changelog Emergency Final Update 2
+# Updated mods
+# §9Reinstalled HQM howqever its disabled (re-enabble in curse instance of PO2)
+§6 Note | Backup before updating
+# Here is an interesting GoG seed I found: -2621745414360128968
+# When starting BQM use "/bq_admin default load" if the quests don't appear and "/bqs_loot default load" if you're not getting the correct loot from loot chests
+# §9Ignore CraftTweaker duplicate recipe errors
+-----------------------------------------------------------------
+§6 2.2.4 Changelog Emergency Final Update
+# Updated BQ and Standard Expansion
+# §9Updated OpenModularTurrets
+# Updated Wireless Crafting Terminal
+§6 Note | Backup before updating
+# When starting BQM use "/bq_admin default load" if the quests don't appear and "/bqs_loot default load" if you're not getting the correct loot from loot chests
+# §9Ignore CraftTweaker duplicate recipe errors
+------------------------------------------------------------------
+§6 2.2.3 Changelog Final Update
+# Adjusted redstonic meta data for the energy tablet recipe
+# §9Adjusted Ore dict for steel in the reactor controller recipe
+# Decreased Wireless charger range
+# §9Updated Better Questing and Standard Expansion
+# Fixed issue with Mekanism gas tanks not showing recipes in NEI (forgot I had Inpurecore installed sorry)
+# §9Updated NoMobSpawningOnTrees
+# Updated MFR Compat - Magical Crops (twice)
+# §9Changed Extra Life chance cube reward to use BQ heart instead of HQM
+# Increased the size of BQ UI a bit
+# §9Removed HQM (however I will keep the HQM config there so all you need to do it re-add HQM to play the pack with HQM)
+# Made music discs stackable to 64
+# §9Updated BQ Quest Book
+# Updated OpenModularTurrets
+# §9Changed stack size of plastic sheets to 64 so inventory tweaks will stop going nuts about it
+# Changed stack size of saddles, minecarts and boats
+# §9Turned off BQ Hardcore (if you want to play hardcore just do "/bq_admin hardcore" and "/bq_admin lives default 40")
+# Changed the Begin Again quest a little (have all the items in your inventory before submitting (it takes a moment to complete sometimes))
+# §9Changed 2 rewards making them more useful
+# Turned a bunch of quests in BQ to Always showing
+# §9Changed the layout of Delta, Eta, and Kappa quest lines
+# Updated Journey Map
+§6 Note | Backup before updating
+# When starting BQM use "/bq_admin default load" if the quests don't appear and "/bqs_loot default load" if you're not getting the correct loot from loot chests
+# §9Ignore CraftTweaker duplicate recipe errors
+------------------------------------------------------------------
+§6 2.2.2 Changelog
+# Updated Better Questing Mod
+# §9Blacklisted slime islands from spectre dimension
+# Turned off HQM Hardcore mode and HQM book will not spawn at start of new world
+# §9Changed recipe of Tome of Knowledge
+# Turned Hardcore mode on for BQM (once BQM gets fixed)
+# §9Updated Veinminer
+# Reduced potion id for Defensetech potion effects
+# §9Changed recipe of the fire charge
+# Decreased chance to get the kitchen appliances reward for BQM
+# §9Added an ore dictionary entry to part builders, stencil tables, tool stations, pattern chests, seared tanks, and wand of the forest in order to fix BQM quests
+# Updated Better Builders Wands
+# §9Turned off Waila IFluidHandler so Ender Conduits should not overflow the waila tooltip
+# Added a tooltip to the Botania Lexicon
+# §9There are now Agricraft Karat Carrot seeds, have fun automating them
+# Updated Loot Bags
+# §9Added recipe for Wireless Crafting Terminal for normal and Titan mode
+# Added new recipe for magnet card
+# §9Horse armor is now stackable
+# Added custome splash text
+# §9Updated Open Modular Turrets
+# Updated Galacticraft
+# §9Removed the Question chance cube reward
+# Updated Experience Rings
+# §9Updated the Karat Carrot quest in BQM
+§6 Note | Backup before updating
+# Updated BQ1 to BQ2 so progression and parties will not convert over (sorry)
+# When starting BQM use "/bq_admin default load" if the quests don't appear and "/bqs_loot default load" if you're not getting the correct loot from loot chests
+# I'm aware of the BQM title card of PO2's logo looking stretched
+# In recent versions you may have seen Better Questing mod was added because I'm phasing out HQM, all quests should work now, but send a bug report to the issue tracker if something is broken
+# §9Ignore Loot++ errors (has issues seeing metadata) and CraftTweaker duplicate recipe errors
+------------------------------------------------------------------
+§6 2.2.1 Changelog
+# Added casting of brass and zinc for titan and normal mode
+# §9The pack now has a pre-generated EMC file so all EMC values are all based off of Titan mode whether you're in Normal, Titan, or Kappa mode
+# Fixed singularity quests in the Mu category for HQM and BQM
+# §9ZBQs now stack to 64
+# Buckets now stack to 64
+# §9Upgrade Tokens now stack to 64
+# Fixed date of a few textures for customthings items so Mac "should" stop crashing
+# §9Added rewards in the Rare, Unique, and Forbidden Categories in BQM (not HQM)
+# Fixed compacting drawer interaction with diamonds and emerald nuggets
+# §9Updated OpenModularTurrets
+§6 Note
+# In recent versions you may have seen Better Questing mod was added because I'm phasing out HQM, all quests should work now, but send a bug report to the issue tracker if something is broken
+# §9Ignore Loot++ errors (has issues seeing metadata) and CraftTweaker duplicate recipe errors
+------------------------------------------------------------------
+§6 2.2.0 Changelog
+# Removed CustomThings singularities for Universal Singalrities of the same type
+# §9Fixed date of some customthings images (hopefully mac stops crashing)
+# Updated Universal Singularities
+# §9Updated Extra Planets (best to update if you want to progress pass tier6 rocket)
+# Fixed a few issues in the Ozone 2 issue tracker
+# §9Added a recipe for tainted soil
+# Reorganized all script files for Kappa mode
+# §9"Adjusted" a few recipes
+# Improved chance for sieved materials from compressed variants of gravel, sand, and dust in Kappa mode
+§6 Note
+# If you find an item in Kappa mode that doesn't have an emc value but it does in titan let me know with its titan emc value
+# §9Ignore Loot++ errors (has issues seeing metadata) and CraftTweaker duplicate recipe errors
+------------------------------------------------------------------
+§6 2.1.9 Changelog
+# Introduction of Kappa mode
+# §9Fixed Draconic Grinder not having a recipe in Kappa mode
+# Fixed issue with Zinc Ore not melting in smeltery in Kappa mode
+# §9Increased speed of the Blast Furnace and Coke Oven in Kappa mode
+# Adjusted some configs (EX. Chaos islands spawn 1000 blocks from each other)
+# §9Updated Storage Drawers
+# Made some items more expensive
+# §9Made a few items easier to craft
+# Increased the chance of getting Alpha rewards in Good and Epic reward bags
+# §9Fixed issue with Electrotine essence and Compressed Gaia not having their recipes
+# Fixed issue with crafting block of certus quartz and fluix down from 4 to 9
+# §9Concentrated Essence Berries can now be processed into Liquid XP in the Fermenter
+# Changed Stack size of Endest Pearls
+# §9Fixed some recipes dealing with Glowstone
+# Added 2 new Chance cube rewards
+# §9Adjusted chance value of some Chance cube rewards
+# Adjusted RFtools' dimlets
+# §9Adjusted World Breaker recipe
+# Adjusted Accio to Zivicio tool recipes
+# §9Added missing recipes for the Dark and Red matter pickaxes
+# Updated ExtraPlanets mod, Thanks MJRLegends
+# §9Fixed irrigation channel recipe issue
+# Removed dire recipe for the Tier 10 rocket
+§6 Note
+# If you find an item in Kappa mode that doesn't have an emc value but it does in titan let me know with its titan emc value
+# §9Ignore Loot++ errors (has issues seeing metadata) and CraftTweaker duplicate recipe errors

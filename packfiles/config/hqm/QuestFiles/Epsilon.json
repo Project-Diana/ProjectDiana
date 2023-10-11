@@ -1,0 +1,2089 @@
+{
+  "name": "Epsilon",
+  "description": "Pneumaticraft and Mekanism",
+  "quests": [
+    {
+      "name": "Compressed Iron",
+      "description": "Blow up iron to compress it into compressed iron. You won\u0027t get all the iron back however.",
+      "x": 158,
+      "y": 18,
+      "icon": {
+        "id": "PneumaticCraft:ingotIronCompressed"
+      },
+      "prerequisites": [
+        "{Delta}[Alloy Smelter]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "PneumaticCraft:ingotIronCompressed"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Pressure Chamber",
+      "description": "3x3x3 Multiblock structure with a hollow center.",
+      "x": 195,
+      "y": 18,
+      "icon": {
+        "id": "PneumaticCraft:pressureChamberInterface"
+      },
+      "prerequisites": [
+        "Compressed Iron"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "PneumaticCraft:airCompressor"
+              }
+            },
+            {
+              "item": {
+                "id": "PneumaticCraft:pressureTube"
+              }
+            },
+            {
+              "item": {
+                "id": "PneumaticCraft:pressureChamberWall",
+                "damage": 6
+              }
+            },
+            {
+              "item": {
+                "id": "PneumaticCraft:pressureChamberInterface"
+              }
+            },
+            {
+              "item": {
+                "id": "PneumaticCraft:pressureChamberValve"
+              }
+            },
+            {
+              "item": {
+                "id": "PneumaticCraft:pressureChamberWall"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Plastic Maker",
+      "description": "Makes plastic.",
+      "x": 235,
+      "y": 18,
+      "icon": {
+        "id": "PneumaticCraft:thermopneumaticProcessingPlant"
+      },
+      "prerequisites": [
+        "Refine"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "PneumaticCraft:thermopneumaticProcessingPlant"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Plastic Mixer",
+      "description": "Used to turn plastic into different colors.",
+      "x": 278,
+      "y": 18,
+      "icon": {
+        "id": "PneumaticCraft:plasticMixer"
+      },
+      "prerequisites": [
+        "Plastic Maker"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "PneumaticCraft:plasticMixer"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Transisters",
+      "description": "Pneumatic component.",
+      "x": 278,
+      "y": 52,
+      "icon": {
+        "id": "PneumaticCraft:transistor"
+      },
+      "prerequisites": [
+        "Plastic Mixer"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "PneumaticCraft:transistor"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Circuit Breaker",
+      "description": "The Making of the PCB. Pneumatic component.",
+      "x": 278,
+      "y": 150,
+      "icon": {
+        "id": "PneumaticCraft:emptyPCB",
+        "damage": 100
+      },
+      "prerequisites": [
+        "Pressurized Capacitor"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "PneumaticCraft:uvLightBox"
+              }
+            },
+            {
+              "item": {
+                "id": "PneumaticCraft:emptyPCB",
+                "damage": 100
+              }
+            },
+            {
+              "item": {
+                "id": "PneumaticCraft:etchacidBucket"
+              }
+            },
+            {
+              "item": {
+                "id": "PneumaticCraft:unassembledPCB"
+              }
+            },
+            {
+              "item": {
+                "id": "PneumaticCraft:printedCircuitBoard"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Pressurized Capacitor",
+      "description": "Pneumatic component.",
+      "x": 278,
+      "y": 102,
+      "icon": {
+        "id": "PneumaticCraft:capacitor"
+      },
+      "prerequisites": [
+        "Transisters"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "PneumaticCraft:capacitor"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Casings",
+      "description": "Used for Mekanism machines.",
+      "x": 123,
+      "y": 18,
+      "icon": {
+        "id": "Mekanism:BasicBlock",
+        "damage": 8
+      },
+      "prerequisites": [
+        "Compressed Iron"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "A task where the player has to craft specific items.",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:BasicBlock",
+                "damage": 8
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Metallurgic",
+      "description": "Used to make Mekanism Alloys, Circuits, and biofuel. Can also make steel from enriching iron with coal twice.",
+      "x": 89,
+      "y": 18,
+      "icon": {
+        "id": "Mekanism:MachineBlock",
+        "damage": 8
+      },
+      "prerequisites": [
+        "Casings"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock",
+                "damage": 8
+              },
+              "required": 3,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Enriched Upgrade",
+      "description": "Redstone infused iron.",
+      "x": 101,
+      "y": 37,
+      "icon": {
+        "id": "Mekanism:EnrichedAlloy"
+      },
+      "prerequisites": [
+        "Metallurgic"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:EnrichedAlloy"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:EnergyTablet",
+                "damage": 100
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "Mekanism:SpeedUpgrade"
+              }
+            },
+            {
+              "item": {
+                "id": "Mekanism:EnergyUpgrade"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Elite Alloy",
+      "description": "Diamond infused enriched alloy.",
+      "x": 90,
+      "y": 57,
+      "icon": {
+        "id": "Mekanism:ReinforcedAlloy"
+      },
+      "prerequisites": [
+        "Enriched Upgrade"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:ReinforcedAlloy"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Ultimate Alloy",
+      "description": "Refined Obsidian dust infused reinforced alloy.",
+      "x": 101,
+      "y": 76,
+      "icon": {
+        "id": "Mekanism:AtomicAlloy"
+      },
+      "prerequisites": [
+        "Elite Alloy"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:AtomicAlloy"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Enrichment Chamber",
+      "description": "Can turn a few items back to their original state such as certus quartz dust back into certus quartz.",
+      "x": 54,
+      "y": 18,
+      "icon": {
+        "id": "Mekanism:MachineBlock"
+      },
+      "prerequisites": [
+        "Metallurgic"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Enriched Redstone",
+      "description": "More efficient for Metallurgic Infuser.",
+      "x": 65,
+      "y": 38,
+      "icon": {
+        "id": "Mekanism:CompressedRedstone"
+      },
+      "prerequisites": [
+        "Enrichment Chamber"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:CompressedRedstone"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ]
+    },
+    {
+      "name": "Enriched Diamond",
+      "description": "More efficient for Metallurgic Infuser.",
+      "x": 54,
+      "y": 58,
+      "icon": {
+        "id": "Mekanism:CompressedDiamond"
+      },
+      "prerequisites": [
+        "Enriched Redstone"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:CompressedDiamond"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ]
+    },
+    {
+      "name": "Enriched Obsidian",
+      "description": "More efficient for Metallurgic Infuser.",
+      "x": 65,
+      "y": 78,
+      "icon": {
+        "id": "Mekanism:CompressedObsidian"
+      },
+      "prerequisites": [
+        "Enriched Diamond"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:CompressedObsidian"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Osmium Compressor",
+      "description": "Use Osmium to infuse Refined Obsidian dust into Refined Obsidian Ingots.",
+      "x": 19,
+      "y": 18,
+      "icon": {
+        "id": "Mekanism:MachineBlock",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Enrichment Chamber"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Refined Obsidian",
+      "description": "Need an Osmium compressor and Metallurgic infuser.",
+      "x": 31,
+      "y": 37,
+      "icon": {
+        "id": "Mekanism:OtherDust",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Osmium Compressor"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:OtherDust",
+                "damage": 5
+              }
+            },
+            {
+              "item": {
+                "id": "Mekanism:Ingot"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Combiner",
+      "description": "Combines stone with metals to remake the ore.",
+      "x": 19,
+      "y": 110,
+      "icon": {
+        "id": "Mekanism:MachineBlock",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Osmium Compressor"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Basic",
+      "description": "Mekanism\u0027s pipes and cables.",
+      "x": 134,
+      "y": 39,
+      "icon": {
+        "id": "Mekanism:PartTransmitter"
+      },
+      "prerequisites": [
+        "Casings"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:PartTransmitter"
+              }
+            },
+            {
+              "item": {
+                "id": "Mekanism:PartTransmitter",
+                "damage": 4
+              }
+            },
+            {
+              "item": {
+                "id": "Mekanism:PartTransmitter",
+                "damage": 8
+              }
+            },
+            {
+              "item": {
+                "id": "Mekanism:PartTransmitter",
+                "damage": 12
+              }
+            },
+            {
+              "item": {
+                "id": "Mekanism:PartTransmitter",
+                "damage": 18
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Advance",
+      "description": "Mekanism\u0027s pipes and cables.",
+      "x": 123,
+      "y": 59,
+      "icon": {
+        "id": "Mekanism:PartTransmitter",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Basic"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:PartTransmitter",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "Mekanism:PartTransmitter",
+                "damage": 5
+              }
+            },
+            {
+              "item": {
+                "id": "Mekanism:PartTransmitter",
+                "damage": 9
+              }
+            },
+            {
+              "item": {
+                "id": "Mekanism:PartTransmitter",
+                "damage": 13
+              }
+            },
+            {
+              "item": {
+                "id": "Mekanism:PartTransmitter",
+                "damage": 19
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Elite",
+      "description": "Mekanism\u0027s pipes and cables.",
+      "x": 135,
+      "y": 78,
+      "icon": {
+        "id": "Mekanism:PartTransmitter",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Advance"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:PartTransmitter",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "Mekanism:PartTransmitter",
+                "damage": 6
+              }
+            },
+            {
+              "item": {
+                "id": "Mekanism:PartTransmitter",
+                "damage": 10
+              }
+            },
+            {
+              "item": {
+                "id": "Mekanism:PartTransmitter",
+                "damage": 14
+              }
+            },
+            {
+              "item": {
+                "id": "Mekanism:PartTransmitter",
+                "damage": 20
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Ultimate",
+      "description": "Mekanism\u0027s pipes and cables.",
+      "x": 124,
+      "y": 98,
+      "icon": {
+        "id": "Mekanism:PartTransmitter",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Elite"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:PartTransmitter",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "Mekanism:PartTransmitter",
+                "damage": 7
+              }
+            },
+            {
+              "item": {
+                "id": "Mekanism:PartTransmitter",
+                "damage": 11
+              }
+            },
+            {
+              "item": {
+                "id": "Mekanism:PartTransmitter",
+                "damage": 15
+              }
+            },
+            {
+              "item": {
+                "id": "Mekanism:PartTransmitter",
+                "damage": 21
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Heat Generator",
+      "description": "Press shift and M (default keybinds) to see what these machines can do.",
+      "x": 146,
+      "y": 58,
+      "icon": {
+        "id": "MekanismGenerators:Generator"
+      },
+      "prerequisites": [
+        "Basic"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "MekanismGenerators:Generator"
+              },
+              "required": 3,
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock3",
+                "damage": 6
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock3",
+                "damage": 4
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Rotten Power",
+      "description": "Power generation through biofuel.",
+      "x": 147,
+      "y": 98,
+      "icon": {
+        "id": "MekanismGenerators:Generator",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Smashing"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "MekanismGenerators:Generator",
+                "damage": 4
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Smashing",
+      "description": "Crushes ores to their dust counterparts.",
+      "x": 157,
+      "y": 78,
+      "icon": {
+        "id": "Mekanism:MachineBlock",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Heat Generator"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Robit Miner",
+      "description": "Faster and better than a Quarry.",
+      "x": 19,
+      "y": 148,
+      "icon": {
+        "id": "Mekanism:MachineBlock",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Combiner"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock",
+                "damage": 4
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Turbine Power",
+      "description": "Produces power through wind current.",
+      "x": 135,
+      "y": 117,
+      "icon": {
+        "id": "MekanismGenerators:Generator",
+        "damage": 6
+      },
+      "prerequisites": [
+        "Rotten Power"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "MekanismGenerators:Generator",
+                "damage": 6
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Solar Panel",
+      "description": "Produces power through sunlight.",
+      "x": 158,
+      "y": 117,
+      "icon": {
+        "id": "MekanismGenerators:Generator",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Turbine Power"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "MekanismGenerators:Generator",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Better Solar Panel",
+      "description": "Produces power through sunlight.",
+      "x": 147,
+      "y": 136,
+      "icon": {
+        "id": "MekanismGenerators:Generator",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Solar Panel"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "MekanismGenerators:Generator",
+                "damage": 5
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Refine",
+      "description": "Refines oil into liquid plastic. Most efficient use 4 of these.",
+      "x": 216,
+      "y": 41,
+      "icon": {
+        "id": "PneumaticCraft:refinery"
+      },
+      "prerequisites": [
+        "Pressure Chamber"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "PneumaticCraft:refinery"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Demon Steel Tier 1",
+      "description": "Aura Cascade may not be here but...",
+      "x": 89,
+      "y": 149,
+      "icon": {
+        "id": "customthings:item",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Metallurgic"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "customthings:item",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Demon Steel Tier 2",
+      "description": "Aura Cascade may not be here but...",
+      "x": 112,
+      "y": 149,
+      "icon": {
+        "id": "customthings:item",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Demon Steel Tier 1"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "customthings:item",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Demon Steel Tier 3",
+      "description": "Aura Cascade may not be here but...",
+      "x": 100,
+      "y": 168,
+      "icon": {
+        "id": "customthings:item",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Demon Steel Tier 2"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "customthings:item",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Demon Steel Tier 4",
+      "description": "Aura Cascade may not be here but...",
+      "x": 123,
+      "y": 169,
+      "icon": {
+        "id": "customthings:item",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Demon Steel Tier 3"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "customthings:item",
+                "damage": 5
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Demon Steel Tier 5",
+      "description": "Aura Cascade may not be here but...",
+      "x": 146,
+      "y": 169,
+      "icon": {
+        "id": "customthings:item",
+        "damage": 6
+      },
+      "prerequisites": [
+        "Demon Steel Tier 4"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "customthings:item",
+                "damage": 6
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Demon Steel Tier 6",
+      "description": "Aura Cascade may not be here but...",
+      "x": 169,
+      "y": 169,
+      "icon": {
+        "id": "customthings:item",
+        "damage": 7
+      },
+      "prerequisites": [
+        "Demon Steel Tier 5"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "customthings:item",
+                "damage": 7
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Demon Steel Tier 7",
+      "description": "Aura Cascade may not be here but...",
+      "x": 192,
+      "y": 169,
+      "icon": {
+        "id": "customthings:item",
+        "damage": 8
+      },
+      "prerequisites": [
+        "Demon Steel Tier 6"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "customthings:item",
+                "damage": 8
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Demon Steel Tier 8",
+      "description": "Aura Cascade may not be here but...",
+      "x": 215,
+      "y": 169,
+      "icon": {
+        "id": "customthings:item",
+        "damage": 9
+      },
+      "prerequisites": [
+        "Demon Steel Tier 7"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "customthings:item",
+                "damage": 9
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Demon Steel Tier 11",
+      "description": "Aura Cascade may not be here but...",
+      "x": 205,
+      "y": 111,
+      "icon": {
+        "id": "customthings:item",
+        "damage": 12
+      },
+      "prerequisites": [
+        "Demon Steel Tier 10"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "customthings:item",
+                "damage": 12
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Demon Steel Tier 10",
+      "description": "Aura Cascade may not be here but...",
+      "x": 216,
+      "y": 131,
+      "icon": {
+        "id": "customthings:item",
+        "damage": 11
+      },
+      "prerequisites": [
+        "Demon Steel Tier 9"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "customthings:item",
+                "damage": 11
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Demon Steel Tier 9",
+      "description": "Aura Cascade may not be here but...",
+      "x": 204,
+      "y": 150,
+      "icon": {
+        "id": "customthings:item",
+        "damage": 10
+      },
+      "prerequisites": [
+        "Demon Steel Tier 8"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "customthings:item",
+                "damage": 10
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Mekanized Tesseract",
+      "description": "Can transfer items, liquids, energy, and gases.",
+      "x": 90,
+      "y": 96,
+      "icon": {
+        "id": "Mekanism:MachineBlock3"
+      },
+      "prerequisites": [
+        "Ultimate Alloy"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock3"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "PRC",
+      "description": "Items made from this machine will be used in the making of reactors.",
+      "x": 54,
+      "y": 98,
+      "icon": {
+        "id": "Mekanism:MachineBlock2",
+        "damage": 10
+      },
+      "prerequisites": [
+        "Enrichment Chamber"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock2",
+                "damage": 10
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

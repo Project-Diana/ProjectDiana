@@ -1,0 +1,14 @@
+{"data":
+	[
+		{
+			"name": "Titan",
+			"color":  5046016,
+			"isCreeperLoot": false
+		},
+		{
+			"name": "Aristotle",
+			"color":  9983,
+			"isCreeperLoot": false
+		}
+	]
+}

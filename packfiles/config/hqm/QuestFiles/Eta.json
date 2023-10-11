@@ -1,0 +1,2276 @@
+{
+  "name": "Eta",
+  "description": "Applied Energistics",
+  "quests": [
+    {
+      "name": "Inscriber",
+      "description": "The Inscriber is used to press items using various Inscriber Plates.",
+      "x": 53,
+      "y": 19,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockInscriber"
+      },
+      "prerequisites": [
+        "{Epsilon}[Ultimate Alloy]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 13
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 14
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 15
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 19
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockInscriber"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Advanced Inscriber",
+      "description": "The Inscriber is used to press items using various Inscriber Plates. This one is more automatable though.",
+      "x": 53,
+      "y": 51,
+      "icon": {
+        "id": "ae2stuff:Inscriber"
+      },
+      "prerequisites": [
+        "Inscriber"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ae2stuff:Inscriber"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Growth Accelerator",
+      "description": "Used to accelerate the process of purifying crystals, which allows you to create Pure Certus Quartz Crystal, Pure Nether Quartz Crystal and Pure Fluix Crystal.",
+      "x": 83,
+      "y": 19,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockQuartzGrowthAccelerator"
+      },
+      "prerequisites": [
+        "Inscriber"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockQuartzGrowthAccelerator"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Growth Chamber",
+      "description": "Unnamed questUsed to accelerate the process of purifying crystals, which allows you to create Pure Certus Quartz Crystal, Pure Nether Quartz Crystal and Pure Fluix Crystal within its GUI and can provide regular fluix crystals provided with the materials.",
+      "x": 83,
+      "y": 52,
+      "icon": {
+        "id": "ae2stuff:Grower"
+      },
+      "prerequisites": [
+        "Growth Accelerator"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ae2stuff:Grower"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Silicon Circuits",
+      "description": "Processors made through the inscriber. Cores made with Logic processor.",
+      "x": 112,
+      "y": 18,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "damage": 20
+      },
+      "prerequisites": [
+        "Growth Accelerator"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 24
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 22
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 23
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 44
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 43
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Me Drive",
+      "description": "This block holds 10 storage cells so you can tightly pack your storage into a very small space.",
+      "x": 158,
+      "y": 18,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockDrive"
+      },
+      "prerequisites": [
+        "Silicon Circuits"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockDrive"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "ME Controllor",
+      "description": "The ME Controller is the routing hub of a ME Network. It is not possible to have 2 ME Controller in one ME Network. Multiblock Controllers can be build in a fairly free form, however all ME Controller blocks on a ME Network must be connected, the size of the ME Controller must be within 7x7x7; else it will turn red, and a ME Controller can have 2 adjacent blocks in at most 1 axis; if a block violates this rule, it will disable and turn white.",
+      "x": 158,
+      "y": 48,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockController"
+      },
+      "prerequisites": [
+        "Me Drive"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockController"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Drive Fixture",
+      "description": "A smaller me drive.",
+      "x": 204,
+      "y": 18,
+      "icon": {
+        "id": "extracells:part.base",
+        "damage": 7
+      },
+      "prerequisites": [
+        "Me Drive"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:part.base",
+                "damage": 7
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Crafting GUI",
+      "description": "The ME Crafting Terminal is the upgraded version of the ME Terminal which has an integrated crafting grid with access to a ME Network\u0027s Networked Storage.",
+      "x": 158,
+      "y": 79,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "damage": 360
+      },
+      "prerequisites": [
+        "ME Controllor"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 360
+              }
+            },
+            {
+              "item": {
+                "id": "extracells:part.base",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "extracells:part.base",
+                "damage": 15
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Fluid Interface",
+      "description": "As the name implies it will interface between the ME Network and fluid storage and transport systems, such as Fluiduct, Tank and Drum.",
+      "x": 181,
+      "y": 48,
+      "icon": {
+        "id": "extracells:ecbaseblock"
+      },
+      "prerequisites": [
+        "ME Controllor"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:ecbaseblock"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Fluix Cables",
+      "description": "Cabling used for ME networks each holds upto 8 channels except the Dense version which holds 32 channels.",
+      "x": 130,
+      "y": 48,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "damage": 16
+      },
+      "prerequisites": [
+        "ME Controllor"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 16
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 36
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 56
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 76
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Pattern GUI",
+      "description": "A specialized version of the ME Crafting Terminal designed to encode Blank Patterns into Encoded Pattern. The beginning of Autocrafting.",
+      "x": 107,
+      "y": 48,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "damage": 340
+      },
+      "prerequisites": [
+        "Fluix Cables"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 340
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 52
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "ME Interface",
+      "description": "The ME Interface is the only component which can be used as a part, or as a Block. Crafting an ME interface in either form by itself produces the other form. The thin form is useful if you want to provide several different interfaces in a single block of physical space, but each will need its own channel. The block form lets multiple other blocks connect to a single ME interface, using only one channel for the interface.",
+      "x": 130,
+      "y": 74,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockInterface"
+      },
+      "prerequisites": [
+        "Fluix Cables"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Basically acts like a chest.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockInterface"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Particle Assembler",
+      "description": "The assembler is a powered machine which crafts items, it can be upgraded by inserting Acceleration Cards into it; once upgraded it is very fast. Functions in one of two modes, single pattern mode or interface fed mode.",
+      "x": 107,
+      "y": 74,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockMolecularAssembler"
+      },
+      "prerequisites": [
+        "Pattern GUI"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockMolecularAssembler"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Crafting Units",
+      "description": "Is a component of the Crafting CPU. Co-processor: This can be used to make more assemblers active in parallel for the job, and thus increase overall crafting speed. These only help if your setup has steps properly separated so the system can run multiple tasks in parallel, or even split the same pattern across multiple interfaces.",
+      "x": 107,
+      "y": 100,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockCraftingUnit"
+      },
+      "prerequisites": [
+        "Particle Assembler"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockCraftingUnit"
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockCraftingUnit",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Storage Bus",
+      "description": "Connect this to chests and such, will allow the me system to look into its inventory.",
+      "x": 130,
+      "y": 100,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "damage": 220
+      },
+      "prerequisites": [
+        "ME Interface"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 220
+              }
+            },
+            {
+              "item": {
+                "id": "extracells:part.base",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "extracells:part.base",
+                "damage": 16
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "1K Crafting Unit",
+      "description": "Provides 1024 bytes of storage for crafting.",
+      "x": 107,
+      "y": 126,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockCraftingStorage"
+      },
+      "prerequisites": [
+        "Crafting Units"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockCraftingStorage"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Exporter",
+      "description": "Takes items out of the ME system.",
+      "x": 130,
+      "y": 126,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "damage": 260
+      },
+      "prerequisites": [
+        "Storage Bus"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:part.base",
+                "damage": 14
+              }
+            },
+            {
+              "item": {
+                "id": "extracells:part.base",
+                "damage": 12
+              }
+            },
+            {
+              "item": {
+                "id": "extracells:part.base"
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 260
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "1K ME Storage",
+      "description": "1,024 bytes of storage.",
+      "x": 258,
+      "y": 18,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemBasicStorageCell.1k"
+      },
+      "prerequisites": [
+        "Drive Fixture"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemBasicStorageCell.1k"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "1K Fluid Storage",
+      "description": "1,024 bytes of storage.",
+      "x": 281,
+      "y": 18,
+      "icon": {
+        "id": "extracells:storage.fluid"
+      },
+      "prerequisites": [
+        "1K ME Storage"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:storage.fluid"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "1K Gas Storage",
+      "description": "1,024 bytes of storage.",
+      "x": 304,
+      "y": 18,
+      "icon": {
+        "id": "extracells:storage.gas"
+      },
+      "prerequisites": [
+        "1K Fluid Storage"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:storage.gas"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "Spatial IO",
+      "description": "Used to capture and deploy regions of space that are defiend by Spatial Pylon.",
+      "x": 158,
+      "y": 107,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockSpatialIOPort"
+      },
+      "prerequisites": [
+        "Crafting GUI"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockSpatialIOPort"
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockSpatialPylon"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Acceleration Cards",
+      "description": "Causes AE mechanisms to process faster than normal.",
+      "x": 204,
+      "y": 48,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "damage": 30
+      },
+      "prerequisites": [
+        "Drive Fixture"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 30
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Level Emitter",
+      "description": "The ME Level Emitter can indicate either the level of a specified item or the ME Network energy level. You can set the threshold and if the ME Level Emitter will emit a redstone signal or turn it off.",
+      "x": 130,
+      "y": 178,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "damage": 280
+      },
+      "prerequisites": [
+        "Importer"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 280
+              }
+            },
+            {
+              "item": {
+                "id": "extracells:part.base",
+                "damage": 4
+              }
+            },
+            {
+              "item": {
+                "id": "extracells:part.base",
+                "damage": 17
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "2 Degree",
+      "description": "Used with Spatial IO Port to store spatial regions.",
+      "x": 181,
+      "y": 107,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemSpatialStorageCell.2Cubed"
+      },
+      "prerequisites": [
+        "Spatial IO"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemSpatialStorageCell.2Cubed"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "16 Degree",
+      "description": "Used with Spatial IO Port to store spatial regions.",
+      "x": 181,
+      "y": 133,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemSpatialStorageCell.16Cubed"
+      },
+      "prerequisites": [
+        "2 Degree"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemSpatialStorageCell.16Cubed"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "128 Degree",
+      "description": "Used with Spatial IO Port to store spatial regions.",
+      "x": 181,
+      "y": 159,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemSpatialStorageCell.128Cubed"
+      },
+      "prerequisites": [
+        "16 Degree"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemSpatialStorageCell.128Cubed"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Importer",
+      "description": "Takes items into the ME system.",
+      "x": 130,
+      "y": 152,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "damage": 240
+      },
+      "prerequisites": [
+        "Exporter"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 240
+              }
+            },
+            {
+              "item": {
+                "id": "extracells:part.base",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "extracells:part.base",
+                "damage": 13
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "4K Crafting Unit",
+      "description": "Provides 4,096 bytes of storage for crafting.",
+      "x": 84,
+      "y": 126,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockCraftingStorage",
+        "damage": 1
+      },
+      "prerequisites": [
+        "1K Crafting Unit"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockCraftingStorage",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "16K Crafting Unit",
+      "description": "Provides 16,384 bytes of storage for crafting.",
+      "x": 61,
+      "y": 126,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockCraftingStorage",
+        "damage": 2
+      },
+      "prerequisites": [
+        "4K Crafting Unit"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockCraftingStorage",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "64K Crafting Unit",
+      "description": "Provides 65,536 bytes of storage for crafting.",
+      "x": 38,
+      "y": 126,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockCraftingStorage",
+        "damage": 3
+      },
+      "prerequisites": [
+        "16K Crafting Unit"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockCraftingStorage",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Fluid Assembler",
+      "description": "Crafts with fluids if the recipe calls for aliquid like cake.",
+      "x": 181,
+      "y": 79,
+      "icon": {
+        "id": "extracells:fluidcrafter"
+      },
+      "prerequisites": [
+        "Fluid Interface"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:fluidcrafter"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "AE Energy Cell",
+      "description": "Storage cell for AE power.",
+      "x": 204,
+      "y": 79,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockEnergyCell"
+      },
+      "prerequisites": [
+        "Acceleration Cards"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "A task where the player has to craft specific items.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockEnergyCell"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "AE Dense Energy Cell",
+      "description": "Storage cell for more AE Energy.",
+      "x": 204,
+      "y": 107,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockDenseEnergyCell"
+      },
+      "prerequisites": [
+        "AE Energy Cell"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "A task where the player has to craft specific items.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockDenseEnergyCell"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "4K ME Storage",
+      "description": "4,096 bytes of storage.",
+      "x": 247,
+      "y": 37,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemBasicStorageCell.4k"
+      },
+      "prerequisites": [
+        "1K ME Storage"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemBasicStorageCell.4k"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "4K Fluid Storage",
+      "description": "4,096 bytes of storage.",
+      "x": 269,
+      "y": 37,
+      "icon": {
+        "id": "extracells:storage.fluid",
+        "damage": 1
+      },
+      "prerequisites": [
+        "1K Fluid Storage"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:storage.fluid",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "4K Gas Storage",
+      "description": "4,096 bytes of storage.",
+      "x": 292,
+      "y": 37,
+      "icon": {
+        "id": "extracells:storage.gas",
+        "damage": 1
+      },
+      "prerequisites": [
+        "1K Gas Storage"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:storage.gas",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "16K ME Storage",
+      "description": "16,384 bytes of storage.",
+      "x": 236,
+      "y": 56,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemBasicStorageCell.16k"
+      },
+      "prerequisites": [
+        "4K ME Storage"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemBasicStorageCell.16k"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "64K ME Storage",
+      "description": "65,536 bytes of storage.",
+      "x": 247,
+      "y": 75,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemBasicStorageCell.64k"
+      },
+      "prerequisites": [
+        "16K ME Storage"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemBasicStorageCell.64k"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "256K ME Storage",
+      "description": "262,144 bytes of storage.",
+      "x": 236,
+      "y": 95,
+      "icon": {
+        "id": "extracells:storage.physical",
+        "nbt": "{upgrades:{},config:{}}"
+      },
+      "prerequisites": [
+        "64K ME Storage"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:storage.physical",
+                "nbt": "{upgrades:{},config:{}}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "1024K ME Storage",
+      "description": "1048576 bytes of storage.",
+      "x": 247,
+      "y": 115,
+      "icon": {
+        "id": "extracells:storage.physical",
+        "damage": 1,
+        "nbt": "{upgrades:{},config:{}}"
+      },
+      "prerequisites": [
+        "256K ME Storage"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:storage.physical",
+                "damage": 1,
+                "nbt": "{upgrades:{},config:{}}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "4096K ME Storage",
+      "description": "4194304 bytes of storage.",
+      "x": 236,
+      "y": 135,
+      "icon": {
+        "id": "extracells:storage.physical",
+        "damage": 2,
+        "nbt": "{upgrades:{},config:{}}"
+      },
+      "prerequisites": [
+        "1024K ME Storage"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:storage.physical",
+                "damage": 2,
+                "nbt": "{upgrades:{},config:{}}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "16384K ME Storage",
+      "description": "16777216 bytes of storage.",
+      "x": 247,
+      "y": 154,
+      "icon": {
+        "id": "extracells:storage.physical",
+        "damage": 3,
+        "nbt": "{upgrades:{},config:{}}"
+      },
+      "prerequisites": [
+        "4096K ME Storage"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:storage.physical",
+                "damage": 3,
+                "nbt": "{upgrades:{},config:{}}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "16K Fluid Storage",
+      "description": "16,384 bytes of storage.",
+      "x": 258,
+      "y": 57,
+      "icon": {
+        "id": "extracells:storage.fluid",
+        "damage": 2
+      },
+      "prerequisites": [
+        "4K Fluid Storage"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:storage.fluid",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "64K Fluid Storage",
+      "description": "65,536 bytes of storage.",
+      "x": 270,
+      "y": 76,
+      "icon": {
+        "id": "extracells:storage.fluid",
+        "damage": 3
+      },
+      "prerequisites": [
+        "16K Fluid Storage"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:storage.fluid",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "256K Fluid Storage",
+      "description": "262,144 bytes of storage.",
+      "x": 259,
+      "y": 95,
+      "icon": {
+        "id": "extracells:storage.fluid",
+        "damage": 4
+      },
+      "prerequisites": [
+        "64K Fluid Storage"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:storage.fluid",
+                "damage": 4
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "1024K Fluid Storage",
+      "description": "1048576 bytes of storage.",
+      "x": 270,
+      "y": 115,
+      "icon": {
+        "id": "extracells:storage.fluid",
+        "damage": 5
+      },
+      "prerequisites": [
+        "256K Fluid Storage"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:storage.fluid",
+                "damage": 5
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "4096K Fluid Storage",
+      "description": "4194304 bytes of storage.",
+      "x": 259,
+      "y": 135,
+      "icon": {
+        "id": "extracells:storage.fluid",
+        "damage": 6
+      },
+      "prerequisites": [
+        "1024K Fluid Storage"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:storage.fluid",
+                "damage": 6
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "16K Gas Storage",
+      "description": "16,384 bytes of storage.",
+      "x": 281,
+      "y": 57,
+      "icon": {
+        "id": "extracells:storage.gas",
+        "damage": 2
+      },
+      "prerequisites": [
+        "4K Gas Storage"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:storage.gas",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "64K Gas Storage",
+      "description": "65,536 bytes of storage.",
+      "x": 293,
+      "y": 76,
+      "icon": {
+        "id": "extracells:storage.gas",
+        "damage": 3
+      },
+      "prerequisites": [
+        "16K Gas Storage"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:storage.gas",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "256K Gas Storage",
+      "description": "262,144 bytes of storage.",
+      "x": 281,
+      "y": 95,
+      "icon": {
+        "id": "extracells:storage.gas",
+        "damage": 4
+      },
+      "prerequisites": [
+        "64K Gas Storage"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:storage.gas",
+                "damage": 4
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "1024K Gas Storage",
+      "description": "1048576 bytes of storage.",
+      "x": 293,
+      "y": 115,
+      "icon": {
+        "id": "extracells:storage.gas",
+        "damage": 5
+      },
+      "prerequisites": [
+        "256K Gas Storage"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:storage.gas",
+                "damage": 5
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "4096K Gas Storage",
+      "description": "4194304 bytes of storage.",
+      "x": 282,
+      "y": 135,
+      "icon": {
+        "id": "extracells:storage.gas",
+        "damage": 6
+      },
+      "prerequisites": [
+        "1024K Gas Storage"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:storage.gas",
+                "damage": 6
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Going Wireless",
+      "description": "A better Wireless terminal that can do more than just access your AE newtwork.",
+      "x": 84,
+      "y": 100,
+      "icon": {
+        "id": "ae2wct:wirelessCraftingTerminal"
+      },
+      "prerequisites": [
+        "Particle Assembler"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ae2wct:wirelessCraftingTerminal"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockWireless"
+              }
+            },
+            {
+              "item": {
+                "id": "ae2wct:infinityBoosterCard"
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockSecurity"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

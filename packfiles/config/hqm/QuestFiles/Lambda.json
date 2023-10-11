@@ -1,0 +1,925 @@
+{
+  "name": "Lambda",
+  "description": "Draconic Evolution",
+  "quests": [
+    {
+      "name": "Evolution",
+      "description": "Beginning of the Evolution. It is used to craft various items from the mod.",
+      "x": 157,
+      "y": 101,
+      "icon": {
+        "id": "DraconicEvolution:draconiumIngot"
+      },
+      "prerequisites": [
+        "{Zeta}[Power Armor mk2]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconiumIngot"
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Wyvern Armor",
+      "description": "Greatly increased resistance to damage compared to its counterpart made out of Diamonds",
+      "x": 157,
+      "y": 50,
+      "icon": {
+        "id": "DraconicEvolution:wyvernHelm",
+        "nbt": "{Energy:0}"
+      },
+      "prerequisites": [
+        "Evolution"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:wyvernHelm",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:wyvernChest",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:wyvernLeggs",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:wyvernBoots",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:hearts"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Fluxed Capacity",
+      "description": "A portable energy cell which can store 80M RF with the ability to charge other items in your inventory directly.",
+      "x": 157,
+      "y": 153,
+      "icon": {
+        "id": "DraconicEvolution:draconiumFluxCapacitor",
+        "nbt": "{Energy:0}"
+      },
+      "prerequisites": [
+        "Evolution"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "A task where the player has to craft specific items.",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconiumFluxCapacitor",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Draconic Core",
+      "description": "It can be used as a crafting component to create other items from the mod. The item also has the ability to stabilize Monster Spawners, turning them into Stabilized Mob Spawners. This is done by simply using the Draconic Core on a Monster Spawner block.",
+      "x": 184,
+      "y": 102,
+      "icon": {
+        "id": "DraconicEvolution:draconicCore"
+      },
+      "prerequisites": [
+        "Evolution"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicCore"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Wyvern Core",
+      "description": "It is a crafting component used to create other items from the mod. Requires nether star.",
+      "x": 211,
+      "y": 103,
+      "icon": {
+        "id": "DraconicEvolution:wyvernCore"
+      },
+      "prerequisites": [
+        "Draconic Core"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:wyvernCore"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Awakened Core",
+      "description": "It is used as a component to craft some of the most advanced items from the mod.",
+      "x": 239,
+      "y": 103,
+      "icon": {
+        "id": "DraconicEvolution:awakenedCore"
+      },
+      "prerequisites": [
+        "Wyvern Core"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:awakenedCore"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Chaos Core",
+      "description": "It is used as a component to craft some of the most advanced items from Draconic Evolution and Avaritia.",
+      "x": 267,
+      "y": 103,
+      "icon": {
+        "id": "DraconicEvolution:chaoticCore"
+      },
+      "prerequisites": [
+        "Awakened Core"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:chaoticCore"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Resurrection Ritual",
+      "description": "Read Draconic Evolution information tablet for this ritual. Dragon will get harder each time its slain.",
+      "x": 114,
+      "y": 101,
+      "icon": {
+        "id": "minecraft:diamond_block"
+      },
+      "prerequisites": [
+        "Evolution"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconium",
+                "damage": 2
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "minecraft:quartz_block",
+                "damage": 2
+              },
+              "required": 12
+            },
+            {
+              "item": {
+                "id": "minecraft:diamond_block"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:draconium",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Revived End Dragon",
+              "icon": {
+                "id": "DraconicEvolution:dragonHeart"
+              },
+              "mob": "DraconicEvolution.EnderDragon",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Chaos Guardian",
+      "description": "Destroy the Chaos Crystals in order to deal any damage to the Chaos Guardian unless you have a...",
+      "x": 79,
+      "y": 101,
+      "icon": {
+        "id": "harvestcraft:chaoscookieItem"
+      },
+      "prerequisites": [
+        "Resurrection Ritual"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "Warning: Does void damage.",
+          "mobs": [
+            {
+              "name": "Chaos Guardian",
+              "icon": {
+                "id": "DraconicEvolution:chaoticCore"
+              },
+              "mob": "DraconicEvolution.ChaosGuardian",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 3
+        },
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Chaos Crystal",
+      "description": "Once the Chaos crystal is shattered...run/fly away.",
+      "x": 44,
+      "y": 101,
+      "icon": {
+        "id": "DraconicEvolution:chaosShard"
+      },
+      "prerequisites": [
+        "Chaos Guardian"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:chaosShard"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Charged",
+      "description": "Draconium block charged full of RF.",
+      "x": 194,
+      "y": 148,
+      "icon": {
+        "id": "DraconicEvolution:draconium",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Evolution"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconium",
+                "damage": 2
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Awakening Ritual",
+      "description": "Read Draconic Evolution information tablet for this ritual.",
+      "x": 118,
+      "y": 55,
+      "icon": {
+        "id": "DraconicEvolution:draconicBlock"
+      },
+      "prerequisites": [
+        "Evolution"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicCore"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:draconium",
+                "damage": 2
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:dragonHeart"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:tnt"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Reapers",
+      "description": "Gain the Reaper enchantment to begin collecting mob souls.",
+      "x": 124,
+      "y": 147,
+      "icon": {
+        "id": "DraconicEvolution:mobSoul"
+      },
+      "prerequisites": [
+        "Evolution"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:mobSoul"
+              },
+              "required": 4,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Charm of Relocation",
+      "description": "It is a tool which the player can bind to a specific location to which they can then teleport by using the charm. Consumes ender pearls.",
+      "x": 138,
+      "y": 180,
+      "icon": {
+        "id": "DraconicEvolution:teleporterMKII"
+      },
+      "prerequisites": [
+        "Fluxed Capacity"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:teleporterMKII"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Fluxed Capacitor",
+      "description": "A portable energy cell which can store 250M RF with the ability to charge other items in your inventory directly. Recommend having at least 2 of these for Chaos Guardian.",
+      "x": 175,
+      "y": 180,
+      "icon": {
+        "id": "DraconicEvolution:draconiumFluxCapacitor",
+        "damage": 1,
+        "nbt": "{Energy:0}"
+      },
+      "prerequisites": [
+        "Fluxed Capacity"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "A task where the player has to craft specific items.",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconiumFluxCapacitor",
+                "damage": 1,
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Dragon Armor",
+      "description": "It is an upgrade of the Wyvern set, which is charged with Redstone Flux energy on top of the high resistance to damage of the Wyvern Helm.",
+      "x": 179,
+      "y": 15,
+      "icon": {
+        "id": "DraconicEvolution:draconicHelm",
+        "nbt": "{Upgrades:{RFCapacity:[0,0,0,0,],ShieldCapacity:[0,0,0,0,],ShieldRecovery:[0,0,0,0,]},Energy:0}"
+      },
+      "prerequisites": [
+        "Wyvern Armor"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicHelm",
+                "nbt": "{Upgrades:{RFCapacity:[0,0,0,0,],ShieldCapacity:[0,0,0,0,],ShieldRecovery:[0,0,0,0,]},Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicChest",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicLeggs",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicBoots",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Upgraded Evolution",
+      "description": "Uses the first 3 draconic cores to enhance Draconic Armor and Wyvern Armor.",
+      "x": 135,
+      "y": 15,
+      "icon": {
+        "id": "DraconicEvolution:upgradeModifier"
+      },
+      "prerequisites": [
+        "Wyvern Armor"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Draconic, Wyvern, Awakened",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:upgradeModifier"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Staff of Power",
+      "description": "A powerful multi purpose tool that has a mining range of effect of 1×1 up to 9×9. It has an internal energy buffer of 30M RF. The Staff gives a bonus damage on a direct hit to a mob with health more than 10 hearts and it delivers a damaging shock wave to any mob in the area of effect (default of 3×3).",
+      "x": 193,
+      "y": 55,
+      "icon": {
+        "id": "DraconicEvolution:draconicDistructionStaff",
+        "nbt": "{Energy:0}"
+      },
+      "prerequisites": [
+        "Evolution"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicDistructionStaff",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        },
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

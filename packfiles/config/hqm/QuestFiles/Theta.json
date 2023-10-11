@@ -1,0 +1,976 @@
+{
+  "name": "Theta",
+  "description": "RFTools, Erebus, and Aether.",
+  "quests": [
+    {
+      "name": "The Start of Worlds",
+      "description": "How RFtools begins.",
+      "x": 76,
+      "y": 38,
+      "icon": {
+        "id": "rftools:unknownDimlet"
+      },
+      "prerequisites": [
+        "{Delta}[Hardened Machine Frame]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:unknownDimlet"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "rftools:dimletResearcherBlock"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Enscriber",
+      "description": "Enscribes dimension tabs with specific dimlets of your choosing.",
+      "x": 76,
+      "y": 71,
+      "icon": {
+        "id": "rftools:dimensionEnscriberBlock"
+      },
+      "prerequisites": [
+        "The Start of Worlds"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:dimensionEnscriberBlock"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "rftools:emptyDimensionTab"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Return To Reciever",
+      "description": "Will transport the player back to where its connected to, charged porter will make this easier.",
+      "x": 37,
+      "y": 97,
+      "icon": {
+        "id": "rftools:matterReceiverBlock"
+      },
+      "prerequisites": [
+        "RF Builder"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:matterReceiverBlock"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "rftools:chargedPorterItem"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ]
+    },
+    {
+      "name": "Dimension Tab",
+      "description": "Contains the dimlets ready to be dialed.",
+      "x": 75,
+      "y": 123,
+      "icon": {
+        "id": "rftools:emptyDimensionTab"
+      },
+      "prerequisites": [
+        "Return To Sender"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:emptyDimensionTab"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Shard Infuser",
+      "description": "Used to enchance machines with dimensional shards.",
+      "x": 115,
+      "y": 97,
+      "icon": {
+        "id": "rftools:machineInfuserBlock"
+      },
+      "prerequisites": [
+        "Dimensional Shard"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:machineInfuserBlock"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Dimensional Shard",
+      "description": "Used to enhance rftools machines.",
+      "x": 115,
+      "y": 123,
+      "icon": {
+        "id": "rftools:dimensionalShardItem"
+      },
+      "prerequisites": [
+        "Dimension Tab"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:dimensionalShardItem"
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Return To Sender",
+      "description": "Sends player to a dialed RFtools dimension",
+      "x": 37,
+      "y": 123,
+      "icon": {
+        "id": "rftools:matterTransmitterBlock"
+      },
+      "prerequisites": [
+        "Return To Reciever"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:matterTransmitterBlock"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ]
+    },
+    {
+      "name": "RF Builder",
+      "description": "Builds dimensions using redstoneflux ready to be dialed by the dialer.",
+      "x": 37,
+      "y": 71,
+      "icon": {
+        "id": "rftools:dimensionBuilderBlock"
+      },
+      "prerequisites": [
+        "Enscriber"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:dimensionBuilderBlock"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Block Protector",
+      "x": 115,
+      "y": 71,
+      "icon": {
+        "id": "rftools:blockProtectorBlock"
+      },
+      "prerequisites": [
+        "Shard Infuser"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:blockProtectorBlock"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Modular Storage",
+      "description": "Recommend this for all the dimlets you may find.",
+      "x": 115,
+      "y": 39,
+      "icon": {
+        "id": "rftools:modularStorageBlock"
+      },
+      "prerequisites": [
+        "The Start of Worlds"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:modularStorageBlock"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Storage Module",
+      "description": "Look at modular storage quest description.",
+      "x": 138,
+      "y": 39,
+      "icon": {
+        "id": "rftools:storageModuleItem"
+      },
+      "prerequisites": [
+        "Modular Storage"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:storageModuleItem"
+              }
+            },
+            {
+              "item": {
+                "id": "rftools:storageModuleItem",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "rftools:storageModuleItem",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Storage Capabilities",
+      "description": "Look at modular storage quest description.",
+      "x": 161,
+      "y": 39,
+      "icon": {
+        "id": "rftools:dimletTypeItem"
+      },
+      "prerequisites": [
+        "Storage Module"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:dimletTypeItem"
+              }
+            },
+            {
+              "item": {
+                "id": "rftools:oreDictTypeItem"
+              }
+            },
+            {
+              "item": {
+                "id": "rftools:genericTypeItem"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "To The Bug Dimension",
+      "description": "Build a portal frame. You can get creative here, any shape will do. Doesn\u0027t even need to be vertical! Now fill that baby up with leaves (any leaves should work, even from other mods). Place the keystone in front of the portal then right-click the keystone using your Staff of Gaea.",
+      "x": 157,
+      "y": 140,
+      "icon": {
+        "id": "erebus:portalActivator"
+      },
+      "prerequisites": [
+        "To The Clouds"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:stonebrick"
+              },
+              "required": 10
+            },
+            {
+              "item": {
+                "id": "minecraft:leaves"
+              },
+              "required": 6,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "erebus:portalActivator"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "erebus:gaeanKeystone"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Tarantuala Brood Mother",
+      "description": "The Tarantula Brood Mother Spawns only on the third floor of the Giant Baobab Tree. It spawns in the Subterranean Savannah.",
+      "x": 157,
+      "y": 113,
+      "icon": {
+        "id": "erebus:spiderTShirt"
+      },
+      "prerequisites": [
+        "To The Bug Dimension"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "Brood Mother Shield: The Brood Mother appears to have a blue electric-like shield surrounding her in the first phase. In this Phase, Melee Damage has no effect. However, Try using a bow or ranged weapon! They seem to prove effective! Just be careful with all the baby spiders biting your feet!",
+          "mobs": [
+            {
+              "name": "Brood Mother",
+              "icon": {
+                "id": "erebus:spiderTShirt"
+              },
+              "mob": "erebus.tarantulaminiboss",
+              "kills": 1,
+              "exact": true
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Crushroom",
+      "description": "The Crushroom is a dangerous hostile mob that spawns in the Fungal Forest.",
+      "x": 180,
+      "y": 140,
+      "icon": {
+        "id": "erebus:glowshroom"
+      },
+      "prerequisites": [
+        "To The Bug Dimension"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Crushroom",
+              "icon": {
+                "id": "erebus:monsterPlacer",
+                "damage": 40
+              },
+              "mob": "erebus.crushroom",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Antlion Overlord",
+      "description": "It does not have a second phase like the Brood Mother, but it will never remain stationary and will always be chasing you during the fight. It is STRONGLY recommended that you are well equipped for this boss fight. You have been warned. The Antlion Overlord likes to mess with players who enter its dungeon. Upon entering the dungeon, climb to the top of the pyramid in the middle and you will see four special Pyramid Capstones. They have four distinct types, Mud, Iron, Gold, and Jade, with a slot in the middle of each. These will unlock the pyramid and allow you to enter it. In order to find what opens these slots, seek out the four elemental UmberGolem Idol Guardians found in each corner of the maze surrounding the pyramid. Place each of the idols in their respective slots at the top of the pyramid in the center of the maze to gain access to the inside of the upper floor.",
+      "x": 180,
+      "y": 113,
+      "icon": {
+        "id": "erebus:antlionEgg"
+      },
+      "prerequisites": [
+        "To The Bug Dimension"
+      ],
+      "repeat": {
+        "type": "INTERVAL",
+        "days": 6,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "The 8 Pieces of Jade in the chest (or any other 8 pieces of jade) must be placed in the slots surrounding the teleport pad to activate it. The inside of the middle floor of the pyramid is protected by a Force Field that surrounds the middle of the room, where a large teleport pad can be seen, and separates the four corners of the room from each other. In the first corner you are teleported to, you will see a similar formation in the floor to the floor above, a teleport pad in the middle of 8 item slots. The item needed this time is 8 Exoskeleton Plates. The item required for the second corner of the room is 8 Pieces of Magma Cream, the third requires 8 Magma Crawler Eyes, and the fourth requires 8 String. When the Force Field shatters, the Antlion Overlord\u0027s Boss Bar can be spotted at the top of your screen if everything was done correctly.",
+          "mobs": [
+            {
+              "name": "Antlion Overlord",
+              "icon": {
+                "id": "erebus:antlionEgg"
+              },
+              "mob": "erebus.antlionBoss",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Aroma1997sDimension:portalIgniter"
+        },
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "To The Clouds",
+      "description": "Make the Aether portal by making a nether shaped portal with glowstone then placing water within it.",
+      "x": 157,
+      "y": 166,
+      "icon": {
+        "id": "minecraft:glowstone"
+      },
+      "prerequisites": [
+        "{Alpha}[Gotta Go Deeper!]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:glowstone"
+              },
+              "required": 14
+            },
+            {
+              "item": {
+                "id": "minecraft:water_bucket"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        },
+        {
+          "id": "Mekanism:Ingot",
+          "damage": 3,
+          "amount": 10
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Labyrinth",
+      "description": "Time for payback for those deaths from another pack.",
+      "x": 180,
+      "y": 166,
+      "icon": {
+        "id": "aether:sliderLabyrinthTotem"
+      },
+      "prerequisites": [
+        "To The Clouds"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Labyrinth Eye",
+              "icon": {
+                "id": "minecraft:ender_eye"
+              },
+              "mob": "aether.labyrinthEye",
+              "kills": 1,
+              "exact": false
+            },
+            {
+              "name": "Sentry Guardian",
+              "icon": {
+                "id": "aether:tile.sentryStoneDoubleSlab"
+              },
+              "mob": "aether.sentryGuardian",
+              "kills": 1,
+              "exact": false
+            },
+            {
+              "name": "Slider Mimic",
+              "icon": {
+                "id": "aether:spawnEgg",
+                "damage": 20
+              },
+              "mob": "aether.sliderHostMimic",
+              "kills": 1,
+              "exact": false
+            },
+            {
+              "name": "Slider",
+              "icon": {
+                "id": "aether:spawnEgg",
+                "damage": 21
+              },
+              "mob": "aether.slider",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Confirmed: Too Dang Easy",
+      "description": "Nostalgia. Warning you may die if you land on these clouds.",
+      "x": 134,
+      "y": 166,
+      "icon": {
+        "id": "aether:aercloud"
+      },
+      "prerequisites": [
+        "To The Clouds"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "aether:aercloud"
+              }
+            },
+            {
+              "item": {
+                "id": "aether:aercloud",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "aether:aercloud",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "aether:aercloud",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "aether:purpleAercloud"
+              }
+            },
+            {
+              "item": {
+                "id": "aether:aercloud",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "EMCoin",
+      "description": "One coin \u003d 1000 EMCizzle.",
+      "x": 203,
+      "y": 166,
+      "icon": {
+        "id": "peaether:coinMillBlock"
+      },
+      "prerequisites": [
+        "Labyrinth"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "peaether:coinMillBlock"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

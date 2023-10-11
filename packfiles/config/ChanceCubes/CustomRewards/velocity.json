@@ -1,0 +1,10 @@
+{
+	"Velocity": 
+	{
+		"chance": -30,
+		"schematic":
+		[
+			{"fileName":"velocity.ccs", "falling":false, "delay":0.01, "RelativeToPlayer":true, "XOffSet":0, "YOffSet":-1, "ZOffSet":0}
+		]
+	}
+}

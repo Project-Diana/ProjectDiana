@@ -1,0 +1,60 @@
+{
+  "Blocks": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Block Data": [
+    {
+      "exastrisrebirth:blockBeeTrapInfused:0": 0
+    },
+    {
+      "erebus:waspSpawner:0": 1
+    }
+  ],
+  "TileEntities": [
+    {
+      "{EntityId:\"erebus.wasp\",MaxNearbyEntities:6s,RequiredPlayerRange:16s,SpawnCount:4s,x:1976,y:66,z:907,id:\"MobSpawner\",MaxSpawnDelay:800s,SpawnRange:4s,Delay:163s,MinSpawnDelay:200s}": [
+        22
+      ]
+    }
+  ],
+  "Schematic Data": {
+    "xSize": 3,
+    "ySize": 4,
+    "zSize": 3
+  }
+}

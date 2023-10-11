@@ -1,0 +1,123 @@
+{
+  "who": {
+    "Chance": -70,
+    "Message": [
+      {
+        "message": "Who Dat Is!?",
+        "range": 4
+      },
+      {
+        "message": "[Wither] You know who dat is!",
+        "delay": 8,
+        "range": 4
+      }
+    ],
+    "Command": [
+      {
+        "command": "/summon WitherBoss",
+        "delay": 60
+      }
+    ]
+  },
+  "ail": {
+    "Chance": -40,
+    "Message": [
+      {
+        "message": "Who Dat Is!?",
+        "range": 4
+      },
+      {
+        "message": "[Solifuge] Ailments!",
+        "delay": 8,
+        "range": 4
+      }
+    ],
+    "Command": [
+      {
+        "command": "/summon erebus.solifuge",
+        "delay": 8
+      }
+    ]
+  },
+  "endest": {
+    "Chance": 0,
+    "Message": [
+      {
+        "message": "Who Dat Is!?",
+        "range": 4
+      },
+      {
+        "message": "[Endest Pearl] Void!",
+        "delay": 8,
+        "range": 4
+      }
+    ],
+    "Command": [
+      {
+        "command": "/summon Avaritia.EndestPearl",
+        "delay": 16
+      }
+    ]
+  },
+  "bunny": {
+    "Chance": 40,
+    "Message": [
+      {
+        "message": "Who Dat Is!?",
+        "range": 4
+      },
+      {
+        "message": "[Aerbunny] Bounce!",
+        "delay": 8,
+        "range": 4
+      }
+    ],
+    "Command": [
+      {
+        "command": "/summon aether.aerbunny",
+        "delay": 8
+      }
+    ]
+  },
+  "nuke": {
+    "Chance": -80,
+    "Message": [
+      {
+        "message": "Who Dat Is!?",
+        "range": 12
+      },
+      {
+        "message": "Tactical Nuke Incoming!",
+        "delay": 20,
+        "range": 12
+      }
+    ],
+    "Command": [
+      {
+        "command": "/summon ExtraPlanets.ExtraPlanetsNuclearBombPrimed",
+        "delay": 40
+      }
+    ]
+  },
+  "vortex": {
+    "Chance": -99,
+	"isGiantCubeReward":true,
+	"Message": [
+	 {
+		"message": "Who Dat Is!?",
+		"range": 64
+	 },
+	 {
+		"message": "I hope this isn't near your base, because you have 400 ticks before stuff goes bye bye. Kappa",
+		"delay": 8,
+		"range": 64
+	 }
+	],
+	"Command": [
+	 {
+		"command": "/summon DraconicEvolution.EntityChaosEnergyVortex",
+		"delay": 400
+	 }
+	]
+  }
+ }

@@ -1,0 +1,684 @@
+{
+  "name": "Kappa",
+  "description": "ProjectE",
+  "quests": [
+    {
+      "name": "Philosopher\u0027s Stone",
+      "description": "The gateway to alchemy itself.",
+      "x": 32,
+      "y": 21,
+      "icon": {
+        "id": "ProjectE:item.pe_philosophers_stone"
+      },
+      "prerequisites": [
+        "{Eta}[Particle Assembler]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ProjectE:item.pe_philosophers_stone"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Fuel For Days",
+      "description": "Compounds that possess a higher capability for serving as a fuel than most other mundane substances.",
+      "x": 63,
+      "y": 38,
+      "icon": {
+        "id": "ProjectE:fuel_block",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Philosopher\u0027s Stone"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ProjectE:fuel_block",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        },
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        },
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ]
+    },
+    {
+      "name": "Transmute",
+      "description": "By placing items into the fire slot on the table, they are burned into EMC, which can then be used to create items from the output slots. However, the table must gain knowledge on how to create these items. The table gains knowledge whenever an item enters any of its slots.",
+      "x": 131,
+      "y": 15,
+      "icon": {
+        "id": "ProjectE:transmutation_table"
+      },
+      "prerequisites": [
+        "Fuel For Days"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "There are rumors of a hidden Alchemical Tome that will give complete knowledge of all transmutations to the table.",
+          "items": [
+            {
+              "item": {
+                "id": "ProjectE:transmutation_table"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Alchemical Chest",
+      "description": "Alchemical Chest capable of storing 104 stacks of items, compared to the double wooden chest\u0027s 72 stacks.",
+      "x": 132,
+      "y": 63,
+      "icon": {
+        "id": "ProjectE:alchemical_chest"
+      },
+      "prerequisites": [
+        "Fuel For Days"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ProjectE:alchemical_chest"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Dark Matters",
+      "description": "Created with eight aeternalis fuel and one diamond block.",
+      "x": 48,
+      "y": 78,
+      "icon": {
+        "id": "ProjectE:item.pe_matter"
+      },
+      "prerequisites": [
+        "Fuel For Days"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ProjectE:item.pe_matter"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "Red Matters",
+      "description": "Crafted with six aeternalis fuel and three dark matter.",
+      "x": 50,
+      "y": 126,
+      "icon": {
+        "id": "ProjectE:item.pe_matter",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Dark Matters"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ProjectE:item.pe_matter",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "Energy Condensed",
+      "description": "This first build converts items into EMC one at a time. When enough EMC amasses, the target item is created and placed in the chest.",
+      "x": 132,
+      "y": 120,
+      "icon": {
+        "id": "ProjectE:condenser_mk1"
+      },
+      "prerequisites": [
+        "Alchemical Chest"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ProjectE:condenser_mk1"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Energy Converter",
+      "description": "Faster than the mk.1 energy condenser.",
+      "x": 191,
+      "y": 120,
+      "icon": {
+        "id": "ProjectE:condenser_mk2"
+      },
+      "prerequisites": [
+        "Energy Condensed"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ProjectE:condenser_mk2"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Alchemical Bag",
+      "description": "The bags seem to be bound to some metaphysical network, as all bags of the same color seem to contain the same items, regardless of if the bag was yours or your neighbor\u0027s. The bag also seems to activate items the same way the chest does.",
+      "x": 191,
+      "y": 63,
+      "icon": {
+        "id": "ProjectE:item.pe_alchemical_bag"
+      },
+      "prerequisites": [
+        "Alchemical Chest"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ProjectE:item.pe_alchemical_bag"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Morning Star",
+      "description": "A really powerful red matter multitool that can dig really large holes.",
+      "x": 31,
+      "y": 168,
+      "icon": {
+        "id": "ProjectE:item.pe_rm_morning_star"
+      },
+      "prerequisites": [
+        "Red Matters"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ProjectE:item.pe_rm_morning_star"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Katar",
+      "description": "A really powerful red matter multitool that can take down enemies in an area of effect.",
+      "x": 82,
+      "y": 183,
+      "icon": {
+        "id": "ProjectE:item.pe_rm_katar"
+      },
+      "prerequisites": [
+        "Morning Star"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ProjectE:item.pe_rm_katar"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Destruction Catalyst",
+      "description": "The Mobius fuel will create such energy that it will melt 3x3 blocks in front of you. You can charge it so that it will melt farther but this will come at a cost of extra fuel in your inventory.",
+      "x": 155,
+      "y": 183,
+      "icon": {
+        "id": "ProjectE:item.pe_destruction_catalyst"
+      },
+      "prerequisites": [
+        "Katar"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ProjectE:item.pe_destruction_catalyst"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Transmute Part 2",
+      "description": "Portable EMC table.",
+      "x": 165,
+      "y": 13,
+      "icon": {
+        "id": "ProjectE:item.pe_transmutation_tablet"
+      },
+      "prerequisites": [
+        "Transmute"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ProjectE:item.pe_transmutation_tablet"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "SRG",
+      "description": "By jumping twice, the ring will let you fly. This does use energy. Right clicking will activate a magical wind storm around you that will push away mobs. Beware that this also requires energy.",
+      "x": 245,
+      "y": 120,
+      "icon": {
+        "id": "ProjectE:item.pe_swrg"
+      },
+      "prerequisites": [
+        "Dr. Klein Star"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ProjectE:item.pe_swrg"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Dr. Klein Star",
+      "description": "Ancient records suggest that it can not only hold the light of the stars, but the essence of the earth too. Four of them fit together like puzzle pieces to create an even bigger and more powerful star.",
+      "x": 245,
+      "y": 63,
+      "icon": {
+        "id": "ProjectE:item.pe_klein_star",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Alchemical Bag"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ProjectE:item.pe_klein_star"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ProjectE:item.pe_klein_star",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ProjectE:item.pe_klein_star",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ProjectE:item.pe_klein_star",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ProjectE:item.pe_klein_star",
+                "damage": 4
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ProjectE:item.pe_klein_star",
+                "damage": 5
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

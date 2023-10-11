@@ -1,0 +1,16 @@
+{
+  "Bee": {
+    "Chance": -40,
+    "Message": 
+	[
+      {
+        "message": "Bee Happy!",
+        "range": 12
+      }
+    ],
+    "schematic":
+	[
+		{"fileName":"bee.ccs", "falling":false, "delay":0.01, "RelativeToPlayer":false, "XOffSet":0, "YOffSet":-1, "ZOffSet":0}
+    ]
+	}
+}

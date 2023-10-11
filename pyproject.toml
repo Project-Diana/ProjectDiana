@@ -1,0 +1,41 @@
+[project]
+name = "assembler"
+version = "1.0.0"
+description = "Assembles and publishes distributions of the Project Diana modpack"
+readme = "README.md"
+authors = [
+    {name="Darren Eberly", email="Darren.Eberly@gmail.com"}
+]
+maintainers = [
+    {name="Darren Eberly", email="Darren.Eberly@gmail.com"}
+]
+license = {file = "LICENSE"}
+requires-python = ">=3.11"
+dependencies = [
+    "requests",
+    "typer",
+]
+
+[project.urls]
+homepage = "https://github.com/Project-Diana/assembler"
+
+[project.optional-depencies]
+dev = [
+    "black",
+    "ruff",
+    "mypy",
+    "types-requests",
+]
+
+[tool.setuptools.packages.find]
+include = ["assembler", "assembler.*"]
+
+[tool.mypy]
+python_version = 3.11
+warn_unused_configs = true
+warn_reduntant_casts = true
+ignore_missing_imports = true
+
+[tool.ruff]
+exclude = ["__init__.py"]
+ignore = ["E501"]

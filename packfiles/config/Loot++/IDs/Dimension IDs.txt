@@ -1,0 +1,317 @@
+## Dimension IDs                                                      ##
+########################################################################
+## In the form:                                                       ##
+## <dimension id>                                                     ##
+##    - Name: <dimension name>                                        ##
+##    - Height: <dimension height>                                    ##
+##    - Has Sky? <true if dimension has a sky>                        ##
+##    - Cloud Height: <height of dimension's clouds (only on client)> ##
+##    - Can Respawn Here? <true if players can respawn here>          ##
+##    - Terrain Scale: <distance travelled per block (nether is 8)>   ##
+########################################################################
+0
+	- Name: Overworld
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 260.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+-1
+	- Name: Nether
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 260.0
+	- Can Respawn Here? false
+	- Terrain Scale: 8.0
+
+
+1
+	- Name: The End
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 8.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-22
+	- Name: Kepler 22b
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 260.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-30
+	- Name: Asteroids
+	- Height: 256
+	- Has Sky? false
+	- Cloud Height: 260.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-31
+	- Name: Io
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 260.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-33
+	- Name: Phobos
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 260.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-34
+	- Name: Europa
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 260.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-35
+	- Name: Deimos
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 260.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-36
+	- Name: Triton
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 260.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-37
+	- Name: Callisto
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 260.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-38
+	- Name: Ganymede
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 260.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+77
+	- Name: The Last Millenium
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 256.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+-39
+	- Name: Rhea
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 260.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+29
+	- Name: Mars
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 260.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+76
+	- Name: Underdark
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 256.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-40
+	- Name: Titan
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 260.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+28
+	- Name: Moon
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 260.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-41
+	- Name: Oberon
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 260.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-42
+	- Name: Titania
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 260.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-43
+	- Name: Iapetus
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 260.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+66
+	- Name: Erebus
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 260.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-13
+	- Name: Mercury
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 260.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-14
+	- Name: Venus
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 260.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+6
+	- Name: Mining World
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 300.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-15
+	- Name: Jupiter
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 260.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-16
+	- Name: Saturn
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 260.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-17
+	- Name: Uranus
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 260.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+4
+	- Name: the_aether
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: -5.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-18
+	- Name: Neptune
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 260.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-19
+	- Name: Pluto
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 260.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+2
+	- Name: SpectreWorld
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: -5.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-20
+	- Name: Ceres
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 260.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-21
+	- Name: Eris
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 260.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+

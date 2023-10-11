@@ -1,0 +1,35 @@
+inscribe=
+    oredictionary:ingotGold ae2:ItemMaterial.LogicProcessorPress
+    -> ae2:ItemMaterial.LogicProcessorPrint
+	
+inscribe=
+    minecraft:gold_block ae2:ItemMaterial.LogicProcessorPress
+    -> 9 ae2:ItemMaterial.LogicProcessorPrint
+
+inscribe=
+    ae2:ItemMaterial.PurifiedCertusQuartzCrystal ae2:ItemMaterial.CalcProcessorPress
+    -> ae2:ItemMaterial.CalcProcessorPrint
+	
+inscribe=
+    appliedenergistics2:tile.BlockQuartz ae2:ItemMaterial.CalcProcessorPress
+    -> 8 ae2:ItemMaterial.CalcProcessorPrint
+
+inscribe=
+    oredictionary:gemDiamond ae2:ItemMaterial.EngProcessorPress
+    -> ae2:ItemMaterial.EngProcessorPrint
+	
+inscribe=
+    minecraft:diamond_block ae2:ItemMaterial.EngProcessorPress
+    -> 9 ae2:ItemMaterial.EngProcessorPrint
+
+inscribe=
+    oredictionary:itemSilicon ae2:ItemMaterial.SiliconPress
+    -> ae2:ItemMaterial.SiliconPrint
+	
+inscribe=
+    gc:item.basicItem:2 ae2:ItemMaterial.SiliconPress
+    -> 2 ae2:ItemMaterial.SiliconPrint
+	
+press=
+    ExtraPlanets:tier8Items:5 ExtraPlanets:tier8Items:5
+    -> 2 ExtraPlanets:tier8Items:4

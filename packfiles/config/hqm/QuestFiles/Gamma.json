@@ -1,0 +1,2083 @@
+{
+  "name": "Gamma",
+  "description": "Extra Utilities and Buildcraft",
+  "quests": [
+    {
+      "name": "Wooden Spikes",
+      "description": "Will take mobs down to half heart but won\u0027t kill them.",
+      "x": 285,
+      "y": 13,
+      "icon": {
+        "id": "ExtraUtilities:spike_base_wood"
+      },
+      "prerequisites": [
+        "{Alpha}[Mob Farm!]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:spike_base_wood"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Iron Spikes",
+      "description": "Mobs will die from this, but won\u0027t drop experience.",
+      "x": 262,
+      "y": 13,
+      "icon": {
+        "id": "ExtraUtilities:spike_base"
+      },
+      "prerequisites": [
+        "Wooden Spikes"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:spike_base"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Gold Spikes",
+      "description": "Mobs will die from this.",
+      "x": 233,
+      "y": 13,
+      "icon": {
+        "id": "ExtraUtilities:spike_base_gold"
+      },
+      "prerequisites": [
+        "Iron Spikes"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:spike_base_gold"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Diamond Spikes",
+      "description": "Mobs will die from this and will drop rare items and experiance. Is enchantable.",
+      "x": 203,
+      "y": 13,
+      "icon": {
+        "id": "ExtraUtilities:spike_base_diamond"
+      },
+      "prerequisites": [
+        "Gold Spikes"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:spike_base_diamond"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Trash Can",
+      "description": "Void items you won\u0027t use.",
+      "x": 273,
+      "y": 33,
+      "icon": {
+        "id": "ExtraUtilities:trashcan"
+      },
+      "prerequisites": [
+        "Iron Spikes"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:trashcan"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Trash Can (Fluid)",
+      "description": "Void liquids that you won\u0027t use.",
+      "x": 261,
+      "y": 52,
+      "icon": {
+        "id": "ExtraUtilities:trashcan",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Trash Can"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:trashcan",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Trash Can (Energy)",
+      "description": "Why use this exactly?",
+      "x": 249,
+      "y": 71,
+      "icon": {
+        "id": "ExtraUtilities:trashcan",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Trash Can (Fluid)"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:trashcan",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "QED",
+      "description": "Used to make upgrades, items and the assembly table.",
+      "x": 19,
+      "y": 100,
+      "icon": {
+        "id": "ExtraUtilities:endConstructor"
+      },
+      "prerequisites": [
+        "{Alpha}[Burning Power!]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:endConstructor"
+              }
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:endConstructor",
+                "damage": 2
+              },
+              "required": 12
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Transfer Node Upgrades",
+      "description": "Transfer node upgrades.",
+      "x": 42,
+      "y": 100,
+      "icon": {
+        "id": "ExtraUtilities:nodeUpgrade"
+      },
+      "prerequisites": [
+        "QED"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:nodeUpgrade"
+              }
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:nodeUpgrade",
+                "damage": 8
+              }
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:nodeUpgrade",
+                "damage": 9
+              }
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:nodeUpgrade",
+                "damage": 7
+              }
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:nodeUpgrade",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "Extra Crystals",
+      "description": "Causes the QED to run faster.",
+      "x": 19,
+      "y": 126,
+      "icon": {
+        "id": "ExtraUtilities:endConstructor",
+        "damage": 2
+      },
+      "prerequisites": [
+        "QED"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:endConstructor",
+                "damage": 2
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Lazered Assembly",
+      "description": "Used for TE machines and the Dire crafting table.",
+      "x": 19,
+      "y": 74,
+      "icon": {
+        "id": "BuildCraft|Silicon:laserTableBlock"
+      },
+      "prerequisites": [
+        "QED"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "BuildCraft|Silicon:laserTableBlock"
+              }
+            },
+            {
+              "item": {
+                "id": "BuildCraft|Silicon:laserBlock"
+              },
+              "required": 12
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Division Sigil",
+      "description": "Found as dungeon loot or killing specific bosses.",
+      "x": 42,
+      "y": 126,
+      "icon": {
+        "id": "ExtraUtilities:divisionSigil"
+      },
+      "prerequisites": [
+        "QED"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:divisionSigil"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "Division Sigil (Activated)",
+      "description": "To activate it, place an Enchantment Table on a Grass Block with a clear view of the sky, in total darkness, surround it with 8 Redstone Dust (also placed on Grass), and wait until midnight. Once the time is right, the sigil will begin glowing in the inventory (the way a tool does when imbued with an enchant), at this point killing any mob standing on the altar will activate all sigils in the inventory, each can be used 256 times.",
+      "x": 42,
+      "y": 153,
+      "icon": {
+        "id": "ExtraUtilities:divisionSigil",
+        "nbt": "{damage:256}"
+      },
+      "prerequisites": [
+        "Division Sigil"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:divisionSigil",
+                "nbt": "{damage:256}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Pseudo Inversion Sigil",
+      "description": "After being activated once, the Division Sigil can be activated again to transform into a Pseudo-Inversion Sigil, a ritual significantly more complicated than the first activation, which can only be performed in the End dimension. It is highly advised to defeat the Dragon prior to starting the ritual, but not necessary. The ritual is performed by placing a Beacon in the centre of a flat area of at least 11×11, not necessarily on End Stone, then place a chest in each of the cardinal directions leaving 4 spaces empty between the chest and the Beacon.                                  A spiral pattern of Redstone and String is then laid out around the beacon. At any time, Shift+Right-clicking the Beacon with an Activated Division Sigil in hand will show the building progress of the ritual. Finally, kill an Iron Golem while it stands within the ritual area to activate the process. If it works, there will be an explosion that destroys the beacon and chests, while every Enderman in the End vanishes. During the ritual, throngs of aggresive mobs imbued with Haste will begin spawning and attacking the Player who needs to kill a 100 of them to complete the ritual. If the Player dies or leave the dimension, the ritual will fail and will have to be started over. Once enough mobs have been killed, the first activated Sigil in the inventory will stabilize. The Pseudo-Inversion Sigil can be used an unlimited number of times, and dividing an Iron Ingot by Diamond will produce Mobius \"Unstable-Stable\" Ingot which does not explode, can be produced in any crafting interface and will stack up to 64.",
+      "x": 42,
+      "y": 179,
+      "icon": {
+        "id": "ExtraUtilities:divisionSigil",
+        "nbt": "{stable:1b}"
+      },
+      "prerequisites": [
+        "Division Sigil (Activated)"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "1.The Northern chest: Children of Fire, 12 items that are produced with a Furnace.Stone, Glass, Hardened Clay, Charcoal, Iron Ingot, Gold Ingot, Cooked Porkchop, Brick, Cooked Fish, Cactus Green, Steak, Cooked Chicken, Baked Potato, and Nether Brick (Item)                                                     2.The Southern chest: Gifts of Earth, 12 items that spawn as part of the natural terrain generation in the Overworld.Grass Block, Dirt, Sand, Gravel, Gold Ore, Iron Ore, Coal Ore, Lapis Lazuli Ore,  Obsidian, Diamond Ore, Redstone Ore, Clay, and Emerald Ore                                                   3.The Eastern chest: Descendants of Water, 12 of the 62 vanilla potions with an actual effect.                                                       4.The Western chest: Spices of Air, the 12 vanilla Music Discs.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:divisionSigil",
+                "nbt": "{stable:1b}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Cursed Earth",
+      "description": "Spawns mobs very quickly and at any distance you are from it. Will burn if revealed to light sources.",
+      "x": 65,
+      "y": 153,
+      "icon": {
+        "id": "ExtraUtilities:cursedearthside"
+      },
+      "prerequisites": [
+        "Division Sigil (Activated)"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:cursedearthside"
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Unstable Ingots",
+      "description": "Unstable ingots crafted from semi stable nuggets won\u0027t explode after 10 seconds.",
+      "x": 88,
+      "y": 153,
+      "icon": {
+        "id": "ExtraUtilities:unstableingot",
+        "nbt": "{creative:1b}"
+      },
+      "prerequisites": [
+        "Cursed Earth"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:unstableingot",
+                "damage": 1
+              },
+              "required": 18
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:unstableingot",
+                "nbt": "{stable:1b}"
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Invisible Wings",
+      "description": "Allows you to fly and take no fall damage.",
+      "x": 99,
+      "y": 173,
+      "icon": {
+        "id": "ExtraUtilities:angelRing"
+      },
+      "prerequisites": [
+        "Unstable Ingots"
+      ],
+      "optionlinks": [
+        "Fairy Wings",
+        "Feathery Wings",
+        "Dragon Wings",
+        "Golden Wings"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:angelRing"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Fairy Wings",
+      "description": "Allows you to fly and take no fall damage.",
+      "x": 99,
+      "y": 134,
+      "icon": {
+        "id": "ExtraUtilities:angelRing",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Unstable Ingots"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:angelRing",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Feathery Wings",
+      "description": "Allows you to fly and take no fall damage.",
+      "x": 111,
+      "y": 154,
+      "icon": {
+        "id": "ExtraUtilities:angelRing",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Unstable Ingots"
+      ],
+      "optionlinks": [
+        "Fairy Wings",
+        "Dragon Wings",
+        "Golden Wings"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:angelRing",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Dragon Wings",
+      "description": "Allows you to fly and take no fall damage.",
+      "x": 133,
+      "y": 154,
+      "icon": {
+        "id": "ExtraUtilities:angelRing",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Unstable Ingots"
+      ],
+      "optionlinks": [
+        "Fairy Wings",
+        "Golden Wings"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:angelRing",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Golden Wings",
+      "description": "Allows you to fly and take no fall damage.",
+      "x": 122,
+      "y": 134,
+      "icon": {
+        "id": "ExtraUtilities:angelRing",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Unstable Ingots"
+      ],
+      "optionlinks": [
+        "Fairy Wings"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:angelRing",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Endo Pump",
+      "description": "Pumps liquids to put into tanks.",
+      "x": 42,
+      "y": 73,
+      "icon": {
+        "id": "ExtraUtilities:enderThermicPump"
+      },
+      "prerequisites": [
+        "Lazered Assembly"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:enderThermicPump"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Endo Quarry",
+      "description": "A mining machine that extracts resources from the ground and replaces it with dirt. There are two ways to set-up the mining area: Outlining the area with Fence, and placing the Quarry in the fence line or using Ender-Markers at the corners and placing the Quarry next to one of the Markers.",
+      "x": 65,
+      "y": 73,
+      "icon": {
+        "id": "ExtraUtilities:enderQuarry"
+      },
+      "prerequisites": [
+        "Endo Pump"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:enderQuarry"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Mobius Unstable/Stable Ingot",
+      "description": "Can be crafted normal with the pseudo inversion sigil which won\u0027t explode at all.",
+      "x": 65,
+      "y": 179,
+      "icon": {
+        "id": "ExtraUtilities:unstableingot",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Pseudo Inversion Sigil"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:unstableingot",
+                "damage": 2
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Angel Block",
+      "description": "This block can be placed in the air itself.",
+      "x": 65,
+      "y": 100,
+      "icon": {
+        "id": "ExtraUtilities:angelBlock"
+      },
+      "prerequisites": [
+        "Transfer Node Upgrades"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:angelBlock"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Chipsets",
+      "description": "Crafting components.",
+      "x": 30,
+      "y": 54,
+      "icon": {
+        "id": "BuildCraft|Silicon:redstoneChipset"
+      },
+      "prerequisites": [
+        "Lazered Assembly"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "BuildCraft|Silicon:redstoneChipset"
+              }
+            },
+            {
+              "item": {
+                "id": "BuildCraft|Silicon:redstoneChipset",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "BuildCraft|Silicon:redstoneChipset",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "BuildCraft|Silicon:redstoneChipset",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "BuildCraft|Silicon:redstoneChipset",
+                "damage": 5
+              }
+            },
+            {
+              "item": {
+                "id": "BuildCraft|Silicon:redstoneChipset",
+                "damage": 6
+              }
+            },
+            {
+              "item": {
+                "id": "BuildCraft|Silicon:redstoneChipset",
+                "damage": 7
+              }
+            },
+            {
+              "item": {
+                "id": "BuildCraft|Silicon:redstoneCrystal"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Combustion Engine",
+      "description": "Produces power with gasoline fuel and water as coolant.",
+      "x": 53,
+      "y": 54,
+      "icon": {
+        "id": "EnderIO:blockCombustionGenerator"
+      },
+      "prerequisites": [
+        "Chipsets"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockCombustionGenerator"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Open The Flood Gates!",
+      "description": "Can place fluid down however don\u0027t use too many of these at once or you will suffer from memory leaks.",
+      "x": 76,
+      "y": 54,
+      "icon": {
+        "id": "BuildCraft|Factory:floodGateBlock"
+      },
+      "prerequisites": [
+        "Combustion Engine"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "BuildCraft|Factory:floodGateBlock"
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Quarry Upgraded",
+      "description": "Upgrades for the ender quarry.",
+      "x": 88,
+      "y": 73,
+      "icon": {
+        "id": "ExtraUtilities:enderQuarryUpgrade",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Endo Quarry"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:enderQuarryUpgrade",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:enderQuarryUpgrade",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:enderQuarryUpgrade",
+                "damage": 5
+              }
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:enderQuarryUpgrade",
+                "damage": 8
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Iron Drum",
+      "description": "256 buckets of any liquid.",
+      "x": 91,
+      "y": 100,
+      "icon": {
+        "id": "ExtraUtilities:drum"
+      },
+      "prerequisites": [
+        "Angel Block"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:drum"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "Magical Wood",
+      "description": "The better the enchants the more magical wood you\u0027ll get.",
+      "x": 114,
+      "y": 88,
+      "icon": {
+        "id": "ExtraUtilities:decorativeBlock1",
+        "damage": 8
+      },
+      "prerequisites": [
+        "Iron Drum"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:decorativeBlock1",
+                "damage": 8
+              },
+              "required": 30
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Bedrockium",
+      "description": "Crafted/smelted with a certain amount of compressed cobblestone.",
+      "x": 137,
+      "y": 100,
+      "icon": {
+        "id": "ExtraUtilities:cobblestone_compressed",
+        "damage": 7
+      },
+      "prerequisites": [
+        "Iron Drum"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:bedrockiumIngot"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:drum",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "To The Core!",
+      "description": "A cave world that has darkness itself to help defend its richest.",
+      "x": 150,
+      "y": 123,
+      "icon": {
+        "id": "ExtraUtilities:dark_portal"
+      },
+      "prerequisites": [
+        "Bedrockium"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:dark_portal"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "xreliquary:sojourner_staff"
+        },
+        {
+          "id": "xreliquary:lantern_of_paranoia"
+        },
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Beyond The Core!",
+      "description": "A void world that is shared between all players that is always night.",
+      "x": 157,
+      "y": 81,
+      "icon": {
+        "id": "ExtraUtilities:dark_portal",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Bedrockium"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:dark_portal",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Logic Pipes",
+      "description": "Logistics Pipes allows one to build an advanced logistics network using a number of new pipes. Provider Logistics Pipes are used to provide and send items into the system upon demand from other pipes, either automatic ones such as the Supplier Logistics Pipe, or player-controlled ones like the Request Logistics Pipe. It is also possible to have items crafted automatically when necessary using Crafting Logistics Pipes. A special kind of pipes are the Logistics Chassis, which can hold modules that give the chassis certain abilities. These modules are often equivalent in function to another logistics pipe, making it possible to combine multiple pipes\u0027 functionality into a single one. Liquids can also be handled by the logistics network, using Logistics Fluid Pipes.",
+      "x": 41,
+      "y": 35,
+      "icon": {
+        "id": "LogisticsPipes:logisticsSolidBlock",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Chipsets"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "LogisticsPipes:item.PipeItemsBasicLogistics"
+              }
+            },
+            {
+              "item": {
+                "id": "LogisticsPipes:logisticsSolidBlock",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "LogisticsPipes:logisticsSolidBlock"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Storage Drawers",
+      "description": "Easier organizing all your ores that you sieve.",
+      "x": 41,
+      "y": 9,
+      "icon": {
+        "id": "StorageDrawers:fullDrawers1"
+      },
+      "prerequisites": [
+        "{Alpha}[Iron Chest]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "StorageDrawers:fullDrawers1"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "StorageDrawers:controller"
+              }
+            },
+            {
+              "item": {
+                "id": "StorageDrawers:compDrawers"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Storage Upgrade",
+      "description": "Upgrades the amount of items storage drawers can hold.",
+      "x": 64,
+      "y": 9,
+      "icon": {
+        "id": "StorageDrawers:upgrade",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Storage Drawers"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "StorageDrawers:upgrade",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "StorageDrawers:upgrade",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "StorageDrawers:upgrade",
+                "damage": 4
+              }
+            },
+            {
+              "item": {
+                "id": "StorageDrawers:upgrade",
+                "damage": 5
+              }
+            },
+            {
+              "item": {
+                "id": "StorageDrawers:upgrade",
+                "damage": 6
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Food Gen",
+      "description": "Produce power through the type of food you put in it.",
+      "x": 189,
+      "y": 104,
+      "icon": {
+        "id": "ExtraUtilities:generator",
+        "damage": 5
+      },
+      "prerequisites": [
+        "{Beta}[Epic Baconbrotato]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:generator",
+                "damage": 5
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Foodstuffs Gen",
+      "description": "Produce power through the type of food you put in it.",
+      "x": 201,
+      "y": 123,
+      "icon": {
+        "id": "ExtraUtilities:generator.8",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Food Gen"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:generator.8",
+                "damage": 5
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Cuisine Gen",
+      "description": "Produce power through the type of food you put in it.",
+      "x": 212,
+      "y": 142,
+      "icon": {
+        "id": "ExtraUtilities:generator.64",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Foodstuffs Gen"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:generator.64",
+                "damage": 5
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Transfer Energy",
+      "description": "Allows transfer pipes to transfer energy.",
+      "x": 19,
+      "y": 153,
+      "icon": {
+        "id": "ExtraUtilities:extractor_base",
+        "damage": 12
+      },
+      "prerequisites": [
+        "Extra Crystals"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:extractor_base",
+                "damage": 12
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Transfer Hypu Energy",
+      "description": "Allows transfer pipes to transfer more energy.",
+      "x": 19,
+      "y": 179,
+      "icon": {
+        "id": "ExtraUtilities:extractor_base",
+        "damage": 13
+      },
+      "prerequisites": [
+        "Transfer Energy"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:extractor_base",
+                "damage": 13
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Super Builder\u0027s Wand",
+      "description": "It will attempt to extend a structure by one layer of up to 49 blocks at a time, given the blocks are available in the player\u0027s inventory.",
+      "x": 77,
+      "y": 198,
+      "icon": {
+        "id": "ExtraUtilities:creativebuilderswand"
+      },
+      "prerequisites": [
+        "Mobius Unstable/Stable Ingot"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:creativebuilderswand"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Enhanced Builder\u0027s Wand",
+      "description": "Crafted from other Unbreakable Builders\u0027 wands and Super Builders\u0027 wands.",
+      "x": 100,
+      "y": 198,
+      "icon": {
+        "id": "betterbuilderswands:wandUnbreakable",
+        "damage": 14
+      },
+      "prerequisites": [
+        "Super Builder\u0027s Wand"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "betterbuilderswands:wandUnbreakable",
+                "damage": 14
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

@@ -1,0 +1,81 @@
+{
+	"solar":
+	{
+		"chance": 30,
+		"Item":
+		[
+			{"item":{"id":"GalacticraftCore:tile.solar","Damage":0,"Count":1}, "delay":20},
+			{"item":{"id":"GalacticraftCore:tile.solar","Damage":4,"Count":1}, "delay":20},
+			{"item":{"id":"ExtraPlanets:tile.solar","Damage":0,"Count":1}, "delay":20},
+			{"item":{"id":"ExtraPlanets:tile.solar","Damage":4,"Count":1}, "delay":20}
+		]
+},
+	"fence":
+	{
+		"chance": 25,
+		"Item": [
+			{"item":{"id":"cfm:ItemElectricFence","Damage":0,"Count":12}, "delay":20}
+		]
+},
+	"egg":
+	{
+		"chance": 10,
+		"Item": [
+			{"item":{"id":"OpenBlocks:goldenegg","Damage":0,"Count":1}, "delay":20}
+		]
+	},
+	"karat":
+	{
+		"chance": 45,
+		"Item": [
+			{"item":{"id":"kg:carrot01ext","Damage":0,"Count":6}, "delay":20}
+		]
+	},
+	"scuba":
+	{
+		"chance": 88,
+		"Item": [
+			{"item":{"id":"Mekanism:ScubaTank","Damage":0,"Count":1}, "delay":20}
+		]
+	},
+	"particle":
+	{
+		"chance": 93,
+		"Item": [
+			{"item":{"id":"DraconicEvolution:particleGenerator","Damage":0,"Count":4}, "delay":20}
+		]
+	},
+	"nian":
+	{
+		"chance": 30,
+		"Item": [
+			{"item":{"id":"xreliquary:heart_zhu","Damage":3,"Count":1}, "delay":20}
+		]
+	},
+	"growth":
+	{
+		"chance": 30,
+		"Item": [
+			{"item":{"id":"magicalcrops:CropBooster","Damage":0,"Count":9}, "delay":20}
+		]
+	},
+	"farm":
+	{
+		"chance": 48,
+		"Item": [
+			{"item":{"id":"enderioaddons:blockAfarm","Damage":0,"Count":1}, "delay":20}
+		]
+	},
+		"storage":
+	{
+		"chance": 50,
+		"Message":
+		[
+			{"message":"Dat storage though! PogChamp"}
+		],
+		"Item":
+		[
+			{"item":{"id":"avaritiaddons:CompressedChest","Damage":0,"Count":1}, "delay":20}
+		]
+}
+}

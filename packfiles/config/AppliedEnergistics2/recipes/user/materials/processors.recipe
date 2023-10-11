@@ -1,0 +1,11 @@
+press=
+    BuildCraft|Silicon:redstoneChipset:4 ae2:ItemMaterial.LogicProcessorPrint ae2:ItemMaterial.SiliconPrint
+    -> ae2:ItemMaterial.LogicProcessor
+
+press=
+    BuildCraft|Silicon:redstoneChipset:4 ae2:ItemMaterial.CalcProcessorPrint ae2:ItemMaterial.SiliconPrint
+    -> ae2:ItemMaterial.CalcProcessor
+
+press=
+    BuildCraft|Silicon:redstoneChipset:4 ae2:ItemMaterial.EngProcessorPrint ae2:ItemMaterial.SiliconPrint
+    -> ae2:ItemMaterial.EngProcessor

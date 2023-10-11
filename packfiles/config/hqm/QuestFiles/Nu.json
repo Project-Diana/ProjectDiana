@@ -1,0 +1,161 @@
+{
+  "name": "Nu",
+  "description": "The End: \"Simple\" Achievements",
+  "quests": [
+    {
+      "name": "\"Simple\" Achievements",
+      "description": "This isn\u0027t the end.",
+      "x": 158,
+      "y": 17,
+      "icon": {
+        "id": "SimpleAchievements:sa.achievementBook"
+      },
+      "prerequisites": [
+        "{Eta}[Advanced Inscriber]",
+        "{Eta}[Growth Chamber]",
+        "{Eta}[Going Wireless]",
+        "{Eta}[64K Crafting Unit]",
+        "{Eta}[16384K ME Storage]",
+        "{Eta}[4096K Fluid Storage]",
+        "{Eta}[4096K Gas Storage]",
+        "{Eta}[Spatial IO]",
+        "{Eta}[Level Emitter]",
+        "{Eta}[AE Dense Energy Cell]",
+        "{Zeta}[SolarFlux Panel 11]",
+        "{Zeta}[Power Armor mk2]",
+        "{Zeta}[Deep Storage]",
+        "{Zeta}[Imaginary Crop Growth]",
+        "{Zeta}[Power Stash V]",
+        "{Epsilon}[Robit Miner]",
+        "{Epsilon}[Demon Steel Tier 11]",
+        "{Epsilon}[Mekanized Tesseract]",
+        "{Epsilon}[Better Solar Panel]",
+        "{Epsilon}[Circuit Breaker]",
+        "{Gamma}[Enhanced Builder\u0027s Wand]",
+        "{Gamma}[To The Core!]",
+        "{Gamma}[Beyond The Core!]",
+        "{Gamma}[Open The Flood Gates!]",
+        "{Gamma}[Transfer Hypu Energy]",
+        "{Delta}[Flux Crystal]",
+        "{Delta}[Phytogenetic Insolation]",
+        "{Delta}[Vibrantium]",
+        "{Delta}[Enchanted Crystals]",
+        "{Delta}[Tormented Heads]",
+        "{Delta}[Dimensional Transciever]",
+        "{Delta}[XP Obelisk]",
+        "{Delta}[Cryo-Stabilized Fluxduct]",
+        "{Delta}[Tesseract]",
+        "{Delta}[Resonant Tank]",
+        "{Beta}[Ring of Odin]",
+        "{Beta}[7 Rune Sins!]",
+        "{Beta}[Temperio]",
+        "{Beta}[Zivicio Armor]",
+        "{Beta}[Master Infusion]",
+        "{Beta}[Ultimate Furnace]",
+        "{Beta}[Emerald Plant]",
+        "{Beta}[Diamond Plant]",
+        "{Beta}[Quartz Plant]",
+        "{Beta}[Epic Baconbrotato]",
+        "{Alpha}[Tectonic Petrotheum]",
+        "{Alpha}[Infinite Water/Steam]",
+        "{Alpha}[Turbine Multiblock]",
+        "{Alpha}[Enchanting Table]",
+        "{Alpha}[Knapsack]",
+        "{Alpha}[Efficiency]",
+        "{Alpha}[Wither Boss!]",
+        "{Theta}[Labyrinth]",
+        "{Theta}[Antlion Overlord]",
+        "{Theta}[Shard Infuser]",
+        "{Iota}[Ludicrite Block]",
+        "{Iota}[Tier 3 Rocket To Extra Planets]",
+        "{Iota}[Timeless Satellite]",
+        "{Iota}[Cryo Sleep]",
+        "{Kappa}[SRG]",
+        "{Kappa}[Energy Converter]",
+        "{Kappa}[Destruction Catalyst]",
+        "{Kappa}[Transmute Part 2]",
+        "{Lambda}[Fluxed Capacitor]",
+        "{Lambda}[Charm of Relocation]",
+        "{Lambda}[Awakening Ritual]",
+        "{Lambda}[Staff of Power]",
+        "{Lambda}[Chaos Core]",
+        "{Lambda}[Dragon Armor]",
+        "{Lambda}[Upgraded Evolution]",
+        "{Lambda}[Chaos Guardian]",
+        "{Mu}[Infinity Ingot]",
+        "{Mu}[Tin Singularity]"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:unstableingot",
+                "damage": 2
+              },
+              "required": 64,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "DraconicEvolution:draconicIngot"
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "Avaritia:Resource",
+                "damage": 4
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "Avaritia:Resource",
+                "damage": 6
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 5
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "minecraft:bookshelf"
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "SimpleAchievements:sa.achievementBook"
+        },
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

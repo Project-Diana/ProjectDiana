@@ -1,0 +1,3511 @@
+{
+  "name": "Beta",
+  "description": "Botania, Agricraft, and Magical Crops.",
+  "quests": [
+    {
+      "name": "Wheats!",
+      "description": "From seeds to toast.",
+      "x": 68,
+      "y": 17,
+      "icon": {
+        "id": "minecraft:wheat"
+      },
+      "prerequisites": [
+        "Crop Sticks"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wheat"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "Natura:barleyFood",
+                "damage": 2
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "harvestcraft:toastsandwichItem"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Seed Analyzer",
+      "description": "Analyze seeds to make them better and give more whatever they drop.",
+      "x": 20,
+      "y": 17,
+      "icon": {
+        "id": "AgriCraft:journal"
+      },
+      "prerequisites": [
+        "{Alpha}[Sieving Montage I]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedAnalyzer"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AgriCraft:journal"
+        },
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Crop Sticks",
+      "description": "Support for crops to grow correctly.",
+      "x": 45,
+      "y": 17,
+      "icon": {
+        "id": "AgriCraft:cropsItem"
+      },
+      "prerequisites": [
+        "Seed Analyzer"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:cropsItem"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedPotato"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "AgriCraft:seedCarrot"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Bakeware",
+      "description": "More advanced and filling food.",
+      "x": 91,
+      "y": 17,
+      "icon": {
+        "id": "harvestcraft:cuttingboardItem"
+      },
+      "prerequisites": [
+        "Wheats!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:mortarandpestleItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:skilletItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:cuttingboardItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:potItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:bakewareItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:saucepanItem"
+              }
+            },
+            {
+              "item": {
+                "id": "harvestcraft:mixingbowlItem"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "harvestcraft:juicerItem"
+        },
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "harvestcraft:pamcinnamonSapling"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "French Toast",
+      "description": "More filling food for your veinmining.",
+      "x": 114,
+      "y": 17,
+      "icon": {
+        "id": "harvestcraft:frenchtoastItem"
+      },
+      "prerequisites": [
+        "Bakeware"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:frenchtoastItem"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Sugar Cane",
+      "description": "Farming soil: Sand",
+      "x": 56,
+      "y": 37,
+      "icon": {
+        "id": "AgriCraft:seedSugarcane"
+      },
+      "prerequisites": [
+        "Crop Sticks"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedSugarcane"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "AgriCraft:seedCactus"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Passive Farm",
+      "description": "Create a platform around 25 blocks from your base to spawn animals.",
+      "x": 20,
+      "y": 43,
+      "icon": {
+        "id": "minecraft:grass"
+      },
+      "prerequisites": [
+        "Seed Analyzer"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wool"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:beef"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:porkchop"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:egg"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:spawn_egg",
+          "damage": 90
+        },
+        {
+          "id": "minecraft:spawn_egg",
+          "damage": 93
+        },
+        {
+          "id": "minecraft:spawn_egg",
+          "damage": 91
+        },
+        {
+          "id": "minecraft:spawn_egg",
+          "damage": 92
+        }
+      ]
+    },
+    {
+      "name": "Dye Seeds",
+      "description": "All the flower seeds.",
+      "x": 45,
+      "y": 112,
+      "icon": {
+        "id": "AgriCraft:seedPoppy"
+      },
+      "prerequisites": [
+        "Sugar Cane"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedPoppy"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "AgriCraft:seedOrchid"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "AgriCraft:seedTulipOrange"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "AgriCraft:seedTulipRed"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "AgriCraft:seedDandelion"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "AgriCraft:seedDaisy"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "AgriCraft:seedTulipPink"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "AgriCraft:seedTulipWhite"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "AgriCraft:seedAllium"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ]
+    },
+    {
+      "name": "Mystical White",
+      "description": "The Flower itself won\u0027t spawn anywhere.",
+      "x": 114,
+      "y": 112,
+      "icon": {
+        "id": "AgriCraft:seedBotaniaWhite"
+      },
+      "prerequisites": [
+        "Dye Seeds"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedBotaniaWhite"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ]
+    },
+    {
+      "name": "Mystical Light Gray",
+      "description": "The Flower itself won\u0027t spawn anywhere.",
+      "x": 80,
+      "y": 174,
+      "icon": {
+        "id": "AgriCraft:seedBotaniaLightGray"
+      },
+      "prerequisites": [
+        "Dye Seeds"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedBotaniaLightGray"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ]
+    },
+    {
+      "name": "Mystical Red",
+      "description": "The Flower itself won\u0027t spawn anywhere.",
+      "x": 57,
+      "y": 174,
+      "icon": {
+        "id": "AgriCraft:seedBotaniaRed"
+      },
+      "prerequisites": [
+        "Dye Seeds"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedBotaniaRed"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ]
+    },
+    {
+      "name": "Mystical Gray",
+      "description": "The Flower itself won\u0027t spawn anywhere.",
+      "x": 69,
+      "y": 154,
+      "icon": {
+        "id": "AgriCraft:seedBotaniaGray"
+      },
+      "prerequisites": [
+        "Dye Seeds"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedBotaniaGray"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ]
+    },
+    {
+      "name": "Mystical Green",
+      "description": "The Flower itself won\u0027t spawn anywhere.",
+      "x": 92,
+      "y": 154,
+      "icon": {
+        "id": "AgriCraft:seedBotaniaGreen"
+      },
+      "prerequisites": [
+        "Dye Seeds"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedBotaniaGreen"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ]
+    },
+    {
+      "name": "Mystical Blue",
+      "description": "The Flower itself won\u0027t spawn anywhere.",
+      "x": 11,
+      "y": 174,
+      "icon": {
+        "id": "AgriCraft:seedBotaniaBlue"
+      },
+      "prerequisites": [
+        "Dye Seeds"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedBotaniaBlue"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ]
+    },
+    {
+      "name": "Mystical Yellow",
+      "description": "The Flower itself won\u0027t spawn anywhere.",
+      "x": 34,
+      "y": 174,
+      "icon": {
+        "id": "AgriCraft:seedBotaniaYellow"
+      },
+      "prerequisites": [
+        "Dye Seeds"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedBotaniaYellow"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ]
+    },
+    {
+      "name": "Mystical Orange",
+      "description": "The Flower itself won\u0027t spawn anywhere.",
+      "x": 46,
+      "y": 194,
+      "icon": {
+        "id": "AgriCraft:seedBotaniaOrange"
+      },
+      "prerequisites": [
+        "Dye Seeds"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedBotaniaOrange"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ]
+    },
+    {
+      "name": "Mystical Black",
+      "description": "The Flower itself won\u0027t spawn anywhere.",
+      "x": 12,
+      "y": 134,
+      "icon": {
+        "id": "AgriCraft:seedBotaniaBlack"
+      },
+      "prerequisites": [
+        "Dye Seeds"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedBotaniaBlack"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ]
+    },
+    {
+      "name": "Mystical Brown",
+      "description": "The Flower itself won\u0027t spawn anywhere.",
+      "x": 23,
+      "y": 194,
+      "icon": {
+        "id": "AgriCraft:seedBotaniaBrown"
+      },
+      "prerequisites": [
+        "Dye Seeds"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedBotaniaBrown"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ]
+    },
+    {
+      "name": "Mystical Purple",
+      "description": "The Flower itself won\u0027t spawn anywhere.",
+      "x": 23,
+      "y": 154,
+      "icon": {
+        "id": "AgriCraft:seedBotaniaPurple"
+      },
+      "prerequisites": [
+        "Dye Seeds"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedBotaniaPurple"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ]
+    },
+    {
+      "name": "Mystical Lime",
+      "description": "The Flower itself won\u0027t spawn anywhere.",
+      "x": 46,
+      "y": 154,
+      "icon": {
+        "id": "AgriCraft:seedBotaniaLime"
+      },
+      "prerequisites": [
+        "Dye Seeds"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedBotaniaLime"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ]
+    },
+    {
+      "name": "Mystical Cyan",
+      "description": "The Flower itself won\u0027t spawn anywhere.",
+      "x": 81,
+      "y": 134,
+      "icon": {
+        "id": "AgriCraft:seedBotaniaCyan"
+      },
+      "prerequisites": [
+        "Dye Seeds"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedBotaniaCyan"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ]
+    },
+    {
+      "name": "Mystical Light Blue",
+      "description": "The Flower itself won\u0027t spawn anywhere.",
+      "x": 103,
+      "y": 174,
+      "icon": {
+        "id": "AgriCraft:seedBotaniaLightBlue"
+      },
+      "prerequisites": [
+        "Dye Seeds"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedBotaniaLightBlue"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ]
+    },
+    {
+      "name": "Mystical Pink",
+      "description": "The Flower itself won\u0027t spawn anywhere.",
+      "x": 92,
+      "y": 194,
+      "icon": {
+        "id": "AgriCraft:seedBotaniaPink"
+      },
+      "prerequisites": [
+        "Dye Seeds"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedBotaniaPink"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ]
+    },
+    {
+      "name": "Mystical Magenta",
+      "description": "The Flower itself won\u0027t spawn anywhere.",
+      "x": 69,
+      "y": 194,
+      "icon": {
+        "id": "AgriCraft:seedBotaniaMagenta"
+      },
+      "prerequisites": [
+        "Dye Seeds"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedBotaniaMagenta"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ]
+    },
+    {
+      "name": "Mana Manipulation",
+      "description": "Use Lexica Botania.",
+      "x": 172,
+      "y": 143,
+      "icon": {
+        "id": "Botania:pool"
+      },
+      "prerequisites": [
+        "Magical Botania"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:spreader"
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:pool"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:manaResource",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:manaResource",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:distributor"
+        },
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Magical Botania",
+      "description": "Sky of the Beginning",
+      "x": 149,
+      "y": 144,
+      "icon": {
+        "id": "Botania:specialFlower",
+        "nbt": "{type:\"puredaisy\"}"
+      },
+      "prerequisites": [
+        "Mystical White"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:lexicon"
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:altar"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"puredaisy\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:livingwood"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "Botania:livingrock"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "Botania:twigWand",
+                "nbt": "{color1:0,color2:0}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:specialFlower",
+          "amount": 3,
+          "nbt": "{type:\"nightshade\"}"
+        },
+        {
+          "id": "Botania:specialFlower",
+          "amount": 3,
+          "nbt": "{type:\"daybloom\"}"
+        },
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Minicio Seeds",
+      "description": "Mana-infused seeds",
+      "x": 172,
+      "y": 57,
+      "icon": {
+        "id": "magicalcrops:MinicioSeeds"
+      },
+      "prerequisites": [
+        "Mana Manipulation"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "magicalcrops:MinicioSeeds"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Endoflames",
+      "description": "Generates mana through burnable (coal) absorption.",
+      "x": 206,
+      "y": 123,
+      "icon": {
+        "id": "Botania:specialFlower",
+        "nbt": "{type:\"endoflame\"}"
+      },
+      "prerequisites": [
+        "Hydroangeas"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Obtain the correct recipe from NEI not the book.",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"endoflame\"}"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Runic Altar",
+      "description": "Use Lexica Botania.",
+      "x": 194,
+      "y": 103,
+      "icon": {
+        "id": "Botania:runeAltar"
+      },
+      "prerequisites": [
+        "Mana Manipulation"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:runeAltar"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "100 Years late!",
+      "description": "Use Lexica Botania.",
+      "x": 217,
+      "y": 103,
+      "icon": {
+        "id": "Botania:rune",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Runic Altar"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:rune"
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:rune",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:rune",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:rune",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "In The Name of Balance!",
+      "description": "Use Lexica Botania.",
+      "x": 240,
+      "y": 103,
+      "icon": {
+        "id": "Botania:rune",
+        "damage": 5
+      },
+      "prerequisites": [
+        "100 Years late!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:rune",
+                "damage": 4
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:rune",
+                "damage": 6
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:rune",
+                "damage": 5
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:rune",
+                "damage": 7
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:rune",
+                "damage": 8
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "7 Rune Sins!",
+      "description": "Use Lexica Botania.",
+      "x": 263,
+      "y": 103,
+      "icon": {
+        "id": "Botania:rune",
+        "damage": 15
+      },
+      "prerequisites": [
+        "In The Name of Balance!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:rune",
+                "damage": 9
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:rune",
+                "damage": 10
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:rune",
+                "damage": 11
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:rune",
+                "damage": 12
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:rune",
+                "damage": 13
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:rune",
+                "damage": 15
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:rune",
+                "damage": 14
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Accio",
+      "description": "Used for accio level crops.",
+      "x": 193,
+      "y": 57,
+      "icon": {
+        "id": "magicalcrops:2AccioEssence"
+      },
+      "prerequisites": [
+        "Minicio Seeds"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "magicalcrops:2AccioEssence"
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Crucio",
+      "description": "Used for crucio level crops.",
+      "x": 216,
+      "y": 57,
+      "icon": {
+        "id": "magicalcrops:3CrucioEssence"
+      },
+      "prerequisites": [
+        "Accio"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "magicalcrops:3CrucioEssence"
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Imperio",
+      "description": "Used for imperio level crops.",
+      "x": 239,
+      "y": 57,
+      "icon": {
+        "id": "magicalcrops:4ImperioEssence"
+      },
+      "prerequisites": [
+        "Crucio"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "magicalcrops:4ImperioEssence"
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Zivicio",
+      "description": "Used for zivicio level crops.",
+      "x": 262,
+      "y": 57,
+      "icon": {
+        "id": "magicalcrops:5ZivicioEssence"
+      },
+      "prerequisites": [
+        "Imperio"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "magicalcrops:5ZivicioEssence"
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Weak Infusion",
+      "description": "Minicio to Accio",
+      "x": 182,
+      "y": 37,
+      "icon": {
+        "id": "magicalcrops:InfusionStoneWeak"
+      },
+      "prerequisites": [
+        "Minicio Seeds"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "A task where the player has to craft specific items.",
+          "items": [
+            {
+              "item": {
+                "id": "magicalcrops:InfusionStoneWeak"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Regular Infusion",
+      "description": "Accio to Crucio",
+      "x": 205,
+      "y": 37,
+      "icon": {
+        "id": "magicalcrops:InfusionStoneRegular"
+      },
+      "prerequisites": [
+        "Weak Infusion"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "A task where the player has to craft specific items.",
+          "items": [
+            {
+              "item": {
+                "id": "magicalcrops:InfusionStoneRegular"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Strong Infusion",
+      "description": "Crucio to Imperio",
+      "x": 228,
+      "y": 37,
+      "icon": {
+        "id": "magicalcrops:InfusionStoneStrong"
+      },
+      "prerequisites": [
+        "Regular Infusion"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "A task where the player has to craft specific items.",
+          "items": [
+            {
+              "item": {
+                "id": "magicalcrops:InfusionStoneStrong"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Extreme Infusion",
+      "description": "Imperio to Zivicio",
+      "x": 251,
+      "y": 37,
+      "icon": {
+        "id": "magicalcrops:InfusionStoneExtreme"
+      },
+      "prerequisites": [
+        "Strong Infusion"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "A task where the player has to craft specific items.",
+          "items": [
+            {
+              "item": {
+                "id": "magicalcrops:InfusionStoneExtreme"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Master Infusion",
+      "description": "Zivicio to Temperio",
+      "x": 274,
+      "y": 37,
+      "icon": {
+        "id": "magicalcrops:InfusionStoneMaster"
+      },
+      "prerequisites": [
+        "Extreme Infusion"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "A task where the player has to craft specific items.",
+          "items": [
+            {
+              "item": {
+                "id": "magicalcrops:InfusionStoneMaster"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Accio Furnace",
+      "description": "A little better than a regular furnace.",
+      "x": 193,
+      "y": 17,
+      "icon": {
+        "id": "magicalcrops:AccioFurnace"
+      },
+      "prerequisites": [
+        "Weak Infusion"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "magicalcrops:AccioFurnace"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Crucio Furnace",
+      "description": "A better than a accio furnace.",
+      "x": 216,
+      "y": 17,
+      "icon": {
+        "id": "magicalcrops:CrucioFurnace"
+      },
+      "prerequisites": [
+        "Accio Furnace"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "magicalcrops:CrucioFurnace"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Imperio Furnace",
+      "description": "A better than a crucio furnace.",
+      "x": 239,
+      "y": 17,
+      "icon": {
+        "id": "magicalcrops:ImperioFurnace"
+      },
+      "prerequisites": [
+        "Crucio Furnace"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "magicalcrops:ImperioFurnace"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Zivicio Furnace",
+      "description": "A better than a imperio furnace.",
+      "x": 262,
+      "y": 17,
+      "icon": {
+        "id": "magicalcrops:ZivicioFurnace"
+      },
+      "prerequisites": [
+        "Imperio Furnace"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "magicalcrops:ZivicioFurnace"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Ultimate Furnace",
+      "description": "A way better than a zivicio furnace.",
+      "x": 285,
+      "y": 17,
+      "icon": {
+        "id": "magicalcrops:UltimateFurnace"
+      },
+      "prerequisites": [
+        "Zivicio Furnace"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "magicalcrops:UltimateFurnace"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Hydroangeas",
+      "description": "Generates mana through water absorption.",
+      "x": 195,
+      "y": 143,
+      "icon": {
+        "id": "Botania:specialFlower",
+        "nbt": "{type:\"hydroangeas\"}"
+      },
+      "prerequisites": [
+        "Mana Manipulation"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"hydroangeas\"}"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Thermalilies",
+      "description": "Generates mana through lava absorption.",
+      "x": 229,
+      "y": 123,
+      "icon": {
+        "id": "Botania:specialFlower",
+        "nbt": "{type:\"thermalily\"}"
+      },
+      "prerequisites": [
+        "Hydroangeas"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"thermalily\"}"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Rosa Arcana",
+      "description": "Generates mana through experience absorption.",
+      "x": 252,
+      "y": 123,
+      "icon": {
+        "id": "Botania:specialFlower",
+        "nbt": "{type:\"arcanerose\"}"
+      },
+      "prerequisites": [
+        "Thermalilies"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"arcanerose\"}"
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        },
+        {
+          "id": "TConstruct:oreBerries",
+          "damage": 5,
+          "amount": 64
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Temperio",
+      "description": "Warning: do not shift-click the question mark when crafting these.",
+      "x": 285,
+      "y": 57,
+      "icon": {
+        "id": "customthings:item"
+      },
+      "prerequisites": [
+        "Zivicio"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "customthings:item"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Epic Baconbrotato",
+      "description": "Don\u0027t worry about the food coloring :P.",
+      "x": 137,
+      "y": 17,
+      "icon": {
+        "id": "harvestcraft:epicbaconItem"
+      },
+      "prerequisites": [
+        "French Toast"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "A task where the player has to craft specific food.",
+          "items": [
+            {
+              "item": {
+                "id": "harvestcraft:epicbaconItem"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Iron Plant",
+      "description": "Farming soil: Farmland on top of Iron ore",
+      "x": 79,
+      "y": 88,
+      "icon": {
+        "id": "AgriCraft:seedFerranium"
+      },
+      "prerequisites": [
+        "Lapis Plant"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedFerranium"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Lapis Plant",
+      "description": "Farming soil: Farmland on top of Lapis ore",
+      "x": 56,
+      "y": 88,
+      "icon": {
+        "id": "AgriCraft:seedLapender"
+      },
+      "prerequisites": [
+        "Dye Seeds"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedLapender"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Gold Plant",
+      "description": "Farming soil: Farmland on top of Gold ore",
+      "x": 79,
+      "y": 62,
+      "icon": {
+        "id": "AgriCraft:seedAurigold"
+      },
+      "prerequisites": [
+        "Redstone Plant"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedAurigold"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Quartz Plant",
+      "description": "Farming soil: Soul sand on top of Nether Quartz ore",
+      "x": 125,
+      "y": 37,
+      "icon": {
+        "id": "AgriCraft:seedQuartzanthemum"
+      },
+      "prerequisites": [
+        "Glowstone Plants"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedQuartzanthemum"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Emerald Plant",
+      "description": "Farming soil: Farmland on top of Emerald ore",
+      "x": 102,
+      "y": 88,
+      "icon": {
+        "id": "AgriCraft:seedEmeryllis"
+      },
+      "prerequisites": [
+        "Iron Plant"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedEmeryllis"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Diamond Plant",
+      "description": "Farming soil: Farmland on top of Diamond ore",
+      "x": 102,
+      "y": 62,
+      "icon": {
+        "id": "AgriCraft:seedDiamahlia"
+      },
+      "prerequisites": [
+        "Gold Plant"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedDiamahlia"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Floral Fertilizer",
+      "description": "Only way for the flowers themselves to spawn.",
+      "x": 149,
+      "y": 171,
+      "icon": {
+        "id": "Botania:fertilizer"
+      },
+      "prerequisites": [
+        "Magical Botania"
+      ],
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:dye",
+                "damage": 15
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:dye",
+                "damage": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "minecraft:dye",
+                "damage": 11
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "Botania:fertilizer",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Orechid",
+      "description": "Uses mana to produce ores and such with cobblestone.",
+      "x": 218,
+      "y": 143,
+      "icon": {
+        "id": "Botania:specialFlower",
+        "nbt": "{type:\"orechid\"}"
+      },
+      "prerequisites": [
+        "Hydroangeas"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"orechid\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "ManaSteel",
+      "description": "Mana-infused iron",
+      "x": 206,
+      "y": 163,
+      "icon": {
+        "id": "Botania:manaResource"
+      },
+      "prerequisites": [
+        "Hydroangeas"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:manaResource"
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Mana Magnet",
+      "description": "A very good magnet.",
+      "x": 195,
+      "y": 183,
+      "icon": {
+        "id": "Botania:magnetRing"
+      },
+      "prerequisites": [
+        "ManaSteel"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "A task where the player has to craft specific items.",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:magnetRing"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Terrasteel",
+      "description": "Use Lexica Botania.",
+      "x": 218,
+      "y": 182,
+      "icon": {
+        "id": "Botania:spark"
+      },
+      "prerequisites": [
+        "ManaSteel"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:livingrock"
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "minecraft:lapis_block"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "Botania:terraPlate"
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:manaResource",
+                "damage": 4
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Elven Portal",
+      "description": "Use Lexica Botania.",
+      "x": 241,
+      "y": 182,
+      "icon": {
+        "id": "Botania:pylon",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Terrasteel"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:livingwood"
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "Botania:livingwood",
+                "damage": 5
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "Botania:alfheimPortal"
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:pool"
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Elven Dreams",
+      "description": "Use Lexica Botania.",
+      "x": 264,
+      "y": 182,
+      "icon": {
+        "id": "Botania:dreamwood"
+      },
+      "prerequisites": [
+        "Elven Portal"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:manaResource",
+                "damage": 7
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "Botania:manaResource",
+                "damage": 8
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "Botania:dreamwood"
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "Botania:manaResource",
+                "damage": 9
+              },
+              "required": 9
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Gaia Guardian I\u0026II",
+      "description": "Use Lexica Botania.",
+      "x": 275,
+      "y": 162,
+      "icon": {
+        "id": "minecraft:beacon"
+      },
+      "prerequisites": [
+        "Elven Dreams"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Gaia Guardian I Detection Task",
+          "longDescription": "A task where the player has to craft specific items.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_block"
+              },
+              "required": 9
+            },
+            {
+              "item": {
+                "id": "minecraft:beacon"
+              }
+            },
+            {
+              "item": {
+                "id": "Botania:pylon",
+                "damage": 2
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Gaia Guardian II Detection Task",
+          "longDescription": "A task where the player has to craft specific items.",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:manaResource",
+                "damage": 14
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 3,
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Ring of Odin",
+      "description": "Extra hitpoints. Use Lexica Botania after you gain it to see what it does.",
+      "x": 286,
+      "y": 142,
+      "icon": {
+        "id": "Botania:odinRing"
+      },
+      "prerequisites": [
+        "Gaia Guardian I\u0026II"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:odinRing"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Redstone Plant",
+      "description": "Farming soil: Farmland on top of Redstone ore",
+      "x": 56,
+      "y": 62,
+      "icon": {
+        "id": "AgriCraft:seedRedstodendron"
+      },
+      "prerequisites": [
+        "Dye Seeds"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedRedstodendron"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "Nether Wart",
+      "description": "Farming soil: Soul sand",
+      "x": 79,
+      "y": 37,
+      "icon": {
+        "id": "minecraft:nether_wart"
+      },
+      "prerequisites": [
+        "Crop Sticks"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:nether_wart"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "Glowstone Plants",
+      "description": "Farming soil: Soul sand on top of glowstone",
+      "x": 102,
+      "y": 37,
+      "icon": {
+        "id": "AgriCraft:seedNitorWart"
+      },
+      "prerequisites": [
+        "Nether Wart"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedNitorWart"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "Accio Armor",
+      "description": "Part of the armor progression.",
+      "x": 205,
+      "y": 77,
+      "icon": {
+        "id": "magicalcropsarmour:AccioArmourHelmet"
+      },
+      "prerequisites": [
+        "Accio"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "magicalcropsarmour:AccioArmourHelmet"
+              }
+            },
+            {
+              "item": {
+                "id": "magicalcropsarmour:AccioArmourChestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "magicalcropsarmour:AccioArmourLeggings"
+              }
+            },
+            {
+              "item": {
+                "id": "magicalcropsarmour:AccioArmourBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Crucio Armor",
+      "description": "Part of the armor progression.",
+      "x": 228,
+      "y": 77,
+      "icon": {
+        "id": "magicalcropsarmour:CrucioArmourHelmet"
+      },
+      "prerequisites": [
+        "Accio Armor"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "magicalcropsarmour:CrucioArmourHelmet"
+              }
+            },
+            {
+              "item": {
+                "id": "magicalcropsarmour:CrucioArmourChestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "magicalcropsarmour:CrucioArmourLeggings"
+              }
+            },
+            {
+              "item": {
+                "id": "magicalcropsarmour:CrucioArmourBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Imperio Armor",
+      "description": "Part of the armor progression.",
+      "x": 250,
+      "y": 77,
+      "icon": {
+        "id": "magicalcropsarmour:ImperioArmourHelmet"
+      },
+      "prerequisites": [
+        "Crucio Armor"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "magicalcropsarmour:ImperioArmourHelmet"
+              }
+            },
+            {
+              "item": {
+                "id": "magicalcropsarmour:ImperioArmourChestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "magicalcropsarmour:ImperioArmourLeggings"
+              }
+            },
+            {
+              "item": {
+                "id": "magicalcropsarmour:ImperioArmourBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Zivicio Armor",
+      "description": "Full set allows you to fly.",
+      "x": 273,
+      "y": 77,
+      "icon": {
+        "id": "magicalcropsarmour:ZivicioArmourHelmet"
+      },
+      "prerequisites": [
+        "Imperio Armor"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "magicalcropsarmour:ZivicioArmourHelmet"
+              }
+            },
+            {
+              "item": {
+                "id": "magicalcropsarmour:ZivicioArmourChestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "magicalcropsarmour:ZivicioArmourLeggings"
+              }
+            },
+            {
+              "item": {
+                "id": "magicalcropsarmour:ZivicioArmourBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Nether Star Seeds",
+      "description": "To make you aware this is a thing.",
+      "x": 297,
+      "y": 37,
+      "icon": {
+        "id": "AgriCraft:seedNether Star"
+      },
+      "prerequisites": [
+        "Temperio"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedNether Star"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Electrotine Seeds",
+      "description": "To make you aware this is a thing.",
+      "x": 182,
+      "y": 77,
+      "icon": {
+        "id": "AgriCraft:seedElectrotine"
+      },
+      "prerequisites": [
+        "Imperio"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AgriCraft:seedElectrotine"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Karat Carrots",
+      "description": "Grown on ores. Enchanted version is grown on the block variant of the same ore: IE: can be grown on Gold ore and Blocks of Gold.",
+      "x": 148,
+      "y": 37,
+      "icon": {
+        "id": "kg:carrotbase"
+      },
+      "prerequisites": [
+        "Epic Baconbrotato"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "kg:carrot01ext"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "kg:carrot02ext"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "kg:carrot03ext"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "kg:carrot04ext"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "kg:carrot05ext"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "kg:carrot06ext"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "kg:carrot07ext"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

@@ -1,0 +1,72 @@
+=== Era of OPness ===::1
+If doing a one chunk challenge adjust each challenge accordingly::1
+Build a completely filled max size Reactor with gelid cryotheum and diamond blocks::0
+Break down cobblestone into gravel, sand, and dust by using Magneticraft::0
+Automate sieve ores into ingots::0
+10 10 10 all magical crop seeds and harvestcraft seeds::0
+Make all Karat Carrots::0
+Craft Sword of the Cosmos::0
+Craft World Breaker::0
+Craft Longbow of the Heavens::0
+Craft Infinity Armor::0
+Create 2 tier 7 draconic energy cores::0
+Construct the Draconic Evolution Reactor::0
+Store more power in a Mekanism power storage multiblock than the max Draconic energy Core::0
+Produce 10 billion rf/t using non-creative means::0
+Breathe on your spacestation without oxygen gear using oxygen sealers::0
+Build 2 or more max height turbines that are kept running::0
+Build a self-sustaining fusion reactor from mekanism::0
+Supply enough rf to power the Wither boss dimlet::0
+Construct the Dragon dimlet::0
+Automate glass and stone smelting::0
+Store items in a AE system that is using DSUs or Infinity chests for storage (Don't need to store every item)::0
+Surround your AE system with cloud blocks (Don't remove them)::0
+Build tier 12 Solar flux panels in a dimension that is always day and use tesseracts, dimensional transceivers, ender batteries, or quantum entangloporters to transfer the power::0
+Automate ore processing using Pulverizers and Elite Smelting Factories::0
+Open 1 stack Chance Cubes and 1 stack of Icosahedron (any before this challenge don't count and without pendents) and hope you don't die::0
+Automate moofluid milking::0
+Replace the blocks on your automatic mob farm with dark glass(or atleast the part where the mobs are killed)::0
+Use Digital Miner to dig ores in any dimension::0
+Use Open Modular Turrets to defend your bases (if mobs can spawn in that dimension)::0
+Store Power in a 5x5x5 vibrant capacitor bank::0
+Build another AE system in another dimension where you have a secure base::0
+Use OpenModularTurret's railgun to kill an Ender Dragon or a Wither::0
+Automate 20 different magical crop farms using ender io/addons farming stations or mfr harvesters/planters::0
+Use Imaginary Time Block to accelerate magical crop growth::0
+Set mfr lasers to mine the void for free ores::0
+Kill a Wither using endest pearls::0
+Kill the Gaia Guardian 4 times (any before this does not count)::0
+Kill the Chaos Guardian 8 times using the sword of cosmos::0
+Cause the Chaos Guardian to "fly" away from it's island using 2 red matter explosives::0
+Mine out an Aether dungeon entirely (except for unmineable blocks or blocks you shouldn't mine at all)::0
+Use magneticraft to fill a resonant energy cell without the creative energy block::0
+Fill an experience obelisk with 2000 levels worth of experience::0
+Make a clay golem farm::0
+Construct the Mekanism Industrial Steam Turbine::0
+Community set challenges::1
+Shadows_Assassin- Gather 1 of each mob head (Gaia head excluded)::0
+OG Arist0tle- Obtain 1 stack of Demon steel of the 11th Magnitude (without using emc)::0
+94onTTv- Produce 1 million EMC/minute::0
+Either mode counts as 100% don't need to do all three::1
+Normal mode::1
+Completed 100% of Project Ozone 2 in Normal mode::0
+Titan mode::1
+Craft the creative energy cell::0
+Craft the creative AE energy cell::0
+Craft the creative portable tank::0
+Craft the creative infinite energy and steam block from magneticraft::0
+Craft the creative turbine steam generator::0
+Craft the creative compressor::0
+Craft the creative dimension builder::0
+Completed 100% of Project Ozone 2 in Titan Mode::0
+Kappa mode::1
+Craft the creative energy cell::0
+Craft the creative AE energy cell::0
+Craft the creative portable tank::0
+Craft the creative infinite energy and steam block from magneticraft::0
+Craft the creative turbine steam generator::0
+Craft the creative compressor::0
+Craft the creative dimension builder::0
+Craft the creative Infinite oxygen from Galacticraft::0
+Completed 100% of Project Ozone 2 in Kappa Mode::0
+Thanks for playing Project Ozone 2, I hope you had fun and will play again in the future::1

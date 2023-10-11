@@ -1,0 +1,11 @@
+The following problems were encountered while loading the config files:
+stack_size.cfg 'stack_sizes' #29: The following block or item doesn't seem to exist: 'aether:valkyrieMusicDisc'.
+
+stack_size.cfg 'stack_sizes' #30: The following block or item doesn't seem to exist: 'aether:labyrinthMusicDisc'.
+
+stack_size.cfg 'stack_sizes' #31: The following block or item doesn't seem to exist: 'aether:moaMusicDisc'.
+
+stack_size.cfg 'stack_sizes' #32: The following block or item doesn't seem to exist: 'aether:aerwhaleMusicDisc'.
+
+stack_size.cfg 'stack_sizes' #33: The following block or item doesn't seem to exist: 'aether:silentFlightDisc'.
+

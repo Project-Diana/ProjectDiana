@@ -1,0 +1,14 @@
+{
+	"life":
+	{
+		"chance": 99,
+		"Message":
+		[
+			{"message":"An Extra life for all the unlucky chances!"}
+		],
+		"Item":
+		[
+			{"item":{"id":"betterquesting:extra_life","Damage":0,"Count":1}, "delay":20}
+		]
+}
+}

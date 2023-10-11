@@ -1,0 +1,9 @@
+{
+  "modes": [
+    "normal",
+    "titan",
+    "kappa"
+  ],
+  "default": "normal",
+  "common": "common"
+}

@@ -1,0 +1,10 @@
+{
+	"Ha": 
+	{
+		"chance": 65,
+		"schematic":
+		[
+			{"fileName":"ha.ccs", "falling":false, "delay":0.1, "RelativeToPlayer":false, "XOffSet":0, "YOffSet":0, "ZOffSet":0}
+		]
+	}
+}

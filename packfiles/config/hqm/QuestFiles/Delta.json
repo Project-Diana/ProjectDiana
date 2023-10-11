@@ -1,0 +1,3343 @@
+{
+  "name": "Delta",
+  "description": "Thermal Foundation/Expansion/Dynamics and Ender IO.",
+  "quests": [
+    {
+      "name": "Basic Machine Frame",
+      "description": "You won\u0027t be able to use additional augments with this frame.",
+      "x": 26,
+      "y": 9,
+      "icon": {
+        "id": "ThermalExpansion:Frame"
+      },
+      "prerequisites": [
+        "{Gamma}[Lazered Assembly]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Frame"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ]
+    },
+    {
+      "name": "Pulverization",
+      "description": "Pulverizes ores into dusts.",
+      "x": 26,
+      "y": 57,
+      "icon": {
+        "id": "ThermalExpansion:Machine",
+        "damage": 1,
+        "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:4877s,Count:1b,Damage:0s},1:{Slot:1,id:4877s,Count:1b,Damage:32s},2:{Slot:2,id:4877s,Count:1b,Damage:16s}]}"
+      },
+      "prerequisites": [
+        "Basic Machine Frame"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "A task where the player needs specific items. These do not have to be handed in, having them in one\u0027s inventory is enough.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Machine",
+                "damage": 1,
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:4385s,Count:1b,Damage:0s},1:{Slot:1,id:4385s,Count:1b,Damage:32s},2:{Slot:2,id:4385s,Count:1b,Damage:16s}]}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Hardened Machine Frame",
+      "description": "Gains 1 extra augment slot.",
+      "x": 38,
+      "y": 29,
+      "icon": {
+        "id": "ThermalExpansion:Frame",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Basic Machine Frame"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Frame",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ]
+    },
+    {
+      "name": "Reinforced Machine Frame",
+      "description": "Gains 2 extra augment slot.",
+      "x": 50,
+      "y": 48,
+      "icon": {
+        "id": "ThermalExpansion:Frame",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Hardened Machine Frame"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Frame",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ]
+    },
+    {
+      "name": "Resonant Machine Frame",
+      "description": "Gains 3 extra augment slot.",
+      "x": 61,
+      "y": 68,
+      "icon": {
+        "id": "ThermalExpansion:Frame",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Reinforced Machine Frame"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Frame",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ]
+    },
+    {
+      "name": "Lead Cell",
+      "description": "Leadstone energy frame.",
+      "x": 49,
+      "y": 9,
+      "icon": {
+        "id": "ThermalExpansion:Frame",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Basic Machine Frame"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Frame",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Hardened Cell",
+      "description": "Hardened energy frame.",
+      "x": 61,
+      "y": 28,
+      "icon": {
+        "id": "ThermalExpansion:Frame",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Lead Cell"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Frame",
+                "damage": 5
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Redstone Cell",
+      "description": "Redstone energy frame.",
+      "x": 72,
+      "y": 48,
+      "icon": {
+        "id": "ThermalExpansion:Frame",
+        "damage": 6
+      },
+      "prerequisites": [
+        "Hardened Cell"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Frame",
+                "damage": 7
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Resonant Cell",
+      "description": "Resonant energy frame.",
+      "x": 84,
+      "y": 67,
+      "icon": {
+        "id": "ThermalExpansion:Frame",
+        "damage": 8
+      },
+      "prerequisites": [
+        "Redstone Cell"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Frame",
+                "damage": 9
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Tesseract",
+      "description": "Still quite buggy due to a forge issue. Transfers items, liquids, and power.",
+      "x": 96,
+      "y": 86,
+      "icon": {
+        "id": "ThermalExpansion:Frame",
+        "damage": 10
+      },
+      "prerequisites": [
+        "Resonant Cell"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Tesseract",
+                "nbt": "{RSControl:1b,ModeEnergy:1b,ModeItems:1b,Frequency:-1,ModeFluid:1b}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Redstone Furnace",
+      "description": "A furnace that uses RF instead of burning items.",
+      "x": 26,
+      "y": 83,
+      "icon": {
+        "id": "ThermalExpansion:Machine",
+        "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:4877s,Count:1b,Damage:0s},1:{Slot:1,id:4877s,Count:1b,Damage:32s},2:{Slot:2,id:4877s,Count:1b,Damage:16s}]}"
+      },
+      "prerequisites": [
+        "Pulverization"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "A task where the player needs specific items. These do not have to be handed in, having them in one\u0027s inventory is enough.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Machine",
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:4385s,Count:1b,Damage:0s},1:{Slot:1,id:4385s,Count:1b,Damage:32s},2:{Slot:2,id:4385s,Count:1b,Damage:16s}]}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Saw Mill",
+      "description": "Processes wood logs into more wooden planks and can recycle wooden objects.",
+      "x": 26,
+      "y": 109,
+      "icon": {
+        "id": "ThermalExpansion:Machine",
+        "damage": 2,
+        "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:4877s,Count:1b,Damage:0s},1:{Slot:1,id:4877s,Count:1b,Damage:32s},2:{Slot:2,id:4877s,Count:1b,Damage:16s}]}"
+      },
+      "prerequisites": [
+        "Redstone Furnace"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "A task where the player needs specific items. These do not have to be handed in, having them in one\u0027s inventory is enough.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Machine",
+                "damage": 2,
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:4385s,Count:1b,Damage:0s},1:{Slot:1,id:4385s,Count:1b,Damage:32s},2:{Slot:2,id:4385s,Count:1b,Damage:16s}]}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Induction Smelter",
+      "description": "Used for alloying and smelting.",
+      "x": 26,
+      "y": 135,
+      "icon": {
+        "id": "ThermalExpansion:Machine",
+        "damage": 3,
+        "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:4877s,Count:1b,Damage:0s},1:{Slot:1,id:4877s,Count:1b,Damage:32s},2:{Slot:2,id:4877s,Count:1b,Damage:16s}]}"
+      },
+      "prerequisites": [
+        "Saw Mill"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "A task where the player needs specific items. These do not have to be handed in, having them in one\u0027s inventory is enough.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Machine",
+                "damage": 3,
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:4385s,Count:1b,Damage:0s},1:{Slot:1,id:4385s,Count:1b,Damage:32s},2:{Slot:2,id:4385s,Count:1b,Damage:16s}]}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Magma Crucible",
+      "description": "Melts particular items into their fluid form.",
+      "x": 26,
+      "y": 163,
+      "icon": {
+        "id": "ThermalExpansion:Machine",
+        "damage": 4,
+        "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:4877s,Count:1b,Damage:0s},1:{Slot:1,id:4877s,Count:1b,Damage:32s},2:{Slot:2,id:4877s,Count:1b,Damage:16s}]}"
+      },
+      "prerequisites": [
+        "Induction Smelter"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "A task where the player needs specific items. These do not have to be handed in, having them in one\u0027s inventory is enough.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Machine",
+                "damage": 4,
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:4385s,Count:1b,Damage:0s},1:{Slot:1,id:4385s,Count:1b,Damage:32s},2:{Slot:2,id:4385s,Count:1b,Damage:16s}]}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Fluid Transposer",
+      "description": "Processes fluids into another item for example Resonant Ender into a bucket of Resonant Ender.",
+      "x": 26,
+      "y": 190,
+      "icon": {
+        "id": "ThermalExpansion:Machine",
+        "damage": 5,
+        "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:4877s,Count:1b,Damage:0s},1:{Slot:1,id:4877s,Count:1b,Damage:32s},2:{Slot:2,id:4877s,Count:1b,Damage:16s}]}"
+      },
+      "prerequisites": [
+        "Magma Crucible"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "A task where the player needs specific items. These do not have to be handed in, having them in one\u0027s inventory is enough.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Machine",
+                "damage": 5,
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:4385s,Count:1b,Damage:0s},1:{Slot:1,id:4385s,Count:1b,Damage:32s},2:{Slot:2,id:4385s,Count:1b,Damage:16s}]}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Portable Tank",
+      "description": "Holds 8 buckets of liquid.",
+      "x": 72,
+      "y": 9,
+      "icon": {
+        "id": "ThermalExpansion:Tank",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Lead Cell"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Crafting task",
+          "longDescription": "A task where the player has to craft specific items.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Tank",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Hardened Tank",
+      "description": "Holds 32 buckets of liquid.",
+      "x": 84,
+      "y": 28,
+      "icon": {
+        "id": "ThermalExpansion:Tank",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Portable Tank"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Tank",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Reinforced Tank",
+      "description": "Holds 128 buckets of liquid.",
+      "x": 95,
+      "y": 47,
+      "icon": {
+        "id": "ThermalExpansion:Tank",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Hardened Tank"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Tank",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Resonant Tank",
+      "description": "Holds 512 buckets of liquid.",
+      "x": 106,
+      "y": 66,
+      "icon": {
+        "id": "ThermalExpansion:Tank",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Reinforced Tank"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Tank",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Machine Chassis",
+      "description": "Used for Ender IO machines.",
+      "x": 291,
+      "y": 16,
+      "icon": {
+        "id": "EnderIO:itemMachinePart"
+      },
+      "prerequisites": [
+        "{Gamma}[QED]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemMachinePart"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Glacial Extruder",
+      "description": "Produces snowballs, snow, or ice by freezing water pumped into it.",
+      "x": 49,
+      "y": 190,
+      "icon": {
+        "id": "ThermalExpansion:Machine",
+        "damage": 6,
+        "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:4877s,Count:1b,Damage:0s},1:{Slot:1,id:4877s,Count:1b,Damage:32s},2:{Slot:2,id:4877s,Count:1b,Damage:16s}]}"
+      },
+      "prerequisites": [
+        "Fluid Transposer"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "A task where the player needs specific items. These do not have to be handed in, having them in one\u0027s inventory is enough.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Machine",
+                "damage": 6,
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:4385s,Count:1b,Damage:0s},1:{Slot:1,id:4385s,Count:1b,Damage:32s},2:{Slot:2,id:4385s,Count:1b,Damage:16s}]}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "igneous Precipitator",
+      "description": "Produces cobblestone, stone, or obsidian by pumping lava and water into it.",
+      "x": 72,
+      "y": 190,
+      "icon": {
+        "id": "ThermalExpansion:Machine",
+        "damage": 7,
+        "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:4385s,Count:1b,Damage:0s},1:{Slot:1,id:4385s,Count:1b,Damage:32s},2:{Slot:2,id:4385s,Count:1b,Damage:16s}]}"
+      },
+      "prerequisites": [
+        "Glacial Extruder"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "A task where the player needs specific items. These do not have to be handed in, having them in one\u0027s inventory is enough.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Machine",
+                "damage": 7,
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:4385s,Count:1b,Damage:0s},1:{Slot:1,id:4385s,Count:1b,Damage:32s},2:{Slot:2,id:4385s,Count:1b,Damage:16s}]}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Getting Augmented",
+      "description": "Speed upgrades for TE machines.",
+      "x": 73,
+      "y": 87,
+      "icon": {
+        "id": "ThermalExpansion:augment",
+        "damage": 128
+      },
+      "prerequisites": [
+        "Resonant Machine Frame"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:augment",
+                "damage": 128
+              }
+            },
+            {
+              "item": {
+                "id": "ThermalExpansion:augment",
+                "damage": 129
+              }
+            },
+            {
+              "item": {
+                "id": "ThermalExpansion:augment",
+                "damage": 130
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "Sag Mill",
+      "description": "Produces dusts from ores put into it and #1 source of silicon.",
+      "x": 280,
+      "y": 36,
+      "icon": {
+        "id": "EnderIO:blockSagMill"
+      },
+      "prerequisites": [
+        "Machine Chassis"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockSagMill"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Alloy Smelter",
+      "description": "Acts as a normal furnace but has an added a bility to alloy up to 3 items together.",
+      "x": 269,
+      "y": 55,
+      "icon": {
+        "id": "EnderIO:blockAlloySmelter"
+      },
+      "prerequisites": [
+        "Sag Mill"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockAlloySmelter"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Double Capacitor",
+      "description": "Causes machines to work twice as fast and efficient.",
+      "x": 268,
+      "y": 16,
+      "icon": {
+        "id": "EnderIO:itemBasicCapacitor",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Machine Chassis"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "A task where the player has to craft specific items.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemBasicCapacitor",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Octadic Capacitor",
+      "description": "Causes machines to work eight times as fast and efficient.",
+      "x": 245,
+      "y": 16,
+      "icon": {
+        "id": "EnderIO:itemBasicCapacitor",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Double Capacitor"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "A task where the player has to craft specific items.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemBasicCapacitor",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Energized Alloy",
+      "description": "Alloyed using Gold, Redstone and Glowstone.",
+      "x": 291,
+      "y": 55,
+      "icon": {
+        "id": "EnderIO:itemAlloy",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Alloy Smelter"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemAlloy",
+                "damage": 1
+              },
+              "required": 12
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Vibrant Alloy",
+      "description": "Alloyed using Energetic Alloy and Ender Pearls.",
+      "x": 302,
+      "y": 75,
+      "icon": {
+        "id": "EnderIO:itemAlloy",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Energized Alloy"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemAlloy",
+                "damage": 2
+              },
+              "required": 12
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "The Vat",
+      "description": "Produces specific fluids used for Ender IO.",
+      "x": 257,
+      "y": 75,
+      "icon": {
+        "id": "EnderIO:blockVat"
+      },
+      "prerequisites": [
+        "Alloy Smelter"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockVat"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Flux Bank Tier 1",
+      "description": "A multiblockish energy storage that can cause a bit of lag if energy is constantly going in/out and if there is a lot of them.",
+      "x": 257,
+      "y": 36,
+      "icon": {
+        "id": "EnderIO:blockCapBank",
+        "damage": 1,
+        "nbt": "{type:\"SIMPLE\",storedEnergyRF:0}"
+      },
+      "prerequisites": [
+        "Double Capacitor"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "A task where the player has to craft specific items.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockCapBank",
+                "damage": 1,
+                "nbt": "{type:\"SIMPLE\",storedEnergyRF:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Flux Bank Tier 2",
+      "description": "A multiblockish energy storage that can cause a bit of lag if energy is constantly going in/out and if there is a lot of them.",
+      "x": 246,
+      "y": 55,
+      "icon": {
+        "id": "EnderIO:blockCapBank",
+        "damage": 2,
+        "nbt": "{type:\"ACTIVATED\",storedEnergyRF:0}"
+      },
+      "prerequisites": [
+        "Flux Bank Tier 1"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "A task where the player has to craft specific items.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockCapBank",
+                "damage": 2,
+                "nbt": "{type:\"ACTIVATED\",storedEnergyRF:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Flux Bank Tier 3",
+      "description": "A multiblockish energy storage that can cause a bit of lag if energy is constantly going in/out and if there is a lot of them.",
+      "x": 234,
+      "y": 74,
+      "icon": {
+        "id": "EnderIO:blockCapBank",
+        "damage": 3,
+        "nbt": "{type:\"VIBRANT\",storedEnergyRF:0}"
+      },
+      "prerequisites": [
+        "Flux Bank Tier 2"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "A task where the player has to craft specific items.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockCapBank",
+                "damage": 3,
+                "nbt": "{type:\"VIBRANT\",storedEnergyRF:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Enchanter",
+      "description": "A better enchanting table that allows you to pick the enchants you want with a price.",
+      "x": 186,
+      "y": 15,
+      "icon": {
+        "id": "EnderIO:blockEnchanter"
+      },
+      "prerequisites": [
+        "{Alpha}[Enchanting Table]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockEnchanter"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Photo Cell I",
+      "description": "Collects sunlight to produce power.",
+      "x": 234,
+      "y": 36,
+      "icon": {
+        "id": "EnderIO:blockSolarPanel"
+      },
+      "prerequisites": [
+        "Octadic Capacitor"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockSolarPanel"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Photo Cell II",
+      "description": "Collects sunlight to produce power.",
+      "x": 223,
+      "y": 55,
+      "icon": {
+        "id": "EnderIO:blockSolarPanel",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Photo Cell I"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockSolarPanel",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Electrical Alloy",
+      "description": "Alloyed using Iron, Silicon and Pulverized Coal.",
+      "x": 291,
+      "y": 95,
+      "icon": {
+        "id": "EnderIO:itemAlloy"
+      },
+      "prerequisites": [
+        "Vibrant Alloy"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemAlloy"
+              },
+              "required": 12
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Pulsating Iron",
+      "description": "Alloyed using Iron and Ender Pearl.",
+      "x": 302,
+      "y": 115,
+      "icon": {
+        "id": "EnderIO:itemAlloy",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Electrical Alloy"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemAlloy",
+                "damage": 5
+              },
+              "required": 12
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Dark Steel",
+      "description": "Alloyed using Iron, Obsidian and Pulverized Coal.",
+      "x": 290,
+      "y": 134,
+      "icon": {
+        "id": "EnderIO:itemAlloy",
+        "damage": 6
+      },
+      "prerequisites": [
+        "Pulsating Iron"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemAlloy",
+                "damage": 6
+              },
+              "required": 12
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Soul-Infused Alloy",
+      "description": "Alloyed using Soul Sand and Gold.",
+      "x": 301,
+      "y": 154,
+      "icon": {
+        "id": "EnderIO:itemAlloy",
+        "damage": 7
+      },
+      "prerequisites": [
+        "Dark Steel"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemAlloy",
+                "damage": 7
+              },
+              "required": 12
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Dimensional Transciever",
+      "description": "Transfers items, liquids, and power.",
+      "x": 222,
+      "y": 93,
+      "icon": {
+        "id": "EnderIO:blockTransceiver"
+      },
+      "prerequisites": [
+        "Flux Bank Tier 3"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockTransceiver"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Slice\u0027N\u0027Splice",
+      "description": "Produces special mob heads using specific mob heads and the durability of an axe and shears.",
+      "x": 280,
+      "y": 75,
+      "icon": {
+        "id": "EnderIO:blockSliceAndSplice"
+      },
+      "prerequisites": [
+        "Alloy Smelter"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockSliceAndSplice"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:skull",
+          "damage": 2
+        },
+        {
+          "id": "EnderIO:blockEndermanSkull"
+        },
+        {
+          "id": "minecraft:skull"
+        },
+        {
+          "id": "minecraft:skull",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Soul Binder",
+      "description": "Produces Ender IOs crystals using mob souls and XP.",
+      "x": 268,
+      "y": 95,
+      "icon": {
+        "id": "EnderIO:blockSoulBinder"
+      },
+      "prerequisites": [
+        "Slice\u0027N\u0027Splice"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockSoulBinder"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Enchanted Crystals",
+      "description": "Crystal made from the Soul Binder.",
+      "x": 290,
+      "y": 174,
+      "icon": {
+        "id": "EnderIO:itemMaterial",
+        "damage": 9
+      },
+      "prerequisites": [
+        "Soul-Infused Alloy"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemMaterial",
+                "damage": 5
+              }
+            },
+            {
+              "item": {
+                "id": "EnderIO:itemMaterial",
+                "damage": 6
+              }
+            },
+            {
+              "item": {
+                "id": "EnderIO:itemMaterial",
+                "damage": 8
+              }
+            },
+            {
+              "item": {
+                "id": "EnderIO:itemMaterial",
+                "damage": 9
+              }
+            },
+            {
+              "item": {
+                "id": "EnderIO:itemMaterial",
+                "damage": 10
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Tormented Heads",
+      "description": "Special skulls made from the Slice\u0027N\u0027Splice.",
+      "x": 301,
+      "y": 194,
+      "icon": {
+        "id": "EnderIO:itemFrankenSkull",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Enchanted Crystals"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemFrankenSkull"
+              }
+            },
+            {
+              "item": {
+                "id": "EnderIO:itemFrankenSkull",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "EnderIO:itemFrankenSkull",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "EnderIO:itemFrankenSkull",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "EnderIO:itemFrankenSkull",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Wireless Charger",
+      "description": "Charges RF based tools for about 10k blocks, at least it should be that wide.",
+      "x": 210,
+      "y": 112,
+      "icon": {
+        "id": "EnderIO:blockWirelessCharger"
+      },
+      "prerequisites": [
+        "Dimensional Transciever"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "A task where the player has to craft specific items.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockWirelessCharger"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Reservoir",
+      "description": "Two buckets of water makes this an infinite water source.",
+      "x": 222,
+      "y": 16,
+      "icon": {
+        "id": "EnderIO:blockReservoir"
+      },
+      "prerequisites": [
+        "Machine Chassis"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockReservoir"
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Invar",
+      "description": "Alloyed using Ferrous/Nickel and Iron.",
+      "x": 49,
+      "y": 83,
+      "icon": {
+        "id": "ThermalFoundation:material",
+        "damage": 72
+      },
+      "prerequisites": [
+        "Redstone Furnace"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 72
+              },
+              "required": 12
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Tinkers\u0027 Alloy",
+      "description": "Alloyed using Tin and Copper.",
+      "x": 49,
+      "y": 111,
+      "icon": {
+        "id": "ThermalFoundation:material",
+        "damage": 73
+      },
+      "prerequisites": [
+        "Invar"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 73
+              },
+              "required": 12,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Electrum",
+      "description": "Alloyed using Gold and Silver.",
+      "x": 49,
+      "y": 137,
+      "icon": {
+        "id": "ThermalFoundation:material",
+        "damage": 71
+      },
+      "prerequisites": [
+        "Tinkers\u0027 Alloy"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 71
+              },
+              "required": 12,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Signal Ingot",
+      "description": "Alloyed using Redstone, silver, and Copper.",
+      "x": 49,
+      "y": 164,
+      "icon": {
+        "id": "ThermalFoundation:material",
+        "damage": 74
+      },
+      "prerequisites": [
+        "Electrum"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 74
+              },
+              "required": 12
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Lumium",
+      "description": "Alloyed using Glowstone, Tin, and Silver.",
+      "x": 72,
+      "y": 164,
+      "icon": {
+        "id": "ThermalFoundation:material",
+        "damage": 75
+      },
+      "prerequisites": [
+        "Signal Ingot"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 75
+              },
+              "required": 12
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Enderium",
+      "description": "Alloyed using Platinum/Shiny, Resonant Ender, Tin and Silver.",
+      "x": 95,
+      "y": 164,
+      "icon": {
+        "id": "ThermalFoundation:material",
+        "damage": 76
+      },
+      "prerequisites": [
+        "Lumium"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 76
+              },
+              "required": 12
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Leadstone Jetpack",
+      "description": "Tier 1 Thermal Expansion based Jetpack.",
+      "x": 72,
+      "y": 111,
+      "icon": {
+        "id": "simplyjetpacks:jetpacks",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Invar"
+      ],
+      "optionlinks": [
+        "Conductive Jetpack"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "simplyjetpacks:jetpacks",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "Hardened Jetpack",
+      "description": "Tier 2 Thermal Expansion based Jetpack.",
+      "x": 73,
+      "y": 137,
+      "icon": {
+        "id": "simplyjetpacks:jetpacks",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Leadstone Jetpack"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "simplyjetpacks:jetpacks",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "Reinforced Jetpack",
+      "description": "Tier 3 Thermal Expansion based Jetpack.",
+      "x": 96,
+      "y": 137,
+      "icon": {
+        "id": "simplyjetpacks:jetpacks",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Hardened Jetpack"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "simplyjetpacks:jetpacks",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "Resonant Jetpack",
+      "description": "Tier 4 Thermal Expansion based Jetpack.",
+      "x": 95,
+      "y": 111,
+      "icon": {
+        "id": "simplyjetpacks:jetpacks",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Reinforced Jetpack"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "simplyjetpacks:jetpacks",
+                "damage": 4
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "Flux-Infused Jetplate",
+      "description": "Top-tier Thermal Expansion based Jetplate.",
+      "x": 118,
+      "y": 111,
+      "icon": {
+        "id": "simplyjetpacks:jetpacks",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Resonant Jetpack"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "simplyjetpacks:jetpacks",
+                "damage": 5
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Conductive Jetpack",
+      "description": "Tier 1 Ender IO based Jetpack.",
+      "x": 211,
+      "y": 36,
+      "icon": {
+        "id": "simplyjetpacks:jetpacksEIO",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Flux Bank Tier 1"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "simplyjetpacks:jetpacksEIO",
+                "damage": 1
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "Electrical Jetpack",
+      "description": "Tier 2 Ender IO based Jetpack.",
+      "x": 188,
+      "y": 49,
+      "icon": {
+        "id": "simplyjetpacks:jetpacksEIO",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Conductive Jetpack"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "simplyjetpacks:jetpacksEIO",
+                "damage": 2
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "Energized Jetpack",
+      "description": "Tier 3 Ender IO based Jetpack.",
+      "x": 187,
+      "y": 75,
+      "icon": {
+        "id": "simplyjetpacks:jetpacksEIO",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Electrical Jetpack"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "simplyjetpacks:jetpacksEIO",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "Vibrant Jetpack",
+      "description": "Tier 4 Ender IO based Jetpack.",
+      "x": 187,
+      "y": 102,
+      "icon": {
+        "id": "simplyjetpacks:jetpacksEIO",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Energized Jetpack"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "simplyjetpacks:jetpacksEIO",
+                "damage": 4
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "Dark-Infused Jetplate",
+      "description": "Top-tier Ender IO based Jetplate.",
+      "x": 187,
+      "y": 130,
+      "icon": {
+        "id": "simplyjetpacks:jetpacksEIO",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Vibrant Jetpack"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "simplyjetpacks:jetpacksEIO",
+                "damage": 5
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Glowstonic Ingot",
+      "description": "Alloyed using Electrical Steeland Glowstone.",
+      "x": 279,
+      "y": 114,
+      "icon": {
+        "id": "Redstonic:ingotGlowSteel"
+      },
+      "prerequisites": [
+        "Electrical Alloy"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Redstonic:ingotGlowSteel"
+              },
+              "required": 12
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Vibrantium",
+      "description": "Alloyed using Enticing Crystals, Vibrant Alloy and Soularium.",
+      "x": 267,
+      "y": 133,
+      "icon": {
+        "id": "Redstonic:Vibrantium"
+      },
+      "prerequisites": [
+        "Glowstonic Ingot"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Redstonic:Vibrantium"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Phytogenetic Insolation",
+      "description": "Can Produce more crops with RF, Sunlight, and Fertilizer/ Rich Fertilizer.",
+      "x": 95,
+      "y": 190,
+      "icon": {
+        "id": "ThermalExpansion:Machine",
+        "damage": 11,
+        "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:4385s,Count:1b,Damage:0s},1:{Slot:1,id:4385s,Count:1b,Damage:32s},2:{Slot:2,id:4385s,Count:1b,Damage:16s}]}"
+      },
+      "prerequisites": [
+        "igneous Precipitator"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "A task where the player needs specific items. These do not have to be handed in, having them in one\u0027s inventory is enough.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Machine",
+                "damage": 11,
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:4385s,Count:1b,Damage:0s},1:{Slot:1,id:4385s,Count:1b,Damage:32s},2:{Slot:2,id:4385s,Count:1b,Damage:16s}]}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "CONNNNNN!",
+      "description": "Conduits that can be fitted into one block space up to 5.",
+      "x": 303,
+      "y": 36,
+      "icon": {
+        "id": "EnderIO:itemItemConduit"
+      },
+      "prerequisites": [
+        "Machine Chassis"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemPowerConduit"
+              }
+            },
+            {
+              "item": {
+                "id": "EnderIO:itemPowerConduit",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "EnderIO:itemPowerConduit",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "EnderIO:itemItemConduit"
+              }
+            },
+            {
+              "item": {
+                "id": "EnderIO:itemLiquidConduit"
+              }
+            },
+            {
+              "item": {
+                "id": "EnderIO:itemLiquidConduit",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "EnderIO:itemLiquidConduit",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "XP Obelisk",
+      "description": "Stores large amounts of experience.",
+      "x": 256,
+      "y": 113,
+      "icon": {
+        "id": "EnderIO:blockExperienceObelisk"
+      },
+      "prerequisites": [
+        "Soul Binder"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockExperienceObelisk"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "TConstruct:oreBerries",
+          "damage": 5,
+          "amount": 4
+        },
+        {
+          "id": "minecraft:experience_bottle",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Weather Obelisk",
+      "description": "Weather manipulation.",
+      "x": 244,
+      "y": 133,
+      "icon": {
+        "id": "EnderIO:blockWeatherObelisk"
+      },
+      "prerequisites": [
+        "XP Obelisk"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockWeatherObelisk"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Leadstone Fluxduct",
+      "description": "2000 RF transfer rate.",
+      "x": 95,
+      "y": 9,
+      "icon": {
+        "id": "ThermalDynamics:ThermalDynamics_0"
+      },
+      "prerequisites": [
+        "Portable Tank"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalDynamics:ThermalDynamics_0"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Hardened Fluxduct",
+      "description": "8000 RF transfer rate.",
+      "x": 107,
+      "y": 28,
+      "icon": {
+        "id": "ThermalDynamics:ThermalDynamics_0",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Leadstone Fluxduct"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalDynamics:ThermalDynamics_0",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Redstone Fluxduct",
+      "description": "80000 RF transfer rate.",
+      "x": 118,
+      "y": 47,
+      "icon": {
+        "id": "ThermalDynamics:ThermalDynamics_0",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Hardened Fluxduct"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalDynamics:ThermalDynamics_0",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Resonant Fluxduct",
+      "description": "320000 RF transfer rate.",
+      "x": 129,
+      "y": 66,
+      "icon": {
+        "id": "ThermalDynamics:ThermalDynamics_0",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Redstone Fluxduct"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalDynamics:ThermalDynamics_0",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Cryo-Stabilized Fluxduct",
+      "description": "Infinite RF transfer rate.",
+      "x": 140,
+      "y": 86,
+      "icon": {
+        "id": "ThermalDynamics:ThermalDynamics_0",
+        "damage": 6
+      },
+      "prerequisites": [
+        "Resonant Fluxduct"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalDynamics:ThermalDynamics_0",
+                "damage": 6
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ]
+    },
+    {
+      "name": "Flux-Infused Electrum",
+      "description": "Alloyed using Electrum, Pyrotheum and Redstone.",
+      "x": 118,
+      "y": 164,
+      "icon": {
+        "id": "RedstoneArsenal:material",
+        "damage": 32
+      },
+      "prerequisites": [
+        "Enderium"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "RedstoneArsenal:material",
+                "damage": 32
+              },
+              "required": 12
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Flux Crystal",
+      "description": "Acrystal made from adding Redstone to a Diamond.",
+      "x": 141,
+      "y": 164,
+      "icon": {
+        "id": "RedstoneArsenal:material",
+        "damage": 96
+      },
+      "prerequisites": [
+        "Flux-Infused Electrum"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "RedstoneArsenal:material",
+                "damage": 96
+              },
+              "required": 6
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

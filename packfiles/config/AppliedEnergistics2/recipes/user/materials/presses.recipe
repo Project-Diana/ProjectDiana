@@ -1,0 +1,15 @@
+press=
+    oredictionary:blockIron minecraft:gold_block
+    -> ae2:ItemMaterial.LogicProcessorPress
+
+press=
+    oredictionary:blockIron appliedenergistics2:tile.BlockQuartz
+    -> ae2:ItemMaterial.CalcProcessorPress
+
+press=
+    oredictionary:blockIron minecraft:diamond_block
+    -> ae2:ItemMaterial.EngProcessorPress
+
+press=
+    oredictionary:blockIron EnderIO:itemMaterial
+    -> ae2:ItemMaterial.SiliconPress

@@ -1,0 +1,1874 @@
+{
+  "name": "Zeta",
+  "description": "SolarFlux, QuantumFlux, and Minefactory Reloaded.",
+  "quests": [
+    {
+      "name": "SolarFlux Panel 1",
+      "description": "Generator that runs off of sunlight.",
+      "x": 54,
+      "y": 36,
+      "icon": {
+        "id": "SolarFlux:solar1"
+      },
+      "prerequisites": [
+        "{Alpha}[Carbide]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "SolarFlux:solar1"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ]
+    },
+    {
+      "name": "SolarFlux Panel 2",
+      "description": "Generator that runs off of sunlight. Increased energy generation rate, internal energy storage, and faster energy transfer rate than the last tier.",
+      "x": 77,
+      "y": 36,
+      "icon": {
+        "id": "SolarFlux:solar2"
+      },
+      "prerequisites": [
+        "SolarFlux Panel 1"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "SolarFlux:solar2"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "SolarFlux Panel 3",
+      "description": "Generator that runs off of sunlight. Increased energy generation rate, internal energy storage, and faster energy transfer rate than the last tier.",
+      "x": 100,
+      "y": 36,
+      "icon": {
+        "id": "SolarFlux:solar3"
+      },
+      "prerequisites": [
+        "SolarFlux Panel 2"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "SolarFlux:solar3"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "SolarFlux Panel 4",
+      "description": "Generator that runs off of sunlight. Increased energy generation rate, internal energy storage, and faster energy transfer rate than the last tier.",
+      "x": 111,
+      "y": 55,
+      "icon": {
+        "id": "SolarFlux:solar4"
+      },
+      "prerequisites": [
+        "SolarFlux Panel 3"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "SolarFlux:solar4"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "SolarFlux Panel 5",
+      "description": "Generator that runs off of sunlight. Increased energy generation rate, internal energy storage, and faster energy transfer rate than the last tier.",
+      "x": 112,
+      "y": 81,
+      "icon": {
+        "id": "SolarFlux:solar5"
+      },
+      "prerequisites": [
+        "SolarFlux Panel 4"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "SolarFlux:solar5"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "SolarFlux Panel 6",
+      "description": "Generator that runs off of sunlight. Increased energy generation rate, internal energy storage, and faster energy transfer rate than the last tier.",
+      "x": 101,
+      "y": 101,
+      "icon": {
+        "id": "SolarFlux:solar6"
+      },
+      "prerequisites": [
+        "SolarFlux Panel 5"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "SolarFlux:solar6"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "SolarFlux Panel 7",
+      "description": "Generator that runs off of sunlight. Increased energy generation rate, internal energy storage, and faster energy transfer rate than the last tier.",
+      "x": 78,
+      "y": 102,
+      "icon": {
+        "id": "SolarFlux:solar7"
+      },
+      "prerequisites": [
+        "SolarFlux Panel 6"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "SolarFlux:solar7"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "SolarFlux Panel 8",
+      "description": "Generator that runs off of sunlight. Increased energy generation rate, internal energy storage, and faster energy transfer rate than the last tier.",
+      "x": 55,
+      "y": 102,
+      "icon": {
+        "id": "SolarFlux:solar8"
+      },
+      "prerequisites": [
+        "SolarFlux Panel 7"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "SolarFlux:solar8"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "SolarFlux Panel 9",
+      "description": "Generator that runs off of sunlight. Increased energy generation rate, internal energy storage, and faster energy transfer rate than the last tier.",
+      "x": 42,
+      "y": 83,
+      "icon": {
+        "id": "SolarFlux:solar9"
+      },
+      "prerequisites": [
+        "SolarFlux Panel 8"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "SolarFlux:solar9"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "SolarFlux Panel 10",
+      "description": "Generator that runs off of sunlight. Increased energy generation rate, internal energy storage, and faster energy transfer rate than the last tier.",
+      "x": 43,
+      "y": 57,
+      "icon": {
+        "id": "SolarFlux:solar10"
+      },
+      "prerequisites": [
+        "SolarFlux Panel 9"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "SolarFlux:solar10"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "SolarFlux Panel 11",
+      "description": "Generator that runs off of sunlight. Increased energy generation rate, internal energy storage, and faster energy transfer rate than the last tier.",
+      "x": 76,
+      "y": 69,
+      "icon": {
+        "id": "SolarFlux:solar11"
+      },
+      "prerequisites": [
+        "SolarFlux Panel 10"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Wonder why it stops at 11 hmmm.",
+          "items": [
+            {
+              "item": {
+                "id": "SolarFlux:solar11"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Sacred Rubber",
+      "description": "Chop down rubber trees to gain rubber in order to smelt into plastic.",
+      "x": 272,
+      "y": 19,
+      "icon": {
+        "id": "MineFactoryReloaded:rubberwood.sapling",
+        "damage": 3
+      },
+      "prerequisites": [
+        "{Delta}[Octadic Capacitor]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Warning: Certain rubber saplings can grow really large, some to the point where the game will freeze for awhile before resuming.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:rubber.raw"
+              }
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:rubber.bar"
+              }
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:plastic.raw"
+              }
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:plastic.sheet"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Precision Hammer",
+      "description": "Works like a wrench from other mods but this can allow you to see the area some MFR machines are working on.",
+      "x": 260,
+      "y": 39,
+      "icon": {
+        "id": "MineFactoryReloaded:hammer"
+      },
+      "prerequisites": [
+        "Sacred Rubber"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:hammer"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Lava Just Slitherin in",
+      "description": "Generates lava when given power.",
+      "x": 237,
+      "y": 39,
+      "icon": {
+        "id": "MineFactoryReloaded:machine.1",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Precision Hammer"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.1",
+                "damage": 5
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Plant Everything",
+      "description": "Plants crops.",
+      "x": 214,
+      "y": 39,
+      "icon": {
+        "id": "MineFactoryReloaded:machine.0"
+      },
+      "prerequisites": [
+        "Precision Hammer"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.0"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "The Harvest",
+      "description": "Harvests crops. Often used with Planter.",
+      "x": 191,
+      "y": 39,
+      "icon": {
+        "id": "MineFactoryReloaded:machine.0",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Precision Hammer"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.0",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Sludge Boiler",
+      "description": "Produces some useful blocks such as clay after receiving sludge from harvesters. Warning: when active sludgeboiler poisons you.",
+      "x": 168,
+      "y": 39,
+      "icon": {
+        "id": "MineFactoryReloaded:machine.0",
+        "damage": 9
+      },
+      "prerequisites": [
+        "The Harvest"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.0",
+                "damage": 9
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Grinding Away",
+      "description": "When supplied with energy, it will kill any mobs in an area 5x5x4 in front of it, producing mob essence each time.",
+      "x": 225,
+      "y": 59,
+      "icon": {
+        "id": "MineFactoryReloaded:machine.0",
+        "damage": 13
+      },
+      "prerequisites": [
+        "Precision Hammer"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.0",
+                "damage": 13
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Slaughterhouse",
+      "description": "Harvest any mob in a 5x5x4m area in front of it and turn it into Meat and Pink Slime.",
+      "x": 187,
+      "y": 83,
+      "icon": {
+        "id": "MineFactoryReloaded:machine.1",
+        "damage": 13
+      },
+      "prerequisites": [
+        "Grinding Away"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.1",
+                "damage": 13
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Pink Slime",
+      "description": "Produced from the slaughterhouse.",
+      "x": 164,
+      "y": 83,
+      "icon": {
+        "id": "MineFactoryReloaded:pinkslime",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Slaughterhouse"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:pinkslime",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Pre Charger",
+      "description": "The Laser Drill Precharger is used to power the Laser Drill. On its own it is useless.",
+      "x": 164,
+      "y": 110,
+      "icon": {
+        "id": "MineFactoryReloaded:machine.2",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Pink Slime"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.2",
+                "damage": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Lazor Drill",
+      "description": "Drill into the void for free ores. Can obtain specific types of ores by using a Laser drill lens of a specific color.",
+      "x": 141,
+      "y": 110,
+      "icon": {
+        "id": "MineFactoryReloaded:machine.2"
+      },
+      "prerequisites": [
+        "Pre Charger"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.2"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Deep Storage",
+      "description": "Store mass amounts of one item.",
+      "x": 248,
+      "y": 58,
+      "icon": {
+        "id": "MineFactoryReloaded:machine.1",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Precision Hammer"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "SimpleLabels:label"
+              }
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.1",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Solar Upgraded",
+      "description": "Upgrades for solar flux panels.",
+      "x": 54,
+      "y": 10,
+      "icon": {
+        "id": "SolarFlux:upgradeBlank"
+      },
+      "prerequisites": [
+        "SolarFlux Panel 1"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "SolarFlux:upgradeTransferRate"
+              }
+            },
+            {
+              "item": {
+                "id": "SolarFlux:upgradeTraversal"
+              }
+            },
+            {
+              "item": {
+                "id": "SolarFlux:upgradeCapacity"
+              }
+            },
+            {
+              "item": {
+                "id": "SolarFlux:upgradeFurnace"
+              }
+            },
+            {
+              "item": {
+                "id": "SolarFlux:upgradeLowLight"
+              }
+            },
+            {
+              "item": {
+                "id": "SolarFlux:upgradeEfficiency"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Mangalloy",
+      "description": "Steel around redstone.",
+      "x": 260,
+      "y": 78,
+      "icon": {
+        "id": "quantumflux:mangalloyIngot"
+      },
+      "prerequisites": [
+        "Precision Hammer"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "quantumflux:mangalloyIngot"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Amp",
+      "description": "Quantum component.",
+      "x": 247,
+      "y": 97,
+      "icon": {
+        "id": "quantumflux:amplificationCrystal"
+      },
+      "prerequisites": [
+        "Mangalloy"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "quantumflux:amplificationCrystal"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "ZBQ-7",
+      "description": "Quantum component.",
+      "x": 235,
+      "y": 117,
+      "icon": {
+        "id": "quantumflux:zbq7"
+      },
+      "prerequisites": [
+        "Amp"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "quantumflux:zbq7"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Quibit Crystal",
+      "description": "Quantum component.",
+      "x": 223,
+      "y": 136,
+      "icon": {
+        "id": "quantumflux:quibitCrystal"
+      },
+      "prerequisites": [
+        "ZBQ-7"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "quantumflux:quibitCrystal"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Energized Crystal",
+      "description": "Quantum component.",
+      "x": 234,
+      "y": 156,
+      "icon": {
+        "id": "quantumflux:energizedCrystal"
+      },
+      "prerequisites": [
+        "Quibit Crystal"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "quantumflux:energizedCrystal"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Fabrication",
+      "description": "Used for other crafting components.",
+      "x": 211,
+      "y": 156,
+      "icon": {
+        "id": "quantumflux:itemFabricator"
+      },
+      "prerequisites": [
+        "Energized Crystal"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "quantumflux:itemFabricator"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Advance Circuit",
+      "description": "Quantum component.",
+      "x": 199,
+      "y": 175,
+      "icon": {
+        "id": "quantumflux:advancedCircuit"
+      },
+      "prerequisites": [
+        "Fabrication"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "quantumflux:advancedCircuit"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Power Stash I",
+      "description": "Power storage.",
+      "x": 258,
+      "y": 117,
+      "icon": {
+        "id": "quantumflux:quibitCluster"
+      },
+      "prerequisites": [
+        "Fabrication"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "quantumflux:quibitCluster"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Power Stash II",
+      "description": "Power storage.",
+      "x": 270,
+      "y": 98,
+      "icon": {
+        "id": "quantumflux:quibitCluster",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Power Stash I"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "quantumflux:quibitCluster",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Power Stash III",
+      "description": "Power storage.",
+      "x": 293,
+      "y": 97,
+      "icon": {
+        "id": "quantumflux:quibitCluster",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Power Stash II"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "quantumflux:quibitCluster",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Power Stash IV",
+      "description": "Power storage.",
+      "x": 304,
+      "y": 116,
+      "icon": {
+        "id": "quantumflux:quibitCluster",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Power Stash III"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "quantumflux:quibitCluster",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Power Stash V",
+      "description": "Power storage. Can transfer infinite amopunt of RF.",
+      "x": 293,
+      "y": 136,
+      "icon": {
+        "id": "quantumflux:quibitCluster",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Power Stash IV"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "quantumflux:quibitCluster",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Quantum Storage SSD",
+      "description": "Storage Component for the storehouse.",
+      "x": 210,
+      "y": 195,
+      "icon": {
+        "id": "quantumflux:quantumDisk"
+      },
+      "prerequisites": [
+        "Advance Circuit"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "quantumflux:quantumDisk"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Store House",
+      "x": 233,
+      "y": 195,
+      "icon": {
+        "id": "quantumflux:storehouse"
+      },
+      "prerequisites": [
+        "Quantum Storage SSD"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "quantumflux:storehouse"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Imaginary Crop Growth",
+      "description": "Supply power to this and pretty much grow crops instantly.",
+      "x": 245,
+      "y": 176,
+      "icon": {
+        "id": "quantumflux:imaginaryTime"
+      },
+      "prerequisites": [
+        "Energized Crystal"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "quantumflux:imaginaryTime"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Eviscerator",
+      "description": "Dig all the things except this thing is kind of slow.",
+      "x": 176,
+      "y": 175,
+      "icon": {
+        "id": "quantumflux:eviscerator",
+        "nbt": "{Energy:0}"
+      },
+      "prerequisites": [
+        "Advance Circuit"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "quantumflux:eviscerator",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Power Armor mk1",
+      "description": "Tough armor.",
+      "x": 153,
+      "y": 175,
+      "icon": {
+        "id": "quantumflux:battlesuit_helmet",
+        "nbt": "{Energy:0}"
+      },
+      "prerequisites": [
+        "Eviscerator"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "quantumflux:battlesuit_helmet",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "quantumflux:battlesuit_chestplate",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "quantumflux:battlesuit_leggings",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "quantumflux:battlesuit_boots",
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Needing an Upgrade",
+      "description": "Quantum component.",
+      "x": 142,
+      "y": 155,
+      "icon": {
+        "id": "quantumflux:upgradeToken"
+      },
+      "prerequisites": [
+        "Power Armor mk1"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "quantumflux:upgradeToken"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "Power Armor mk2",
+      "description": "Regular mobs won\u0027t be killing you with this armor.",
+      "x": 119,
+      "y": 155,
+      "icon": {
+        "id": "quantumflux:battlesuit_helmet",
+        "damage": 1,
+        "nbt": "{Energy:100000}"
+      },
+      "prerequisites": [
+        "Needing an Upgrade"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "quantumflux:battlesuit_helmet",
+                "damage": 1,
+                "nbt": "{Energy:100000}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "quantumflux:battlesuit_chestplate",
+                "damage": 1,
+                "nbt": "{Energy:100000}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "quantumflux:battlesuit_leggings",
+                "damage": 1,
+                "nbt": "{Energy:100000}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "quantumflux:battlesuit_boots",
+                "damage": 1,
+                "nbt": "{Energy:100000}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

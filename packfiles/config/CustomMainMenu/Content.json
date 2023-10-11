@@ -1,0 +1,112 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "modpack:textures/gui/ProjectOzone2Logo.png",
+            "posX" : -180,
+            "posY" : -60,
+            "width" : 300,
+            "height" : 300,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {	
+		"mainmenu":
+		{
+			"text" : "Main Menu",
+			"posX" : -70,
+            "posY" : 72,
+            "width" : 128,
+            "height" : 20,
+            "texture" : "modpack:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "openGui",
+				"gui" : "custom.mainmenu"
+			}
+		},
+		
+		"twitch":
+		{
+			"text" : "OG_Arist0tle",
+			"posX" : -70,
+            "posY" : 92,
+            "width" : 128,
+            "height" : 20,
+            "texture" : "modpack:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "https://www.twitch.tv/og_arist0tle/"
+			}
+		},
+		
+	    "twitch2":
+		{
+			"text" : "TheCazadorSniper",
+			"posX" : -70,
+            "posY" : 114,
+            "width" : 128,
+            "height" : 20,
+            "texture" : "modpack:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "https://www.twitch.tv/thecazadorsniper/"
+			}
+		},
+		
+		
+	    "Bandcamp":
+		{
+			"text" : "DjQuads",
+			"posX" : -70,
+            "posY" : 136,
+            "width" : 128,
+            "height" : 20,
+            "texture" : "modpack:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "https://djquads.bandcamp.com/"
+			}
+		
+    }
+},
+	
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : 2,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -55,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+         "panorama":
+        {
+            "images" : "sky:textures/gui/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : false,
+            "gradient" : false
+        }
+    }
+}

@@ -1,0 +1,1642 @@
+{
+  "name": "Iota",
+  "description": "Big Reactors and Galacticraft.",
+  "quests": [
+    {
+      "name": "Minimum Reactor",
+      "description": "A multiblock that produces LOADS of power.",
+      "x": 18,
+      "y": 18,
+      "icon": {
+        "id": "BigReactors:BRReactorPart",
+        "damage": 1
+      },
+      "prerequisites": [
+        "{Epsilon}[Demon Steel Tier 1]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Minimum size: 3x3x3 Maximum size: 32x48x32 ",
+          "items": [
+            {
+              "item": {
+                "id": "BigReactors:BRIngot"
+              },
+              "required": 64,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "BigReactors:BRReactorPart",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "BigReactors:BRReactorPart",
+                "damage": 4
+              }
+            },
+            {
+              "item": {
+                "id": "BigReactors:BRReactorPart",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "BigReactors:YelloriumFuelRod"
+              }
+            },
+            {
+              "item": {
+                "id": "BigReactors:BRReactorPart",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "BigReactors:BRReactorPart"
+              },
+              "required": 22
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Cyanite",
+      "description": "A byproduct when yellorium is processed through the Big Reactor.",
+      "x": 50,
+      "y": 18,
+      "icon": {
+        "id": "BigReactors:BRIngot",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Minimum Reactor"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "BigReactors:BRIngot",
+                "damage": 1
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "Steam Processing",
+      "description": "Causes a big reactor to become actively cooled ready to supply steam for the Turbine.",
+      "x": 18,
+      "y": 45,
+      "icon": {
+        "id": "BigReactors:BRReactorPart",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Minimum Reactor"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "BigReactors:BRReactorPart",
+                "damage": 5
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "Poisonous Reprocessing",
+      "description": "Reprocess Cyanite into Blutonium using water.",
+      "x": 81,
+      "y": 18,
+      "icon": {
+        "id": "BigReactors:BRDevice"
+      },
+      "prerequisites": [
+        "Cyanite"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "BigReactors:BRDevice"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Reprocessed",
+      "description": "Reprocessed ingots that is usually used to begin construction of a Turbine.",
+      "x": 109,
+      "y": 18,
+      "icon": {
+        "id": "BigReactors:BRIngot",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Poisonous Reprocessing"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "BigReactors:BRIngot",
+                "damage": 3
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "Ludicrite Block",
+      "description": "Used for Turbines.",
+      "x": 109,
+      "y": 48,
+      "icon": {
+        "id": "BigReactors:BRMetalBlock",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Reprocessed"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "BigReactors:BRMetalBlock",
+                "damage": 4
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Turbine At The Ready",
+      "description": "The T2 multiblock that produces LOADS of power, but it can explode if kept over speed for too long.",
+      "x": 139,
+      "y": 18,
+      "icon": {
+        "id": "BigReactors:BRTurbinePart",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Reprocessed"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Minimum size: 5x5x5 (I think) Maximum size: 15x32x15",
+          "items": [
+            {
+              "item": {
+                "id": "BigReactors:BRTurbinePart",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "BigReactors:BRTurbinePart",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "BigReactors:BRTurbinePart",
+                "damage": 4
+              }
+            },
+            {
+              "item": {
+                "id": "BigReactors:BRTurbinePart",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "BigReactors:BRTurbineRotorPart",
+                "damage": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "BigReactors:BRTurbineRotorPart"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "BigReactors:BRTurbinePart"
+              },
+              "required": 49
+            },
+            {
+              "item": {
+                "id": "BigReactors:BRMultiblockGlass",
+                "damage": 1
+              },
+              "required": 29
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Circuit Wafers",
+      "description": "The Circuit Fabricator is a machine block that is used to produce the Blue Solar Wafer, Basic Wafer and the Advanced Wafer.",
+      "x": 235,
+      "y": 75,
+      "icon": {
+        "id": "GalacticraftCore:tile.machine2",
+        "damage": 4
+      },
+      "prerequisites": [
+        "{Epsilon}[Solar Panel]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.machine2",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Tier 3 Rocket To Extra Planets",
+      "description": "Must use Explosives to take down this Boss.",
+      "x": 235,
+      "y": 11,
+      "icon": {
+        "id": "GalacticraftMars:item.itemTier3Rocket"
+      },
+      "prerequisites": [
+        "Tier 2 Rocket"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Three-Headed Creep",
+              "icon": {
+                "id": "minecraft:skull",
+                "damage": 4
+              },
+              "mob": "GalacticraftMars.CreeperBoss",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftMars:item.schematic"
+              }
+            },
+            {
+              "item": {
+                "id": "GalacticraftMars:item.itemTier3Rocket"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Tier 2 Rocket",
+      "description": "The Evolved Skeleton Boss is the boss mob of the Moon. It can only be found in the Moon Dungeon, in the room before the one that holds the Treasure Chest.",
+      "x": 224,
+      "y": 29,
+      "icon": {
+        "id": "GalacticraftMars:item.spaceshipTier2"
+      },
+      "prerequisites": [
+        "Tier I Rocket"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Evolved Skeleton Bos",
+              "icon": {
+                "id": "minecraft:skull",
+                "damage": 1
+              },
+              "mob": "GalacticraftCore.EvolvedSkeletonBoss",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:item.schematic",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "GalacticraftMars:item.spaceshipTier2"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Tier I Rocket",
+      "description": "Once you\u0027re ready, you can fly to space, but the rocket can only get you to the spacestation and Moon.",
+      "x": 247,
+      "y": 30,
+      "icon": {
+        "id": "GalacticraftCore:item.spaceship"
+      },
+      "prerequisites": [
+        "NASA"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:item.spaceship"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Compressor",
+      "description": "The Compressor is a Tier 1 machine block that is used to compress different kinds of ingots and convert them into compressed metal sheets and platings, just being powered by Coal.",
+      "x": 235,
+      "y": 102,
+      "icon": {
+        "id": "GalacticraftCore:tile.machine2"
+      },
+      "prerequisites": [
+        "Circuit Wafers"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.machine",
+                "damage": 12
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Electric Compressor",
+      "description": "It has the same use as the non-electric Compressor. Its advantage is that it is not necessary to use coal or wood to power it. Instead it has to be powered with energy.",
+      "x": 235,
+      "y": 128,
+      "icon": {
+        "id": "GalacticraftCore:tile.machine2",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Compressor"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.machine2"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Detected",
+      "description": "Detects if Oxygen is present in an area.",
+      "x": 212,
+      "y": 127,
+      "icon": {
+        "id": "GalacticraftCore:tile.oxygenDetector"
+      },
+      "prerequisites": [
+        "Electric Compressor"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.oxygenDetector"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "O2 Storage",
+      "description": "Store Oxygen for later use.",
+      "x": 212,
+      "y": 153,
+      "icon": {
+        "id": "GalacticraftCore:tile.machine2",
+        "damage": 8
+      },
+      "prerequisites": [
+        "Detected"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.machine2",
+                "damage": 8
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Refinery",
+      "description": "The Refinery is a machine block that uses electrical power to process Crude Oil into usable Fuel.",
+      "x": 258,
+      "y": 127,
+      "icon": {
+        "id": "GalacticraftCore:tile.refinery"
+      },
+      "prerequisites": [
+        "Electric Compressor"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.refinery"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Light Up Space",
+      "description": "Regular torches won\u0027t light in space.",
+      "x": 258,
+      "y": 153,
+      "icon": {
+        "id": "GalacticraftCore:tile.glowstoneTorch"
+      },
+      "prerequisites": [
+        "Refinery"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.glowstoneTorch"
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Fuel Loader",
+      "description": "The Fuel Loader is a machine that is necessary in order to supply fuel to any type of Rocket or to a Moon Buggy.",
+      "x": 258,
+      "y": 102,
+      "icon": {
+        "id": "GalacticraftCore:tile.fuelLoader"
+      },
+      "prerequisites": [
+        "Refinery"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.fuelLoader"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Launch Pad",
+      "description": "The Rocket Launch Pad is needed to launch your Spaceship out of the atmosphere in Galacticraft. The Rocket Launch Pad must be placed in a 3 x 3 square to create a functional launch pad.",
+      "x": 258,
+      "y": 75,
+      "icon": {
+        "id": "GalacticraftCore:tile.landingPad"
+      },
+      "prerequisites": [
+        "Fuel Loader"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.landingPad"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Oxygen Gear",
+      "description": "Limited supply of Oxygen to take on those space wallks.",
+      "x": 258,
+      "y": 50,
+      "icon": {
+        "id": "GalacticraftCore:item.oxygenMask"
+      },
+      "prerequisites": [
+        "Launch Pad"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:item.oxygenTankHeavyFull",
+                "damage": 2700
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "GalacticraftCore:item.oxygenMask"
+              }
+            },
+            {
+              "item": {
+                "id": "GalacticraftCore:item.oxygenGear"
+              }
+            },
+            {
+              "item": {
+                "id": "GalacticraftCore:item.basicItem",
+                "damage": 19
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ]
+    },
+    {
+      "name": "O2 Collection",
+      "description": "Oxygen Collector is a block that gathers oxygen from leaves and farm plants to use in a Oxygen Bubble Distributor, Oxygen Sealer, Oxygen Compressor, and other oxygen-reliant machines.",
+      "x": 212,
+      "y": 101,
+      "icon": {
+        "id": "GalacticraftCore:tile.oxygenCollector"
+      },
+      "prerequisites": [
+        "Detected"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "The Oxygen Compressor is a Galacticraft machine used to fill empty or depleted oxygen tanks. ",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.oxygenCollector"
+              }
+            },
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.oxygenCompressor"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "O2 Sealer",
+      "description": "The Oxygen Sealer is a machine that fills a room with oxygen (although the oxygen is generally not visible) up to around 800-1000 blocks (amount stacks with multiple sealers within close proximity) allowing the user to breathe without Oxygen Gear.",
+      "x": 212,
+      "y": 75,
+      "icon": {
+        "id": "GalacticraftCore:tile.sealer"
+      },
+      "prerequisites": [
+        "O2 Collection"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "The sealer will only work in a room that is completely sealed off from outer space. This can be achieved with either a completely closed off room, or with an Air Lock. The sealer must have nothing above it to block its vents. It is designed to check for a proper seal about every 5 seconds, so be sure to give it time to seal. Each sealer requires at least 320 air points per second to work continuously or it will fail.",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.sealer"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Out The Airlock",
+      "description": "Air Lock is an airtight door used to provide a passage between enclosed rooms and between an enclosed room and outer space. It is made from Air Lock Frames and one Air Lock Controller.",
+      "x": 235,
+      "y": 49,
+      "icon": {
+        "id": "GalacticraftCore:tile.airLockFrame",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Tier I Rocket"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.airLockFrame",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.airLockFrame"
+              },
+              "required": 9
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        },
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "NASA",
+      "description": "Construct Rockets using schematics.",
+      "x": 212,
+      "y": 49,
+      "icon": {
+        "id": "GalacticraftCore:tile.rocketWorkbench"
+      },
+      "prerequisites": [
+        "O2 Sealer"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.rocketWorkbench"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Desh",
+      "description": "The ore comes from Mars.",
+      "x": 189,
+      "y": 49,
+      "icon": {
+        "id": "GalacticraftMars:item.null",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Tier 2 Rocket"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftMars:item.null",
+                "damage": 2
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Say Cheese, CHEESE",
+      "description": "Cheese ore from the moon.",
+      "x": 281,
+      "y": 49,
+      "icon": {
+        "id": "GalacticraftCore:tile.cheeseBlock"
+      },
+      "prerequisites": [
+        "Tier I Rocket"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.cheeseBlock"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "Cryo Sleep",
+      "description": "The only way to sleep in space.",
+      "x": 189,
+      "y": 75,
+      "icon": {
+        "id": "GalacticraftMars:tile.marsMachine",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Desh"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftMars:tile.marsMachine",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ]
+    },
+    {
+      "name": "Timeless Satellite",
+      "description": "16 Aluminum Ingots32 Tin Ingots24 Iron Ingots1 Advanced Wafer.",
+      "x": 281,
+      "y": 75,
+      "icon": {
+        "id": "GalacticraftCore:tile.spaceStationBase"
+      },
+      "prerequisites": [
+        "Say Cheese, CHEESE"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 11
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 65
+              },
+              "required": 32,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "required": 24
+            },
+            {
+              "item": {
+                "id": "GalacticraftCore:item.basicItem",
+                "damage": 14
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Tier 4 Rocket",
+      "description": "The Tier 4 Rocket Schematic can be found in Tier 4 treasure chests, found after completing the Venus Dungeon.",
+      "x": 165,
+      "y": 11,
+      "icon": {
+        "id": "ExtraPlanets:itemTier4Rocket"
+      },
+      "prerequisites": [
+        "Tier 3 Rocket To Extra Planets"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraPlanets:schematicTier4"
+              }
+            },
+            {
+              "item": {
+                "id": "ExtraPlanets:itemTier4Rocket"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Tier 5 Rocket",
+      "description": "The Tier 5 Rocket Schematic can be found in Tier 5 treasure chests, found after completing the Jupiter Dungeon.",
+      "x": 165,
+      "y": 42,
+      "icon": {
+        "id": "ExtraPlanets:itemTier5Rocket"
+      },
+      "prerequisites": [
+        "Tier 4 Rocket"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraPlanets:schematicTier5"
+              }
+            },
+            {
+              "item": {
+                "id": "ExtraPlanets:itemTier5Rocket"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Tier 6 Rocket",
+      "description": "The Tier 6 Rocket Schematic can be found in Tier 6 treasure chests, found after completing the Saturn Dungeon.",
+      "x": 165,
+      "y": 75,
+      "icon": {
+        "id": "ExtraPlanets:itemTier6Rocket"
+      },
+      "prerequisites": [
+        "Tier 5 Rocket"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraPlanets:schematicTier6"
+              }
+            },
+            {
+              "item": {
+                "id": "ExtraPlanets:itemTier6Rocket"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Tier 7 Rocket",
+      "description": "The Tier 7 Rocket Schematic can be found in Tier 7 treasure chests, found after completing the Uranus Dungeon.",
+      "x": 165,
+      "y": 105,
+      "icon": {
+        "id": "ExtraPlanets:itemTier7Rocket"
+      },
+      "prerequisites": [
+        "Tier 6 Rocket"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraPlanets:schematicTier7"
+              }
+            },
+            {
+              "item": {
+                "id": "ExtraPlanets:itemTier7Rocket"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Tier 8 Rocket",
+      "description": "The Tier 8 Rocket Schematic can be found in Tier 8 treasure chests, found after completing the Neptune Dungeon.",
+      "x": 165,
+      "y": 139,
+      "icon": {
+        "id": "ExtraPlanets:itemTier8Rocket"
+      },
+      "prerequisites": [
+        "Tier 7 Rocket"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraPlanets:schematicTier8"
+              }
+            },
+            {
+              "item": {
+                "id": "ExtraPlanets:itemTier8Rocket"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Tier 9 Rocket",
+      "description": "The Tier 9 Rocket Schematic can be found in Tier 9 treasure chests, found after completing the Pluto Dungeon.",
+      "x": 165,
+      "y": 172,
+      "icon": {
+        "id": "ExtraPlanets:itemTier9Rocket"
+      },
+      "prerequisites": [
+        "Tier 8 Rocket"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraPlanets:schematicTier9"
+              }
+            },
+            {
+              "item": {
+                "id": "ExtraPlanets:itemTier9Rocket"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

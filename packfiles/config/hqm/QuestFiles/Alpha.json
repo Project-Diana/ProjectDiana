@@ -1,0 +1,3755 @@
+{
+  "name": "Alpha",
+  "description": "The Beginning: Ex Nihilo, Immersive Engineering, Ex Astris Rebirth, Magneticraft, Tinkers\u0027 Construct.",
+  "quests": [
+    {
+      "name": "#Poundtheground",
+      "description": "Pound the ground to gain pebbles (this only works in the botania Garden of Glass) and craft cobblestone.",
+      "x": 15,
+      "y": 39,
+      "icon": {
+        "id": "Botania:manaResource",
+        "damage": 21
+      },
+      "prerequisites": [
+        "Random Act of Kindness"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Can hammer down compressed cobble into compressed gravel and so on. Remember Ex Compressum is not in this pack. Kappa mode: Can sieve compressed variants of gravel, sand, dust, and dirt.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:cobblestone"
+              },
+              "required": 64
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:furnace"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Random Act of Kindness",
+      "description": "A gift from the Titan Council to you.",
+      "x": 15,
+      "y": 13,
+      "icon": {
+        "id": "minecraft:diamond"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Remember Veinminer is in this pack, just incase you don\u0027t realize it.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:diamond"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalExpansion:florb",
+          "nbt": "{Fluid:\"water\"}"
+        },
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Begin Again",
+      "description": "Begin by collecting wood, Crooks can be used for silk worms and collecting a bit more saplings than normal.",
+      "x": 61,
+      "y": 13,
+      "icon": {
+        "id": "minecraft:log"
+      },
+      "prerequisites": [
+        "Random Act of Kindness"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:log"
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "minecraft:planks"
+              },
+              "required": 64,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "exnihilo:crook"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:sapling"
+              },
+              "required": 5,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "TConstruct:CraftingStation"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "longDescription": "Insert compostable material in this to obtain dirt or adding water and dust for clay.",
+          "items": [
+            {
+              "item": {
+                "id": "exastrisrebirth:blockBarrelTweak"
+              },
+              "required": 6,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "exastrisrebirth:itemCrookRF",
+          "nbt": "{Energy:160000}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "The Sieve",
+      "description": "Craft a sieve to begin the siege of sieving montages. Can hammer down compressed cobblestone all the way down to compressed dust.",
+      "x": 84,
+      "y": 13,
+      "icon": {
+        "id": "exnihilo:sifting_table"
+      },
+      "prerequisites": [
+        "Begin Again"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "exnihilo:sifting_table"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Sieving Montage I",
+      "description": "Sieving dirt can give you different types of seeds you may find useful.",
+      "x": 107,
+      "y": 13,
+      "icon": {
+        "id": "minecraft:dirt"
+      },
+      "prerequisites": [
+        "The Sieve"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:dirt"
+              },
+              "required": 12
+            },
+            {
+              "item": {
+                "id": "MineFactoryReloaded:rubberwood.sapling"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:wheat_seeds"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Sieving Montage II",
+      "description": "Grow these then make juice out of them will keep you from going hungry, well until you want something more filling.",
+      "x": 107,
+      "y": 39,
+      "icon": {
+        "id": "Natura:GrassBlock"
+      },
+      "prerequisites": [
+        "Sieving Montage I"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:GrassBlock"
+              },
+              "required": 12
+            },
+            {
+              "item": {
+                "id": "Natura:BerryBush",
+                "damage": 1
+              },
+              "required": 4,
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "Natura:GrassBlock",
+                "damage": 1
+              },
+              "required": 6
+            },
+            {
+              "item": {
+                "id": "Natura:GrassBlock",
+                "damage": 2
+              },
+              "required": 6
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Cobble Gen",
+      "description": "Generate cobblestone by placing the transfer node on the cobblestone between the water and lava then insert World interaction upgrade.",
+      "x": 153,
+      "y": 13,
+      "icon": {
+        "id": "minecraft:cobblestone"
+      },
+      "prerequisites": [
+        "Lava Generation!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:nodeUpgrade",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:extractor_base"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "betterbuilderswands:wandDiamond"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Lava Generation!",
+      "description": "Generate Lava through melting cobblestone in a crucible (need to melt 4-5 cobblestone for a full bucket) and you can melt ender lilly seeds for resonant ender.",
+      "x": 130,
+      "y": 13,
+      "icon": {
+        "id": "minecraft:lava"
+      },
+      "prerequisites": [
+        "Sieving Montage I"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:clay"
+              },
+              "required": 8
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "exnihilo:porcelain"
+              },
+              "required": 7
+            },
+            {
+              "item": {
+                "id": "exnihilo:crucible_unfired"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "longDescription": "The Crucible can use yellorium/uranium blocks and nuclear bombs to melt objects down quickly.",
+          "items": [
+            {
+              "item": {
+                "id": "exnihilo:crucible"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Sieving Montage III",
+      "description": "Sieve gravel for items unobtainable by other sievable materials.",
+      "x": 153,
+      "y": 39,
+      "icon": {
+        "id": "minecraft:gravel"
+      },
+      "prerequisites": [
+        "Cobble Gen"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:gravel"
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "minecraft:diamond"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:emerald"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:coal"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Sieving Montage IV",
+      "description": "Sieve sand for items unobtainable by other sievable materials.",
+      "x": 153,
+      "y": 65,
+      "icon": {
+        "id": "minecraft:sand"
+      },
+      "prerequisites": [
+        "Sieving Montage III"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "In Titan/Kappa Mode sieve sand for Electrotine.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:sand"
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "exnihilo:seed_cactus"
+              }
+            },
+            {
+              "item": {
+                "id": "BigReactors:BRIngot",
+                "damage": 4
+              }
+            },
+            {
+              "item": {
+                "id": "exnihilo:spores"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Sieving Montage V",
+      "description": "Sieve dust for items unobtainable by other sievable materials.",
+      "x": 176,
+      "y": 65,
+      "icon": {
+        "id": "exnihilo:dust"
+      },
+      "prerequisites": [
+        "Sieving Montage IV"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "exnihilo:dust"
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 45
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "minecraft:blaze_powder"
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "minecraft:redstone"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Burning Power!",
+      "description": "Very inefficient power source in terms of speed but its a start. Maybe upgrade to a stirling generator later.",
+      "x": 130,
+      "y": 39,
+      "icon": {
+        "id": "ExtraUtilities:generator"
+      },
+      "prerequisites": [
+        "Lava Generation!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:generator"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Automatic Sieving!",
+      "description": "Title says it all.",
+      "x": 199,
+      "y": 13,
+      "icon": {
+        "id": "exastrisrebirth:blockSieveAutomatic"
+      },
+      "prerequisites": [
+        "Iron Chest"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "exastrisrebirth:blockSieveAutomatic"
+              }
+            },
+            {
+              "item": {
+                "id": "exastrisrebirth:itemSieveUpgrade",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "exastrisrebirth:itemSieveUpgrade"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "exastrisrebirth:itemSieveUpgrade",
+          "damage": 1,
+          "amount": 2
+        },
+        {
+          "id": "exastrisrebirth:itemSieveUpgrade",
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Iron Chest",
+      "description": "Upgrade-able chests",
+      "x": 176,
+      "y": 13,
+      "icon": {
+        "id": "IronChest:BlockIronChest",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Cobble Gen"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "IronChest:BlockIronChest"
+              }
+            },
+            {
+              "item": {
+                "id": "IronChest:ironGoldUpgrade"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "Magneticraft:item.wrench"
+        },
+        {
+          "id": "IronChest:goldDiamondUpgrade"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Coke Oven",
+      "description": "May find any information you need in the Engineer\u0027s Manual.",
+      "x": 222,
+      "y": 39,
+      "icon": {
+        "id": "ImmersiveEngineering:stoneDecoration",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Hemp!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:stoneDecoration",
+                "damage": 1
+              },
+              "required": 27
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        },
+        {
+          "id": "ImmersiveEngineering:fluidContainers",
+          "amount": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Gotta Go Deeper!",
+      "description": "The Nether filled with dangers known to take you down.",
+      "x": 176,
+      "y": 39,
+      "icon": {
+        "id": "minecraft:obsidian"
+      },
+      "prerequisites": [
+        "Iron Chest"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:obsidian"
+              },
+              "required": 10
+            },
+            {
+              "item": {
+                "id": "minecraft:flint_and_steel"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Treated Wood!",
+      "description": "May find any information you need in the Engineer\u0027s Manual.",
+      "x": 222,
+      "y": 65,
+      "icon": {
+        "id": "ImmersiveEngineering:treatedWood"
+      },
+      "prerequisites": [
+        "Coke Oven"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:treatedWood"
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Water Power!",
+      "description": "May find any information you need in the Engineer\u0027s Manual.",
+      "x": 222,
+      "y": 91,
+      "icon": {
+        "id": "ImmersiveEngineering:woodenDevice",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Treated Wood!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:woodenDevice",
+                "damage": 1
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "ImmersiveEngineering:metalDevice",
+          "damage": 9
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Learning to Tinker!",
+      "description": "Make your first tool out of tool parts. Recommend starting with using wood and flint or just plastic.",
+      "x": 84,
+      "y": 39,
+      "icon": {
+        "id": "TConstruct:ToolStationBlock",
+        "damage": 10
+      },
+      "prerequisites": [
+        "The Sieve"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "A task where the player has to craft specific items using oak wood.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:ToolStationBlock"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:ToolStationBlock",
+                "damage": 10
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:ToolStationBlock",
+                "damage": 5
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:ToolStationBlock",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Tinkering With Metals!",
+      "description": "The Smeltery is a multi-block construct requiring you to have at least 84 Seared Bricks, or 19 Seared Brick blocks, a Smeltery Controller, and either a seared Tank, Seared Window, or Seared Glass. The Smeltery can be any rectangular shape up to 7 blocks per side. Becareful of mixing metals unless you mean to do so.",
+      "x": 84,
+      "y": 65,
+      "icon": {
+        "id": "TConstruct:Smeltery"
+      },
+      "prerequisites": [
+        "Learning to Tinker!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:CraftedSoil",
+                "damage": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "TConstruct:Smeltery",
+                "damage": 2
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "TConstruct:Smeltery"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:Smeltery",
+                "damage": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "TConstruct:LavaTank"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "TConstruct:SearedBlock",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:SearedBlock"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:metalPattern"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "Magneticraft:item.iron_pipe",
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Mob Farm!",
+      "description": "Setup a mob farm to begin the onslaught for sweet loots. Recommend being atleast 24 blocks away from your base although bloodmoons will help.",
+      "x": 15,
+      "y": 65,
+      "icon": {
+        "id": "minecraft:skull",
+        "damage": 2
+      },
+      "prerequisites": [
+        "#Poundtheground"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Creeper",
+              "icon": {
+                "id": "minecraft:skull",
+                "damage": 4
+              },
+              "mob": "Creeper",
+              "kills": 4,
+              "exact": false
+            },
+            {
+              "name": "Zombie",
+              "icon": {
+                "id": "minecraft:skull",
+                "damage": 2
+              },
+              "mob": "Zombie",
+              "kills": 4,
+              "exact": false
+            },
+            {
+              "name": "Skeleton",
+              "icon": {
+                "id": "minecraft:skull"
+              },
+              "mob": "Skeleton",
+              "kills": 4,
+              "exact": false
+            },
+            {
+              "name": "Enderbro",
+              "icon": {
+                "id": "EnderIO:blockEndermanSkull"
+              },
+              "mob": "Enderman",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "RandomThings:lapisLamp",
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Behead The Head!",
+      "description": "Collect 3 Wither Skulls from Withers skeletons from the Nether or by pouring Witch Water on normal skeletons.",
+      "x": 199,
+      "y": 91,
+      "icon": {
+        "id": "minecraft:skull",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Mob Hunter"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:skull",
+                "damage": 1
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Gears!",
+      "description": "Used to make gears.",
+      "x": 84,
+      "y": 91,
+      "icon": {
+        "id": "TConstruct:gearCast"
+      },
+      "prerequisites": [
+        "Tinkering With Metals!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:gearCast"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Wither Boss!",
+      "description": "Simple, kill the Wither Boss however be aware of the Hardcore Wither mod.",
+      "x": 199,
+      "y": 117,
+      "icon": {
+        "id": "minecraft:mob_spawner",
+        "damage": 64
+      },
+      "prerequisites": [
+        "Behead The Head!"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Wither Boss",
+              "icon": {
+                "id": "minecraft:skull",
+                "damage": 1
+              },
+              "mob": "WitherBoss",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Hemp!",
+      "description": "May harvest hemp seeds by breaking grass. Can grow grass through bone mealing grass blocks. May find any information you need in the Engineer\u0027s Manual.",
+      "x": 222,
+      "y": 13,
+      "icon": {
+        "id": "ImmersiveEngineering:seed"
+      },
+      "prerequisites": [
+        "Automatic Sieving!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Hemp is a good source for string.",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:seed"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "longDescription": "A task where the player has to craft an Engineer\u0027s Hammer.",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:tool"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "ImmersiveEngineering:tool",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Power Cables!",
+      "description": "May find any information you need in the Engineer\u0027s Manual.",
+      "x": 222,
+      "y": 117,
+      "icon": {
+        "id": "ImmersiveEngineering:coil"
+      },
+      "prerequisites": [
+        "Water Power!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:coil"
+              }
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:coil",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:coil",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Connectors and Relays!",
+      "description": "May find any information you need in the Engineer\u0027s Manual.",
+      "x": 222,
+      "y": 143,
+      "icon": {
+        "id": "ImmersiveEngineering:metalDevice",
+        "damage": 6
+      },
+      "prerequisites": [
+        "Power Cables!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDevice",
+                "damage": 5
+              }
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDevice",
+                "damage": 6
+              }
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDevice"
+              }
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDevice",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Thermo Power",
+      "description": "May find any information you need in the Engineer\u0027s Manual.",
+      "x": 199,
+      "y": 169,
+      "icon": {
+        "id": "ImmersiveEngineering:metalDevice",
+        "damage": 10
+      },
+      "prerequisites": [
+        "LMH Capacitors"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDevice",
+                "damage": 10
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "LMH Capacitors",
+      "description": "May find any information you need in the Engineer\u0027s Manual.",
+      "x": 222,
+      "y": 169,
+      "icon": {
+        "id": "ImmersiveEngineering:metalDevice",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Connectors and Relays!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDevice",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDevice",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDevice",
+                "damage": 7
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Mob Hunter",
+      "description": "Kill Blazes, Magma Cubes and Flame Spiders.",
+      "x": 199,
+      "y": 65,
+      "icon": {
+        "id": "minecraft:blaze_rod"
+      },
+      "prerequisites": [
+        "Sieving Montage VI"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "Blaze",
+              "icon": {
+                "id": "minecraft:blaze_rod"
+              },
+              "mob": "Blaze",
+              "kills": 4,
+              "exact": true
+            },
+            {
+              "name": "Magma Cube",
+              "icon": {
+                "id": "minecraft:magma_cream"
+              },
+              "mob": "LavaSlime",
+              "kills": 4,
+              "exact": true
+            },
+            {
+              "name": "Spider",
+              "icon": {
+                "id": "Natura:barleyFood",
+                "damage": 7
+              },
+              "mob": "Natura.FlameSpider",
+              "kills": 4,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Carbide",
+      "description": "Surrond one tungsten with 8 coal.",
+      "x": 245,
+      "y": 91,
+      "icon": {
+        "id": "Magneticraft:item.ingotCarbide"
+      },
+      "prerequisites": [
+        "Water Power!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Magneticraft:item.ingotTungsten"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:coal"
+              },
+              "required": 8
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Magneticraft:item.ingotCarbide"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "LMH Wires",
+      "description": "Same idea as Immersive Engineering for power manipulation.",
+      "x": 268,
+      "y": 91,
+      "icon": {
+        "id": "Magneticraft:transformer_lm"
+      },
+      "prerequisites": [
+        "Carbide"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Magneticraft:item.cable_low"
+              }
+            },
+            {
+              "item": {
+                "id": "Magneticraft:item.cable_medium"
+              }
+            },
+            {
+              "item": {
+                "id": "Magneticraft:item.cable_high"
+              }
+            },
+            {
+              "item": {
+                "id": "Magneticraft:transformer_lm"
+              }
+            },
+            {
+              "item": {
+                "id": "Magneticraft:transformer_mh"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Wind Turbines",
+      "description": "Bigger is better (in this case).",
+      "x": 245,
+      "y": 117,
+      "icon": {
+        "id": "Magneticraft:item.turbine_0"
+      },
+      "prerequisites": [
+        "Carbide"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Magneticraft:windturbine"
+              }
+            },
+            {
+              "item": {
+                "id": "Magneticraft:item.turbine_0"
+              }
+            },
+            {
+              "item": {
+                "id": "Magneticraft:item.turbine_1"
+              }
+            },
+            {
+              "item": {
+                "id": "Magneticraft:item.turbine_2"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Electricity-\u003eRedstoneflux",
+      "description": "This will be made more than once due to the 400 rf/t limit it has.",
+      "x": 245,
+      "y": 143,
+      "icon": {
+        "id": "Magneticraft:kinetic_generator"
+      },
+      "prerequisites": [
+        "Wind Turbines"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Magneticraft:kinetic_generator"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Sieving Montage VI",
+      "description": "Hammer down Netherrack for crushed Netherrack in order to obtain gold 100% of the time. Quartz from Soul Sand.",
+      "x": 199,
+      "y": 39,
+      "icon": {
+        "id": "minecraft:netherrack"
+      },
+      "prerequisites": [
+        "Gotta Go Deeper!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:gold_ingot"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "minecraft:quartz"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "exnihilo:exnihilo.gravel_nether"
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Similar",
+      "description": "This is very similar to IE\u0027s version.",
+      "x": 291,
+      "y": 91,
+      "icon": {
+        "id": "Magneticraft:item.copper_coil"
+      },
+      "prerequisites": [
+        "LMH Wires"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Magneticraft:ElectricPoleCableConnection"
+              }
+            },
+            {
+              "item": {
+                "id": "Magneticraft:ElectricPoleTier1"
+              }
+            },
+            {
+              "item": {
+                "id": "Magneticraft:item.copper_coil"
+              }
+            },
+            {
+              "item": {
+                "id": "Magneticraft:item.heavy_copper_coil"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Magneticraft:item.copper_wire"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Stirling Multiblock",
+      "description": "Shift on items to see what they do.",
+      "x": 268,
+      "y": 143,
+      "icon": {
+        "id": "Magneticraft:stirling_generator"
+      },
+      "prerequisites": [
+        "Electricity-\u003eRedstoneflux"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Magneticraft:stirling_generator"
+              }
+            },
+            {
+              "item": {
+                "id": "Magneticraft:chasis"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "Magneticraft:multi_heat"
+              }
+            },
+            {
+              "item": {
+                "id": "Magneticraft:MB_EnergyIO"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Turbine Multiblock",
+      "description": "Shift on items to see what they do.",
+      "x": 291,
+      "y": 143,
+      "icon": {
+        "id": "Magneticraft:turbine_control"
+      },
+      "prerequisites": [
+        "Stirling Multiblock"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Magneticraft:chasis"
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "Magneticraft:turbine_control"
+              }
+            },
+            {
+              "item": {
+                "id": "Magneticraft:MB_Energy_medium"
+              }
+            },
+            {
+              "item": {
+                "id": "Magneticraft:mg_tank"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Thermo Power",
+      "description": "Place cool substance and hot substance next to this to gain power.",
+      "x": 245,
+      "y": 169,
+      "icon": {
+        "id": "Magneticraft:thermopile"
+      },
+      "prerequisites": [
+        "Electricity-\u003eRedstoneflux"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Magneticraft:thermopile"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Squeezer",
+      "description": "May find any information you need in the Engineer\u0027s Manual.",
+      "x": 176,
+      "y": 169,
+      "icon": {
+        "id": "ImmersiveEngineering:metalMultiblock",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Thermo Power"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalMultiblock",
+                "damage": 2
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDecoration",
+                "damage": 7
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Fermenter",
+      "description": "May find any information you need in the Engineer\u0027s Manual.",
+      "x": 165,
+      "y": 188,
+      "icon": {
+        "id": "ImmersiveEngineering:metalMultiblock",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Squeezer"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalMultiblock",
+                "damage": 3
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDecoration",
+                "damage": 7
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Refinery",
+      "description": "May find any information you need in the Engineer\u0027s Manual.",
+      "x": 153,
+      "y": 169,
+      "icon": {
+        "id": "ImmersiveEngineering:metalDecoration",
+        "damage": 10
+      },
+      "prerequisites": [
+        "Fermenter"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Oil + nutrient distillation \u003d fuel. plantoil + biodiesel \u003d tectonic distillation.",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDecoration",
+                "damage": 7
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDecoration",
+                "damage": 5
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDecoration",
+                "damage": 10
+              },
+              "required": 6
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDecoration",
+                "damage": 1
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Heat Transfer",
+      "description": "Shift on items to see what they do.",
+      "x": 268,
+      "y": 117,
+      "icon": {
+        "id": "Magneticraft:firebox"
+      },
+      "prerequisites": [
+        "Wind Turbines"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Magneticraft:item.heat_cable"
+              }
+            },
+            {
+              "item": {
+                "id": "Magneticraft:firebox"
+              }
+            },
+            {
+              "item": {
+                "id": "Magneticraft:cooler"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Water/Steam",
+      "description": "Shift on items to see what they do.",
+      "x": 291,
+      "y": 117,
+      "icon": {
+        "id": "Magneticraft:InfiniteWater"
+      },
+      "prerequisites": [
+        "Heat Transfer"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Magneticraft:InfiniteWater"
+              }
+            },
+            {
+              "item": {
+                "id": "Magneticraft:boiler"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Diesel Generator",
+      "description": "May find any information you need in the Engineer\u0027s Manual.",
+      "x": 130,
+      "y": 169,
+      "icon": {
+        "id": "ImmersiveEngineering:metalDecoration",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Refinery"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDecoration",
+                "damage": 5
+              },
+              "required": 14
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDecoration",
+                "damage": 6
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDecoration",
+                "damage": 4
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "You Never Know!",
+      "description": "May find any information you need in the Engineer\u0027s Manual.",
+      "x": 222,
+      "y": 195,
+      "icon": {
+        "id": "ImmersiveEngineering:metalMultiblock"
+      },
+      "prerequisites": [
+        "LMH Capacitors"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalMultiblock"
+              },
+              "required": 9
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:metalDecoration"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Enchanting Table",
+      "description": "Vanilla Enchanting Table",
+      "x": 288,
+      "y": 13,
+      "icon": {
+        "id": "minecraft:enchanting_table"
+      },
+      "prerequisites": [
+        "Hemp!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:enchanting_table"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Blubber Tub",
+      "description": "Can automatically add modifiers to Tinkers\u0027 weapons without needing to do so manually.",
+      "x": 61,
+      "y": 39,
+      "icon": {
+        "id": "TiConAutoToolStation:ats_autotoolstation"
+      },
+      "prerequisites": [
+        "Learning to Tinker!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "TiConAutoToolStation:ats_autotoolstation"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Efficiency",
+      "description": "Apply redstone to these and dig faster with your own hands.",
+      "x": 38,
+      "y": 39,
+      "icon": {
+        "id": "TConstruct:travelGlove",
+        "nbt": "{TinkerAccessory:{BaseDurability:500,Built:1b,Damage:0,BonusDurability:0,TotalDurability:500,ModDurability:0.0f,Modifiers:5,Broken:0b}}"
+      },
+      "prerequisites": [
+        "Blubber Tub"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:travelGlove",
+                "nbt": "{TinkerAccessory:{BaseDurability:500,Built:1b,Damage:0,BonusDurability:0,TotalDurability:500,ModDurability:0.0f,Modifiers:5,Broken:0b}}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Steel Production",
+      "description": "May find any information you need in the Engineer\u0027s Manual.",
+      "x": 245,
+      "y": 65,
+      "icon": {
+        "id": "ImmersiveEngineering:stoneDecoration",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Treated Wood!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ImmersiveEngineering:stoneDecoration",
+                "damage": 2
+              },
+              "required": 27
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Gem Cast",
+      "description": "Used to make emeralds or ender pearls.",
+      "x": 61,
+      "y": 91,
+      "icon": {
+        "id": "TConstruct:metalPattern",
+        "damage": 26
+      },
+      "prerequisites": [
+        "Gears!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 26
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Nugget Cast",
+      "description": "Used to make nugget versions of different metals.",
+      "x": 38,
+      "y": 91,
+      "icon": {
+        "id": "TConstruct:metalPattern",
+        "damage": 27
+      },
+      "prerequisites": [
+        "Gem Cast"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 27
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Plate Cast",
+      "description": "Used to make Heavy Plates of metals and non-metals.",
+      "x": 27,
+      "y": 111,
+      "icon": {
+        "id": "TConstruct:metalPattern",
+        "damage": 16
+      },
+      "prerequisites": [
+        "Nugget Cast"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 16
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Pickaxe Cast",
+      "description": "Used to make pickaxe heads.",
+      "x": 27,
+      "y": 137,
+      "icon": {
+        "id": "TConstruct:metalPattern",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Plate Cast"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Rod Cast",
+      "description": "Used to make tool rods.",
+      "x": 50,
+      "y": 137,
+      "icon": {
+        "id": "TConstruct:metalPattern",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Pickaxe Cast"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Tough Rod Cast",
+      "description": "Used to make tough tool rods for more advanced tools.",
+      "x": 73,
+      "y": 138,
+      "icon": {
+        "id": "TConstruct:metalPattern",
+        "damage": 14
+      },
+      "prerequisites": [
+        "Rod Cast"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 14
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Cleaver Cast",
+      "description": "Used to make cleaver heads. Recommended for beheadding mobs.",
+      "x": 96,
+      "y": 138,
+      "icon": {
+        "id": "TConstruct:metalPattern",
+        "damage": 20
+      },
+      "prerequisites": [
+        "Tough Rod Cast"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 20
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Crossbow Limb Cast",
+      "description": "Used to make crossbow limbs.",
+      "x": 107,
+      "y": 91,
+      "icon": {
+        "id": "TConstruct:Cast",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Crossbow Body Cast"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:Cast",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Crossbow Body Cast",
+      "description": "Used to make crossbow bodies.",
+      "x": 107,
+      "y": 118,
+      "icon": {
+        "id": "TConstruct:Cast",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Cleaver Cast"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:Cast",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Knapsack",
+      "description": "Extra inventory space and extra inventory tab.",
+      "x": 73,
+      "y": 164,
+      "icon": {
+        "id": "TConstruct:knapsack"
+      },
+      "prerequisites": [
+        "Tough Rod Cast"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:knapsack"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Tool Bind Cast",
+      "description": "Used to make tool bindings.",
+      "x": 27,
+      "y": 163,
+      "icon": {
+        "id": "TConstruct:metalPattern",
+        "damage": 9
+      },
+      "prerequisites": [
+        "Pickaxe Cast"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 9
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Tough Tool Bind Cast",
+      "description": "Used to make tough tool bindings for more advanced tools.",
+      "x": 27,
+      "y": 189,
+      "icon": {
+        "id": "TConstruct:metalPattern",
+        "damage": 15
+      },
+      "prerequisites": [
+        "Tool Bind Cast"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 15
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Icosahedron"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Requiescat In Pace",
+      "description": "Take a trip to the Aether to gain an Extra Life. Repeatable every 8 days.",
+      "x": 15,
+      "y": 91,
+      "icon": {
+        "id": "aether:present"
+      },
+      "prerequisites": [
+        "Mob Farm!"
+      ],
+      "repeat": {
+        "type": "INTERVAL",
+        "days": 8,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "longDescription": "A villager requested these items, but we don\u0027t know what for...",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:ender_eye"
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "aether:zaniteGemstone"
+              },
+              "required": 15
+            },
+            {
+              "item": {
+                "id": "aether:enchantedGravitite"
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "aether:ambrosiumShard"
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Tectonic Petrotheum",
+      "description": "Can be used to make oil.",
+      "x": 142,
+      "y": 189,
+      "icon": {
+        "id": "ThermalFoundation:material",
+        "damage": 515
+      },
+      "prerequisites": [
+        "Refinery"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:bucket",
+                "damage": 8
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Magnetically Refined",
+      "description": "Can be used to refine tectonic petrotheum into oil and sewage into nutrient distillation.",
+      "x": 268,
+      "y": 169,
+      "icon": {
+        "id": "Magneticraft:refinery_control"
+      },
+      "prerequisites": [
+        "Stirling Multiblock"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Magneticraft:refinery_control"
+              }
+            },
+            {
+              "item": {
+                "id": "Magneticraft:chasis"
+              },
+              "required": 26
+            },
+            {
+              "item": {
+                "id": "Magneticraft:refinery_tank"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "Magneticraft:refinery_gap"
+              },
+              "required": 41
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Iron Furnace",
+      "description": "Cooks Items 1.5 times as fast as the usual furnace.",
+      "x": 130,
+      "y": 65,
+      "icon": {
+        "id": "FLabsBF:flabs.bf"
+      },
+      "prerequisites": [
+        "Burning Power!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "FLabsBF:flabs.bf"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Gold Furnace",
+      "description": "Cooks Items twice as fast as the usual furnace.",
+      "x": 130,
+      "y": 91,
+      "icon": {
+        "id": "FLabsBF:flabs.bf",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Iron Furnace"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "FLabsBF:flabs.bf",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Diamond Furnace",
+      "description": "Cooks Items 4x as fast as the usual furnace.",
+      "x": 153,
+      "y": 91,
+      "icon": {
+        "id": "FLabsBF:flabs.bf",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Gold Furnace"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "FLabsBF:flabs.bf",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Hell Furnace",
+      "description": "Cooks Items 25x as fast as the usual furnace.",
+      "x": 153,
+      "y": 118,
+      "icon": {
+        "id": "FLabsBF:flabs.bf",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Diamond Furnace"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "FLabsBF:flabs.bf",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Extreme Furnace",
+      "description": "Cooks Items 50x as fast as the usual furnace.",
+      "x": 153,
+      "y": 144,
+      "icon": {
+        "id": "FLabsBF:flabs.bf",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Hell Furnace"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "FLabsBF:flabs.bf",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Furnace Upgraded",
+      "description": "Storage upgrade: Sneak-click with it on a Better Furnace to enlarge it\u0027s internal Storage.                                                                       The BFESU must be touching the furnace in order to use rf instead of burnables.",
+      "x": 130,
+      "y": 118,
+      "icon": {
+        "id": "FLabsBFCompat:bfenergy"
+      },
+      "prerequisites": [
+        "Gold Furnace"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Package Upgrade: This is an upgrade into which you can put 3 upgrades (Even other Packages).",
+          "items": [
+            {
+              "item": {
+                "id": "FLabsBFCompat:bfenergy"
+              }
+            },
+            {
+              "item": {
+                "id": "FLabsBFCompat:fuelitem"
+              }
+            },
+            {
+              "item": {
+                "id": "FLabsBF:flabs.uppackage"
+              }
+            },
+            {
+              "item": {
+                "id": "FLabsBF:flabs.upstorage"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        },
+        {
+          "id": "FLabsBF:flabs.upcolor"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

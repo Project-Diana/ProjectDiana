@@ -1,0 +1,1368 @@
+{
+  "name": "Mu",
+  "description": "Avaritia",
+  "quests": [
+    {
+      "name": "Matrix",
+      "description": "NEI will help.",
+      "x": 17,
+      "y": 10,
+      "icon": {
+        "id": "Avaritia:Resource",
+        "damage": 1
+      },
+      "prerequisites": [
+        "{Lambda}[Awakened Core]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Resource",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "81 Crafting",
+      "description": "NEI will help.",
+      "x": 51,
+      "y": 11,
+      "icon": {
+        "id": "Avaritia:Dire_Crafting"
+      },
+      "prerequisites": [
+        "Matrix"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Dire_Crafting"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Neutron Nugget",
+      "description": "NEI will help.",
+      "x": 115,
+      "y": 11,
+      "icon": {
+        "id": "Avaritia:Resource",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Pile of Neutrons"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Resource",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Neutronium Ingot",
+      "description": "NEI will help.",
+      "x": 115,
+      "y": 45,
+      "icon": {
+        "id": "Avaritia:Resource",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Neutron Nugget"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Resource",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ]
+    },
+    {
+      "name": "Meat Balls",
+      "description": "NEI will help.",
+      "x": 152,
+      "y": 45,
+      "icon": {
+        "id": "Avaritia:Cosmic_Meatballs"
+      },
+      "prerequisites": [
+        "Neutronium Ingot"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Cosmic_Meatballs"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:hearts"
+        }
+      ]
+    },
+    {
+      "name": "Infinity Ingot",
+      "description": "NEI will help.",
+      "x": 231,
+      "y": 46,
+      "icon": {
+        "id": "Avaritia:Resource",
+        "damage": 6
+      },
+      "prerequisites": [
+        "Infinity Catalyst"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Resource",
+                "damage": 6
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Infinity Catalyst",
+      "description": "NEI will help.",
+      "x": 230,
+      "y": 12,
+      "icon": {
+        "id": "Avaritia:Resource",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Endest Pearl"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Resource",
+                "damage": 5
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Endest Pearl",
+      "description": "NEI will help.",
+      "x": 190,
+      "y": 12,
+      "icon": {
+        "id": "Avaritia:Endest_Pearl"
+      },
+      "prerequisites": [
+        "Primeval Brew"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Endest_Pearl"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Primeval Brew",
+      "description": "NEI will help.",
+      "x": 152,
+      "y": 12,
+      "icon": {
+        "id": "Avaritia:Ultimate_Stew"
+      },
+      "prerequisites": [
+        "Meat Balls"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Ultimate_Stew"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Pile of Neutrons",
+      "description": "NEI will help.",
+      "x": 82,
+      "y": 11,
+      "icon": {
+        "id": "Avaritia:Resource",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Neutron Collection"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Resource",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Neutron Compressor",
+      "description": "NEI will help. Creates singularities.",
+      "x": 81,
+      "y": 45,
+      "icon": {
+        "id": "Avaritia:Neutronium_Compressor"
+      },
+      "prerequisites": [
+        "Neutronium Ingot"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Neutronium_Compressor"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Neutron Collection",
+      "description": "NEI will help. Slowly generates piles of neutronium.",
+      "x": 51,
+      "y": 45,
+      "icon": {
+        "id": "Avaritia:Neutron_Collector"
+      },
+      "prerequisites": [
+        "81 Crafting"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Neutron_Collector"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Iron Singularity",
+      "description": "NEI will help.",
+      "x": 81,
+      "y": 85,
+      "icon": {
+        "id": "Avaritia:Singularity"
+      },
+      "prerequisites": [
+        "Neutron Compressor"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Singularity"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Gold Singularity",
+      "description": "NEI will help.",
+      "x": 50,
+      "y": 85,
+      "icon": {
+        "id": "Avaritia:Singularity",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Iron Singularity"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Singularity",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Quartz Singularity",
+      "description": "NEI will help.",
+      "x": 50,
+      "y": 116,
+      "icon": {
+        "id": "Avaritia:Singularity",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Gold Singularity"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Singularity",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Lapis Singularity",
+      "description": "NEI will help.",
+      "x": 50,
+      "y": 150,
+      "icon": {
+        "id": "Avaritia:Singularity",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Quartz Singularity"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Singularity",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Redstone Singularity",
+      "description": "NEI will help.",
+      "x": 50,
+      "y": 185,
+      "icon": {
+        "id": "Avaritia:Singularity",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Lapis Singularity"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Singularity",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Lead Singularity",
+      "description": "NEI will help.",
+      "x": 82,
+      "y": 185,
+      "icon": {
+        "id": "Avaritia:Singularity",
+        "damage": 7
+      },
+      "prerequisites": [
+        "Redstone Singularity"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Singularity",
+                "damage": 7
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Nickel/Ferrous Singularity",
+      "description": "NEI will help.",
+      "x": 113,
+      "y": 185,
+      "icon": {
+        "id": "Avaritia:Singularity",
+        "damage": 9
+      },
+      "prerequisites": [
+        "Lead Singularity"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Singularity",
+                "damage": 9
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Copper Singularity",
+      "description": "NEI will help.",
+      "x": 113,
+      "y": 114,
+      "icon": {
+        "id": "Avaritia:Singularity",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Silver Singularity"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Singularity",
+                "damage": 5
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Silver Singularity",
+      "description": "NEI will help.",
+      "x": 113,
+      "y": 148,
+      "icon": {
+        "id": "Avaritia:Singularity",
+        "damage": 8
+      },
+      "prerequisites": [
+        "Nickel/Ferrous Singularity"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Singularity",
+                "damage": 8
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Tin Singularity",
+      "description": "NEI will help.",
+      "x": 113,
+      "y": 85,
+      "icon": {
+        "id": "Avaritia:Singularity",
+        "damage": 6
+      },
+      "prerequisites": [
+        "Copper Singularity"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Singularity",
+                "damage": 6
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Shiny Singularity",
+      "description": "NEI will help.",
+      "x": 144,
+      "y": 85,
+      "icon": {
+        "id": "thermsingul:Thermal Singularity"
+      },
+      "prerequisites": [
+        "Tin Singularity"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "thermsingul:Thermal Singularity"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Mithril Singularity",
+      "description": "NEI will help.",
+      "x": 144,
+      "y": 114,
+      "icon": {
+        "id": "thermsingul:Thermal Singularity",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Shiny Singularity"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "thermsingul:Thermal Singularity",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Signalum Singularity",
+      "description": "NEI will help.",
+      "x": 144,
+      "y": 147,
+      "icon": {
+        "id": "thermsingul:Thermal Singularity",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Mithril Singularity"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "thermsingul:Thermal Singularity",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Lumium Singularity",
+      "description": "NEI will help.",
+      "x": 144,
+      "y": 185,
+      "icon": {
+        "id": "thermsingul:Thermal Singularity",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Signalum Singularity"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "thermsingul:Thermal Singularity",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Enderium Singularity",
+      "description": "NEI will help.",
+      "x": 181,
+      "y": 185,
+      "icon": {
+        "id": "thermsingul:Thermal Singularity",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Lumium Singularity"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "thermsingul:Thermal Singularity",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Diamond Singularity",
+      "description": "NEI will help.",
+      "x": 218,
+      "y": 185,
+      "icon": {
+        "id": "customthings:item",
+        "damage": 14
+      },
+      "prerequisites": [
+        "Enderium Singularity"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "customthings:item",
+                "damage": 14
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Emerald Singularity",
+      "description": "NEI will help.",
+      "x": 218,
+      "y": 147,
+      "icon": {
+        "id": "customthings:item",
+        "damage": 15
+      },
+      "prerequisites": [
+        "Diamond Singularity"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "customthings:item",
+                "damage": 15
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Steel Singularity",
+      "description": "NEI will help.",
+      "x": 218,
+      "y": 115,
+      "icon": {
+        "id": "customthings:item",
+        "damage": 16
+      },
+      "prerequisites": [
+        "Emerald Singularity"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "customthings:item",
+                "damage": 16
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Sapphire Singularity",
+      "description": "NEI will help.",
+      "x": 218,
+      "y": 85,
+      "icon": {
+        "id": "customthings:item",
+        "damage": 17
+      },
+      "prerequisites": [
+        "Steel Singularity"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "customthings:item",
+                "damage": 17
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Electrotine Singularity",
+      "description": "NEI will help.",
+      "x": 254,
+      "y": 85,
+      "icon": {
+        "id": "customthings:item",
+        "damage": 18
+      },
+      "prerequisites": [
+        "Sapphire Singularity"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "customthings:item",
+                "damage": 18
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Titanium Singularity",
+      "description": "NEI will help.",
+      "x": 254,
+      "y": 115,
+      "icon": {
+        "id": "customthings:item",
+        "damage": 19
+      },
+      "prerequisites": [
+        "Electrotine Singularity"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "customthings:item",
+                "damage": 19
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Sword of the Cosmos",
+      "description": "AKA the Infinity Sword, can one-shot the Chaos Guardian without taking out the towers and can kill other players wearing Infinity Armor/Armour.",
+      "x": 274,
+      "y": 46,
+      "icon": {
+        "id": "Avaritia:Infinity_Sword"
+      },
+      "prerequisites": [
+        "Infinity Ingot"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Infinity_Sword"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Infinity Armor/Armour",
+      "description": "Armor/Armour that ignores damage from every source including the /kill command, but excluding the Sword of the Cosmos if doing PvP.",
+      "x": 190,
+      "y": 47,
+      "icon": {
+        "id": "Avaritia:Infinity_Chest"
+      },
+      "prerequisites": [
+        "Infinity Ingot"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Infinity_Helm"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Avaritia:Infinity_Chest"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Avaritia:Infinity_Pants"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Avaritia:Infinity_Shoes"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chancecubes:Compact_Giant_Chance_Cube"
+        },
+        {
+          "id": "HardcoreQuesting:hearts",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

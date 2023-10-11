@@ -1,0 +1,20 @@
+{
+  "records.customthings.Aristotle": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "records/Aristotle",
+        "stream": true
+      }
+    ]
+  },
+  "records.customthings.Titan": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "records/Titan",
+        "stream": true
+      }
+    ]
+  }
+}

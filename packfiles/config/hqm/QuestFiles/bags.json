@@ -1,0 +1,1865 @@
+[
+  {
+    "name": "Crap",
+    "colour": "RED",
+    "weights": [
+      50,
+      25,
+      0,
+      0,
+      0
+    ],
+    "groups": [
+      {
+        "name": "Crap Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ThermalExpansion:florb",
+            "amount": 16,
+            "nbt": "{Fluid:\"sewage\"}"
+          }
+        ]
+      },
+      {
+        "name": "Crap Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "enderioaddons:itemMachineParts",
+            "damage": 29
+          }
+        ]
+      },
+      {
+        "name": "Crap Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "GalacticraftCore:tile.aluminumWire",
+            "damage": 1,
+            "amount": 15
+          },
+          {
+            "id": "GalacticraftCore:tile.aluminumWire",
+            "amount": 30
+          }
+        ]
+      },
+      {
+        "name": "Crap Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Botania:cosmetic",
+            "damage": 11
+          },
+          {
+            "id": "Botania:cosmetic",
+            "damage": 28
+          }
+        ]
+      },
+      {
+        "name": "Crap Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "aether:greenSkyrootSapling"
+          },
+          {
+            "id": "aether:blueSkyrootSapling"
+          },
+          {
+            "id": "aether:purpleCrystalSapling"
+          }
+        ]
+      },
+      {
+        "name": "Crap Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "extracells:walrus",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "name": "Crap Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "IronChest:BlockIronChest",
+            "damage": 7
+          }
+        ]
+      },
+      {
+        "name": "Crap Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "BiblioCraft:BiblioLamp",
+            "damage": 14
+          },
+          {
+            "id": "BiblioCraft:BiblioLamp",
+            "damage": 7
+          },
+          {
+            "id": "BiblioCraft:BiblioLantern",
+            "damage": 7
+          },
+          {
+            "id": "BiblioCraft:BiblioIronLantern",
+            "damage": 14
+          }
+        ]
+      },
+      {
+        "name": "Helping Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "exastrisrebirth:itemHammerRF",
+            "nbt": "{Energy:160000}"
+          }
+        ]
+      },
+      {
+        "name": "Crap Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "MekanismTools:IronPaxel"
+          }
+        ]
+      },
+      {
+        "name": "Crap Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "HardcoreQuesting:hearts",
+            "damage": 4
+          }
+        ]
+      },
+      {
+        "name": "Decorative Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "magicalcropsdeco:essence_brick",
+            "damage": 14,
+            "amount": 16
+          },
+          {
+            "id": "magicalcropsdeco:essence_brick2",
+            "damage": 11,
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "name": "Decorative Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Ztones:tile.reedBlock",
+            "amount": 10
+          },
+          {
+            "id": "Ztones:lampb",
+            "amount": 10
+          },
+          {
+            "id": "Ztones:tile.glaxx",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "name": "Decoration Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ExtraUtilities:microblocks",
+            "damage": 2,
+            "amount": 32,
+            "nbt": "{mat:\"tile.extrautils:decorativeBlock2_7\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Plain",
+    "colour": "GRAY",
+    "weights": [
+      50,
+      50,
+      25,
+      0,
+      0
+    ],
+    "groups": [
+      {
+        "name": "Don\u0027t Drop Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "cfm:ItemSoap"
+          },
+          {
+            "id": "cfm:ItemSoapyWater"
+          },
+          {
+            "id": "cfm:ItemSuperSoapyWater"
+          }
+        ]
+      },
+      {
+        "name": "Appliance Reward",
+        "limit": 10,
+        "items": [
+          {
+            "id": "cfm:ItemCounterSink"
+          },
+          {
+            "id": "cfm:ItemCounterDoored"
+          },
+          {
+            "id": "cfm:ItemDishWasher"
+          },
+          {
+            "id": "cfm:ItemWashingMachine"
+          },
+          {
+            "id": "cfm:ItemOven"
+          },
+          {
+            "id": "cfm:ItemOvenRangehood"
+          }
+        ]
+      },
+      {
+        "name": "Plain Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ExtraUtilities:decorativeBlock2",
+            "damage": 8,
+            "amount": 44
+          }
+        ]
+      },
+      {
+        "name": "Plain Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "baublelicious:ItemAmuletGrowth"
+          }
+        ]
+      },
+      {
+        "name": "Plain Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "chisel:ballomoss",
+            "amount": 3
+          },
+          {
+            "id": "chisel:cloudinabottle",
+            "amount": 3
+          },
+          {
+            "id": "chisel:smashingrock",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "name": "Plain Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "appliedenergistics2:tile.BlockSkyCompass"
+          }
+        ]
+      },
+      {
+        "name": "Plain Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "quantumflux:entropyAccelerator"
+          }
+        ]
+      },
+      {
+        "name": "Plain Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Mekanism:BasicBlock",
+            "damage": 6,
+            "nbt": "{tier:0}"
+          }
+        ]
+      },
+      {
+        "name": "Plain Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ThermalDynamics:ThermalDynamics_64",
+            "amount": 32
+          },
+          {
+            "id": "ThermalDynamics:ThermalDynamics_64",
+            "damage": 1,
+            "amount": 10
+          },
+          {
+            "id": "ThermalDynamics:ThermalDynamics_64",
+            "damage": 2,
+            "amount": 4
+          }
+        ]
+      },
+      {
+        "name": "Plain Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "BiblioCraft:item.tapeMeasure"
+          }
+        ]
+      },
+      {
+        "name": "Plain Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "BuildCraft|Transport:item.buildcraftPipe.pipefluidsvoid"
+          },
+          {
+            "id": "BuildCraft|Transport:item.buildcraftPipe.pipeitemsvoid"
+          }
+        ]
+      },
+      {
+        "name": "Plain Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "AgriCraft:waterChannel",
+            "amount": 3,
+            "nbt": "{matMeta:0,material:\"minecraft:planks\"}"
+          },
+          {
+            "id": "AgriCraft:waterChannelFull",
+            "amount": 3,
+            "nbt": "{matMeta:11,material:\"Natura:planks\"}"
+          },
+          {
+            "id": "AgriCraft:seedStorage",
+            "nbt": "{matMeta:0,material:\"erebus:planks_scorched\"}"
+          }
+        ]
+      },
+      {
+        "name": "Plain Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "customthings:Aristotle"
+          }
+        ]
+      },
+      {
+        "name": "Plain Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "customthings:Titan"
+          },
+          {
+            "id": "minecraft:jukebox"
+          }
+        ]
+      },
+      {
+        "name": "Plain Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Artifacts:anti_builder",
+            "amount": 5
+          },
+          {
+            "id": "Artifacts:anti_anti_builder_stone",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "name": "Plain Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Artifacts:invisible_bedrock",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "name": "Plain Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "cookingbook:recipebook",
+            "damage": 3
+          }
+        ]
+      },
+      {
+        "name": "Plain Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "aether:zaniteRing"
+          }
+        ]
+      },
+      {
+        "name": "Plain Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "FLabsBF:flabs.upore"
+          }
+        ]
+      },
+      {
+        "name": "Plain Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "FLabsBF:flabs.upender"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Common",
+    "colour": "GREEN",
+    "weights": [
+      20,
+      30,
+      20,
+      15,
+      10
+    ],
+    "groups": [
+      {
+        "name": "Common Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "enderioaddons:blockCobbleworks"
+          }
+        ]
+      },
+      {
+        "name": "Common Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "chancecubes:Chance_Cube"
+          },
+          {
+            "id": "chancecubes:Chance_Cube"
+          },
+          {
+            "id": "chancecubes:Chance_Cube"
+          },
+          {
+            "id": "chancecubes:Chance_Cube"
+          },
+          {
+            "id": "chancecubes:Chance_Cube"
+          },
+          {
+            "id": "chancecubes:Chance_Cube"
+          }
+        ]
+      },
+      {
+        "name": "Common Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "chancecubes:Chance_Icosahedron"
+          },
+          {
+            "id": "chancecubes:Chance_Icosahedron"
+          },
+          {
+            "id": "chancecubes:Chance_Icosahedron"
+          },
+          {
+            "id": "chancecubes:Chance_Icosahedron"
+          }
+        ]
+      },
+      {
+        "name": "Common Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "chancecubes:Compact_Giant_Chance_Cube"
+          }
+        ]
+      },
+      {
+        "name": "Common Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "StorageDrawers:tape"
+          }
+        ]
+      },
+      {
+        "name": "Common Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "erebus:rolledNewspaper",
+            "nbt": "{ench:[0:{lvl:5s,id:18s}]}"
+          },
+          {
+            "id": "erebus:whetstone",
+            "damage": 3
+          }
+        ]
+      },
+      {
+        "name": "Common Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Artifacts:artifact"
+          }
+        ]
+      },
+      {
+        "name": "Common Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Mekanism:BasicBlock",
+            "damage": 6,
+            "nbt": "{tier:1}"
+          }
+        ]
+      },
+      {
+        "name": "Common Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "chancecubes:chancePendantTier1"
+          }
+        ]
+      },
+      {
+        "name": "Common Reward",
+        "limit": 4,
+        "items": [
+          {
+            "id": "BiblioCraft:Printing Press"
+          },
+          {
+            "id": "BiblioCraft:Typesetting Machine"
+          },
+          {
+            "id": "minecraft:dye",
+            "amount": 4
+          }
+        ]
+      },
+      {
+        "name": "Common Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "OpenBlocks:elevator",
+            "amount": 4
+          }
+        ]
+      },
+      {
+        "name": "Common Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "OpenBlocks:sponge"
+          }
+        ]
+      },
+      {
+        "name": "Common Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "exastrisrebirth:blockHammerAutomatic",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "name": "Common Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "PortalGun:PortalGunBlue"
+          }
+        ]
+      },
+      {
+        "name": "Common Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Magneticraft:salt_ore",
+            "amount": 6
+          }
+        ]
+      },
+      {
+        "name": "Common Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ImmersiveEngineering:metalDevice",
+            "damage": 14
+          }
+        ]
+      },
+      {
+        "name": "Plastic Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "PneumaticCraft:plastic",
+            "damage": 11,
+            "amount": 3
+          },
+          {
+            "id": "PneumaticCraft:plastic",
+            "damage": 12,
+            "amount": 3
+          },
+          {
+            "id": "PneumaticCraft:plastic",
+            "damage": 5,
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "name": "GRENADE!!!",
+        "limit": 0,
+        "items": [
+          {
+            "id": "DefenseTech:grenade",
+            "damage": 2,
+            "amount": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Uncommon",
+    "colour": "BLUE",
+    "weights": [
+      5,
+      10,
+      15,
+      20,
+      25
+    ],
+    "groups": [
+      {
+        "name": "Used Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "ExtraUtilities:drum",
+            "damage": 1,
+            "nbt": "{Fluid:{FluidName:\"lubricant\",Amount:65536000}}"
+          }
+        ]
+      },
+      {
+        "name": "Uncommon Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "baublelicious:ItemBeltWaterWalking"
+          }
+        ]
+      },
+      {
+        "name": "Uncommon Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "baublelicious:ItemSpeedBelt"
+          }
+        ]
+      },
+      {
+        "name": "Uncommon Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "baublelicious:ItemFallingBelt"
+          }
+        ]
+      },
+      {
+        "name": "Uncommon Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ThermalFoundation:material",
+            "damage": 1024
+          },
+          {
+            "id": "ThermalFoundation:material",
+            "damage": 1026,
+            "amount": 2
+          },
+          {
+            "id": "ThermalFoundation:material",
+            "damage": 1028,
+            "amount": 4
+          }
+        ]
+      },
+      {
+        "name": "Uncommon Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ExtraUtilities:extractor_base",
+            "damage": 6
+          }
+        ]
+      },
+      {
+        "name": "Uncommon Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "RandomThings:spectreGlass",
+            "amount": 6
+          },
+          {
+            "id": "RandomThings:spectreBlock",
+            "damage": 15,
+            "amount": 6
+          },
+          {
+            "id": "RandomThings:spectreBlock",
+            "damage": 4,
+            "amount": 6
+          },
+          {
+            "id": "RandomThings:spectreBlock",
+            "damage": 1,
+            "amount": 6
+          }
+        ]
+      },
+      {
+        "name": "Uncommon Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "betterbuilderswands:wandDiamond"
+          }
+        ]
+      },
+      {
+        "name": "Uncommon Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Mekanism:BasicBlock",
+            "damage": 6,
+            "nbt": "{tier:2}"
+          }
+        ]
+      },
+      {
+        "name": "Uncommon Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "chancecubes:chancePendantTier2"
+          }
+        ]
+      },
+      {
+        "name": "Uncommon Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "PortalGun:LongFallBoots"
+          },
+          {
+            "id": "PortalGun:AerialFaithPlate"
+          }
+        ]
+      },
+      {
+        "name": "Uncommon Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "GalacticraftCore:item.oxygenTankLightFull"
+          },
+          {
+            "id": "GalacticraftCore:item.oxygenTankLightFull"
+          }
+        ]
+      },
+      {
+        "name": "Uncommon Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Mekanism:MufflingUpgrade",
+            "amount": 4
+          }
+        ]
+      },
+      {
+        "name": "Uncommon Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "exnihilo:doll_creepy"
+          },
+          {
+            "id": "exnihilo:doll_angry"
+          }
+        ]
+      },
+      {
+        "name": "Uncommon Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ImmersiveEngineering:woodenDevice",
+            "damage": 5
+          },
+          {
+            "id": "ImmersiveEngineering:material",
+            "damage": 8
+          },
+          {
+            "id": "ImmersiveEngineering:toolupgrade",
+            "damage": 5
+          }
+        ]
+      },
+      {
+        "name": "Uncommon Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "appliedenergistics2:item.ItemMultiPart",
+            "damage": 160
+          },
+          {
+            "id": "appliedenergistics2:item.ItemMultiPart",
+            "damage": 72,
+            "amount": 11
+          },
+          {
+            "id": "appliedenergistics2:item.ItemMultiPart",
+            "damage": 4,
+            "amount": 22
+          },
+          {
+            "id": "appliedenergistics2:item.ItemMultiPart",
+            "damage": 49,
+            "amount": 17
+          }
+        ]
+      },
+      {
+        "name": "Uncommon Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Botania:brewFlask",
+            "nbt": "{brewKey:\"absorption\"}"
+          }
+        ]
+      },
+      {
+        "name": "Uncommon Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Artifacts:structure_generator",
+            "nbt": "{Type:\"Tier1TowerAncient\"}"
+          }
+        ]
+      },
+      {
+        "name": "Uncommon Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Redstonic:energizedBattery"
+          }
+        ]
+      },
+      {
+        "name": "Uncommon Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "magicalcrops:CropBooster",
+            "amount": 12
+          }
+        ]
+      },
+      {
+        "name": "Uncommon Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "PneumaticCraft:liquidCompressor"
+          }
+        ]
+      },
+      {
+        "name": "Uncommon Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "erebus:reinCompoundGoggles"
+          },
+          {
+            "id": "erebus:jumpBoots"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rare",
+    "colour": "ORANGE",
+    "weights": [
+      1,
+      7,
+      18,
+      25,
+      50
+    ],
+    "groups": [
+      {
+        "name": "Rare Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "appliedenergistics2:tile.BlockSecurity"
+          },
+          {
+            "id": "Mekanism:BasicBlock2",
+            "damage": 9
+          }
+        ]
+      },
+      {
+        "name": "Rare Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "FLabsBFCompat:fuelitem"
+          },
+          {
+            "id": "FLabsBFCompat:bfenergy"
+          }
+        ]
+      },
+      {
+        "name": "Rare Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "erebus:maxSpeedBow"
+          },
+          {
+            "id": "minecraft:arrow",
+            "amount": 64
+          }
+        ]
+      },
+      {
+        "name": "Rare Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Mekanism:BasicBlock",
+            "damage": 7,
+            "amount": 9
+          },
+          {
+            "id": "Mekanism:MachineBlock",
+            "damage": 11
+          }
+        ]
+      },
+      {
+        "name": "Rare Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ThermalExpansion:pump",
+            "nbt": "{Energy:80000}"
+          },
+          {
+            "id": "ThermalExpansion:transfuser"
+          }
+        ]
+      },
+      {
+        "name": "Rare Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "EnderIO:blockVacuumChest"
+          }
+        ]
+      },
+      {
+        "name": "Rare Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:golden_apple",
+            "damage": 1
+          }
+        ]
+      },
+      {
+        "name": "Rare Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "EnderStorage:enderChest"
+          },
+          {
+            "id": "EnderStorage:enderChest",
+            "damage": 4096
+          }
+        ]
+      },
+      {
+        "name": "Rare Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Mekanism:BasicBlock",
+            "damage": 6,
+            "nbt": "{tier:3}"
+          }
+        ]
+      },
+      {
+        "name": "Rare Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "OpenBlocks:autoenchantmenttable"
+          }
+        ]
+      },
+      {
+        "name": "Rare Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "RandomThings:imbue",
+            "damage": 3
+          },
+          {
+            "id": "minecraft:potion",
+            "damage": 8233
+          },
+          {
+            "id": "minecraft:potion",
+            "damage": 8235
+          },
+          {
+            "id": "minecraft:potion",
+            "damage": 8257
+          }
+        ]
+      },
+      {
+        "name": "Rare Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:iron_horse_armor"
+          },
+          {
+            "id": "minecraft:golden_horse_armor"
+          },
+          {
+            "id": "minecraft:diamond_horse_armor"
+          }
+        ]
+      },
+      {
+        "name": "Rare Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Botania:starfield"
+          }
+        ]
+      },
+      {
+        "name": "Rare Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ExtraPlanets:diamondApple",
+            "amount": 4
+          }
+        ]
+      },
+      {
+        "name": "Rare Reward",
+        "limit": 3,
+        "items": [
+          {
+            "id": "EnderIO:blockZombieGenerator"
+          }
+        ]
+      },
+      {
+        "name": "Rare Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:beacon"
+          }
+        ]
+      },
+      {
+        "name": "Rare Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "Artifacts:structure_generator",
+            "nbt": "{Type:\"Tier2Tower\"}"
+          }
+        ]
+      },
+      {
+        "name": "Rare Reward",
+        "limit": 5,
+        "items": [
+          {
+            "id": "Mekanism:Flamethrower",
+            "nbt": "{stored:{amount:36000,gasName:\"hydrogen\"}}"
+          }
+        ]
+      },
+      {
+        "name": "You\u0027re Gonna Like This Reward",
+        "limit": 3,
+        "items": [
+          {
+            "id": "PneumaticCraft:printedCircuitBoard",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Rare Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "PneumaticCraft:minigun",
+            "nbt": "{oldRotation:0.0d,rotation:0.0d,soundCounter:-1,triggerTimeout:0,speed:0.0d,activated:0b}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Unique",
+    "colour": "PURPLE",
+    "weights": [
+      0,
+      20,
+      30,
+      40,
+      80
+    ],
+    "groups": [
+      {
+        "name": "Unique Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "peaether:alchemicalCoinItem",
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "name": "Unique Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Magneticraft:item.chainsaw",
+            "damage": 1,
+            "nbt": "{Charge:500000}"
+          }
+        ]
+      },
+      {
+        "name": "Unique Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "xreliquary:lilypad",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "name": "Unique Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ChickenChunks:chickenChunkLoader"
+          },
+          {
+            "id": "ChickenChunks:chickenChunkLoader",
+            "damage": 1,
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "name": "Unique Reward",
+        "limit": 3,
+        "items": [
+          {
+            "id": "chancecubes:chancePendantTier3"
+          }
+        ]
+      },
+      {
+        "name": "Unique Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "aether:fleetingStone"
+          }
+        ]
+      },
+      {
+        "name": "Unique Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "TConstruct:diamondApple",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "name": "Unique Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Botania:lens",
+            "damage": 1
+          },
+          {
+            "id": "Botania:lens",
+            "damage": 4
+          }
+        ]
+      },
+      {
+        "name": "Unique Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Artifacts:artifact_golden_chestplate"
+          }
+        ]
+      },
+      {
+        "name": "Unique Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "Artifacts:artifact_diamond_chestplate"
+          }
+        ]
+      },
+      {
+        "name": "Unique Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "ExtraPlanets:diamondApple",
+            "damage": 1,
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "name": "Unique Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "MineFactoryReloaded:laserfocus",
+            "damage": 4
+          },
+          {
+            "id": "MineFactoryReloaded:laserfocus",
+            "damage": 12
+          },
+          {
+            "id": "MineFactoryReloaded:laserfocus",
+            "damage": 7
+          }
+        ]
+      },
+      {
+        "name": "Unique Reward",
+        "limit": 2,
+        "items": [
+          {
+            "id": "betterbuilderswands:wandUnbreakable",
+            "damage": 6
+          }
+        ]
+      },
+      {
+        "name": "Unique Reward",
+        "limit": 3,
+        "items": [
+          {
+            "id": "DraconicEvolution:magnet"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Forbidden",
+    "colour": "MAGENTA",
+    "weights": [
+      0,
+      0,
+      10,
+      0,
+      20
+    ],
+    "groups": [
+      {
+        "name": "Forbidden Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "magicalcropsarmour:ZivicioArmourHelmetFeed"
+          }
+        ]
+      },
+      {
+        "name": "Forbidden Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "magicalcropsarmour:ZivicioArmourHelmetNight"
+          }
+        ]
+      },
+      {
+        "name": "Forbidden Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "magicalcropsarmour:ZivicioArmourHelmetWater"
+          }
+        ]
+      },
+      {
+        "name": "Forbidden Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "magicalcropsarmour:ZivicioArmourChestplateFire"
+          }
+        ]
+      },
+      {
+        "name": "Forbidden Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "magicalcropsarmour:ZivicioArmourChestplateWither"
+          }
+        ]
+      },
+      {
+        "name": "Forbidden Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "magicalcropsarmour:ZivicioArmourChestplatePoison"
+          }
+        ]
+      },
+      {
+        "name": "Forbidden Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "magicalcropsarmour:ZivicioArmourLeggingsBlind"
+          }
+        ]
+      },
+      {
+        "name": "Forbidden Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "magicalcropsarmour:ZivicioArmourLeggingsWeak"
+          }
+        ]
+      },
+      {
+        "name": "Forbidden Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "magicalcropsarmour:ZivicioArmourLeggingsConfusion"
+          }
+        ]
+      },
+      {
+        "name": "Forbidden Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "magicalcropsarmour:ZivicioArmourBootsJump"
+          }
+        ]
+      },
+      {
+        "name": "Forbidden Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "magicalcropsarmour:ZivicioArmourBootsSpeed"
+          }
+        ]
+      },
+      {
+        "name": "Forbidden Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "magicalcropsarmour:ZivicioArmourBootsStep"
+          }
+        ]
+      },
+      {
+        "name": "Forbidden Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "customthings:epeolatry_singularitySword",
+            "nbt": "{ench:[0:{lvl:1s,id:8s},1:{lvl:50s,id:19s},2:{lvl:50s,id:21s},3:{lvl:5s,id:45s},4:{lvl:20s,id:180s}],Unbreakable:1b,display:{Lore:[0:\"An Ergon weapon made for the best magic tanks.\",1:\"The recipe for this has been long forgotten.\"]},AttributeModifiers:[0:{UUIDMost:6997086112856165811L,UUIDLeast:-6602227915259331243L,Amount:11.0d,AttributeName:\"generic.maxHealth\",Operation:0,Name:\"My Modifier\"},1:{UUIDMost:1220981463593601199L,UUIDLeast:-6198317512244152228L,Amount:4.0d,AttributeName:\"generic.knockbackResistance\",Operation:0,Name:\"My Modifier\"},2:{UUIDMost:-3555860849679777640L,UUIDLeast:-6191988925534211141L,Amount:999.0d,AttributeName:\"generic.attackDamage\",Operation:0,Name:\"My Modifier\"},3:{UUIDMost:-4820224543240008027L,UUIDLeast:-7932041510804321788L,Amount:0.2d,AttributeName:\"generic.movementSpeed\",Operation:0,Name:\"My Modifier\"}]}"
+          }
+        ]
+      },
+      {
+        "name": "Forbidden Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "openmodularturrets:railGunTurret"
+          },
+          {
+            "id": "openmodularturrets:ferroSlug",
+            "amount": 6
+          },
+          {
+            "id": "openmodularturrets:baseTierFourBlock"
+          }
+        ]
+      },
+      {
+        "name": "Forbidden Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "xreliquary:witherless_rose"
+          }
+        ]
+      },
+      {
+        "name": "EMC Reward",
+        "limit": 5,
+        "items": [
+          {
+            "id": "minecraft:bedrock"
+          }
+        ]
+      },
+      {
+        "name": "Forbidden Reward",
+        "limit": 10,
+        "items": [
+          {
+            "id": "TConstruct:heartCanister",
+            "damage": 5
+          }
+        ]
+      },
+      {
+        "name": "Forbidden Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "Avaritia:Skull_Sword"
+          }
+        ]
+      },
+      {
+        "name": "Ozone Gets Wyld Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "TConstruct:Crossbow",
+            "nbt": "{InfiTool:{RenderExtra:501,BaseDurability:80000,BaseAttack:100,DrawSpeed:5,ToolEXP:0,Built:1b,Effect1:2,HarvestLevel:7,ModifierTip1:\"§4Redstone (110/150)\",RenderHead:501,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:501,Accessory:2,MiningSpeed:6000,Unbreaking:10,Damage:0,BonusDurability:0,TotalDurability:80000,Loaded:1b,LoadedItem:{id:5308s,Count:1b,tag:{InfiTool:{BreakChance:0.0f,BaseDurability:200000,BaseAttack:100,ToolEXP:0L,HarvestLevel:7,RenderHead:501,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:501,Accuracy:87.5f,Accessory:1,MiningSpeed:6000,Unbreaking:10,Damage:0,BonusDurability:0,TotalDurability:200000,Head:501,Attack:100,Handle:501,Broken:0b,Mass:5.0f,Ammo:1,RenderAccessory:1,ToolLevel:1,Modifiers:10},ench:[0:{lvl:1s,id:8s}],RepairCost:2,display:{Name:\"Heavy Ammo\"}},Damage:0s},BaseDrawSpeed:20,Head:501,Tooltip1:\"§4Haste\",Attack:100,Handle:501,Broken:0b,Redstone:[110,150,1,],Extra:501,RenderAccessory:2,FlightSpeed:18.0f,ToolLevel:1,Modifiers:13},ench:[0:{lvl:1s,id:8s}],RepairCost:2,display:{Name:\"Armageddon\"}}"
+          },
+          {
+            "id": "TConstruct:BoltAmmo",
+            "nbt": "{InfiTool:{BreakChance:0.0f,BaseDurability:200000,BaseAttack:100,ToolEXP:0L,Moss:30,Effect1:4,HarvestLevel:7,ModifierTip1:\"§2Moss X\",RenderHead:501,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:501,Accuracy:87.5f,Accessory:1,MiningSpeed:6000,Unbreaking:10,Damage:0,BonusDurability:0,TotalDurability:200000,Head:501,Tooltip1:\"§2Auto-Repair X\",Attack:100,Handle:501,Broken:0b,Mass:5.0f,Ammo:20000,RenderAccessory:1,ToolLevel:1,Modifiers:0},ench:[0:{lvl:1s,id:8s}],RepairCost:2,display:{Name:\"Heavy Ammo\"}}"
+          }
+        ]
+      },
+      {
+        "name": "Forbidden Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "ProjectE:item.pe_destruction_catalyst"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cazador",
+    "colour": "TURQUOISE",
+    "weights": [
+      0,
+      0,
+      0,
+      30,
+      40
+    ],
+    "groups": [
+      {
+        "name": "Cazador Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "Artifacts:structure_generator",
+            "nbt": "{Type:\"Tier3TowerAncient\"}"
+          }
+        ]
+      },
+      {
+        "name": "Cazador Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "HardcoreQuesting:hearts",
+            "damage": 3
+          }
+        ]
+      },
+      {
+        "name": "Cazador Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "ProjectE:item.pe_alchemical_bag",
+            "damage": 1
+          },
+          {
+            "id": "ProjectE:item.pe_alchemical_bag",
+            "damage": 15
+          },
+          {
+            "id": "ProjectE:item.pe_alchemical_bag",
+            "damage": 8
+          }
+        ]
+      },
+      {
+        "name": "Cazador Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "customthings:item",
+            "damage": 15
+          }
+        ]
+      },
+      {
+        "name": "Cazador Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "DraconicEvolution:draconiumChest"
+          }
+        ]
+      },
+      {
+        "name": "Cazador Reward",
+        "limit": 12,
+        "items": [
+          {
+            "id": "magicalcrops:WitherProof",
+            "amount": 14
+          },
+          {
+            "id": "magicalcrops:WitherProofGlass",
+            "amount": 14
+          }
+        ]
+      },
+      {
+        "name": "Cazador Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "minecraft:nether_star"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Aristotle",
+    "colour": "LIME",
+    "weights": [
+      0,
+      0,
+      0,
+      30,
+      40
+    ],
+    "groups": [
+      {
+        "name": "Aristotle Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "TConstruct:creativeModifier",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "name": "Aristotle Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "xreliquary:pyromancer_staff"
+          },
+          {
+            "id": "minecraft:fire_charge",
+            "amount": 13
+          }
+        ]
+      },
+      {
+        "name": "Pine Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:slime_ball",
+            "amount": 8
+          },
+          {
+            "id": "chisel:leaves",
+            "damage": 6,
+            "amount": 5
+          },
+          {
+            "id": "TConstruct:strangeFood",
+            "amount": 8
+          },
+          {
+            "id": "Botania:manaResource",
+            "damage": 20,
+            "amount": 6
+          }
+        ]
+      },
+      {
+        "name": "Aristotle Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "rftools:chargedPorterItem"
+          },
+          {
+            "id": "Mekanism:PortableTeleporter"
+          }
+        ]
+      },
+      {
+        "name": "Aristotle Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "DraconicEvolution:dissEnchanter"
+          }
+        ]
+      },
+      {
+        "name": "Aristotle Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "minecraft:nether_star"
+          }
+        ]
+      },
+      {
+        "name": "Aristotle Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "customthings:item",
+            "damage": 14
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Alpha",
+    "colour": "BLACK",
+    "weights": [
+      0,
+      5,
+      0,
+      10,
+      0
+    ],
+    "groups": [
+      {
+        "name": "Alpha Spoopy Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "aether:deathSeal",
+            "nbt": "{cooldown:600,isEquipped:0b,isSpawned:0b}"
+          }
+        ]
+      },
+      {
+        "name": "Alpha Flamegoat\u0027s Haste Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "Baubles:Ring"
+          }
+        ]
+      },
+      {
+        "name": "Alpha Kiwi\u0027s 48th Karat Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "kg:carrotWultimate"
+          }
+        ]
+      },
+      {
+        "name": "Alpha Matrixis Has You Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "Mekanism:ArmoredJetpack",
+            "nbt": "{stored:{amount:48000,gasName:\"hydrogen\"}}"
+          }
+        ]
+      },
+      {
+        "name": "Alpha Buttonboy Method Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "TConstruct:toolRod",
+            "damage": 501
+          }
+        ]
+      },
+      {
+        "name": "Alpha Epic Lewdi Siege Reward",
+        "limit": 1,
+        "items": [
+          {
+            "id": "minecraft:spawn_egg",
+            "damage": 36
+          }
+        ]
+      },
+      {
+        "name": "Alpha Sketchiest Pendant Reward",
+        "limit": 0,
+        "items": [
+          {
+            "id": "chancecubes:silkTouchPendant"
+          }
+        ]
+      }
+    ]
+  }
+]

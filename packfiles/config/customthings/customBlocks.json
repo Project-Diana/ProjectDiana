@@ -1,0 +1,56 @@
+{"data":
+	[
+			{
+			"name": "temperioessenceblock",
+			"type": "rock",
+			"shape": "normal",
+			"hardness": 0.5,
+			"resistance": 36000000.0,
+			"harvestLevel": 2,
+			"toolType": "pickaxe",
+			"isOpaque": true,
+			"lightLevel": 15,
+			"maxStackSize": 64,
+			"drops": []
+		},
+		{
+			"name": "compresseddust",
+			"type": "rock",
+			"shape": "normal",
+			"hardness": 0.3,
+			"resistance": 0.3,
+			"harvestLevel": 2,
+			"toolType": "pickaxe",
+			"isOpaque": true,
+			"lightLevel": 0,
+			"maxStackSize": 64,
+			"drops": []
+		},
+		{
+			"name": "ogaSexy",
+			"type": "rock",
+			"shape": "normal",
+			"hardness": 0.3,
+			"resistance": 3.0,
+			"harvestLevel": 1,
+			"toolType": "pickaxe",
+			"isOpaque": true,
+			"lightLevel": 0,
+			"maxStackSize": 64,
+			"drops": []
+		},
+		{
+			"name": "Gaia Block",
+			"type": "rock",
+			"shape": "normal",
+			"hardness": 0.8,
+			"resistance": 3.0,
+			"harvestLevel": 3,
+			"toolType": "pickaxe",
+			"isOpaque": true,
+			"lightLevel": 0,
+			"maxStackSize": 64,
+			"drops": []
+		}		
+	]
+}

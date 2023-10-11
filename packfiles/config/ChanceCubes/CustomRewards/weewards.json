@@ -1,0 +1,12 @@
+{
+  "TNL":
+  {
+    "chance": 14,
+    
+    "Command": [
+
+      {"command":"/summon Villager ~ ~ ~ {CustomName:\"OG The Naughty Librarian\",CustomNameVisible:1,Profession:2,\"Equipment\":[{},{},{},{},{id:96}]}"}
+
+    ]
+  }
+}

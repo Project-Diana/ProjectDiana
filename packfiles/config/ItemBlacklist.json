@@ -1,0 +1,16 @@
+{
+  "__GLOBAL__": [
+	    {
+      "item": "ThermalExpansion:Strongbox",
+      "damage": "0"
+    },
+    {
+      "item": "ThermalExpansion:capacitor",
+      "damage": "0"
+    },
+    {
+      "item": "ThermalExpansion:Cache",
+      "damage": "0"
+    }
+  ]
+}
