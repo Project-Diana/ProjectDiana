@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       VERSION: ${{ github.ref_name }}
-      RELEASE_VERISON: ${{ github.ref_name }}
+      RELEASE_VERSION: ${{ github.ref_name }}
       CURSEFORGE_KEY: ${{ secrets.CurseForgeKey }}
     steps:
       - name: Checkout repo
