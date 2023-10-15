@@ -47,7 +47,7 @@ jobs:
 
       - name: Release under current tag
         run: |
-          export "CHANGELOG_FILE=$(mktemp --suffx=.md)"
+          export "CHANGELOG_FILE=$(mktemp --suffix=.md)"
           echo "CHANGELOG_FILE=${CHANGELOG_FILE}" >> $GITHUB_ENV
           gh api --method POST -H "Accept: application/vnd.github+json" \
             "/repos/${GITHUB_REPOSITORY}/releases/generate-notes" \
