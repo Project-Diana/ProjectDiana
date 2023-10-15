@@ -1,0 +1,60 @@
+name: Release Tagged Build
+
+on:
+  push:
+    tags: ["*"]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      VERSION: ${{ github.ref_name }}
+      RELEASE_VERISON: ${{ github.ref_name }}
+      CURSEFORGE_KEY: ${{ secrets.CurseForgeKey }}
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 32
+      
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Python Dependencies
+        run: pip install .
+
+      # Doing server build first means the mod downloads will only have server mods
+      # Currently the application isn't smart enough to skip downloads(cache mods) and also exclude the client only ones
+      # So doing the server build first is an easier way to exclude them and also leverage cache a bit
+      - name: Build MMC Release
+        run: python assembler/main.py --server
+
+      - name: Build Server Release
+        run: python assembler/main.py
+
+      - name: Delete old release if it exists
+        run: gh release delete --yes "${RELEASE_VERSION}"
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Release under current tag
+        run: |
+          export "CHANGELOG_FILE=$(mktemp --suffx=.md)"
+          echo "CHANGELOG_FILE=${CHANGELOG_FILE}" >> $GITHUB_ENV
+          gh api --method POST -H "Accept: application/vnd.github+json" \
+            "/repos/${GITHUB_REPOSITORY}/releases/generate-notes" \
+            -f tag_name="${RELEASE_VERSION}" \
+            --jq ".body" > "${CHANGELOG_FILE}"
+          cat "${CHANGELOG_FILE}"
+          gh release create "${RELEASE_VERSION}" -F "${CHANGELOG_FILE}" ./build/*.zip
+        shell: bash
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -19,7 +19,7 @@ dependencies = [
 [project.urls]
 homepage = "https://github.com/Project-Diana/assembler"
 
-[project.optional-depencies]
+[project.optional-dependencies]
 dev = [
     "black",
     "ruff",

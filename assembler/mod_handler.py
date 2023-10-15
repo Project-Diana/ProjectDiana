@@ -1,4 +1,5 @@
 import csv
+import os
 import shutil
 from pathlib import Path
 from typing import Optional
@@ -8,8 +9,7 @@ import requests
 from assembler.constants import BUILD_DIR, ROOT_DIR
 
 mods_dir = BUILD_DIR / "mods"
-# TODO: Config loading from .env or something for secrets
-curse_headers = {"x-api-key": "fake"}
+curse_headers = {"x-api-key": os.environ.get("CURSEFORGE_KEY", "NO-CURSE-KEY-SET")}
 
 
 def read_mods() -> list[dict]:
@@ -61,7 +61,7 @@ def download_mod_curse(mod: dict, force_download: bool = False) -> Path:
 
 
 def download_mods(
-    skip_entirely: bool = False, force_download: bool = False
+    skip_entirely: bool = False, force_download: bool = False, server: bool = False
 ) -> list[Path]:
     if skip_entirely:
         filepath = BUILD_DIR / "mods"
@@ -71,6 +71,8 @@ def download_mods(
     mods = read_mods()
     files = []
     for mod in mods:
+        if mod["side"] == "CLIENT" and server:
+            continue
         if mod["extra_folder"]:
             (mods_dir / mod["extra_folder"]).mkdir(parents=True, exist_ok=True)
         file: Optional[Path] = None
