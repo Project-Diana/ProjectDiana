@@ -26,8 +26,9 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
+      # Editable install for now because of dependency on filepaths to the python files. Probably change this later when its better
       - name: Install Python Dependencies
-        run: pip install .
+        run: pip install -e .
 
       # Doing server build first means the mod downloads will only have server mods
       # Currently the application isn't smart enough to skip downloads(cache mods) and also exclude the client only ones
