@@ -33,10 +33,10 @@ jobs:
       # Doing server build first means the mod downloads will only have server mods
       # Currently the application isn't smart enough to skip downloads(cache mods) and also exclude the client only ones
       # So doing the server build first is an easier way to exclude them and also leverage cache a bit
-      - name: Build MMC Release
+      - name: Build Server Release
         run: python assembler/main.py --server
 
-      - name: Build Server Release
+      - name: Build MMC Release
         run: python assembler/main.py
 
       - name: Delete old release if it exists
