@@ -1,0 +1,122 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {},
+  "questIDLow:4": 432,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "betterquesting:placeholder",
+        "Count:3": 1,
+        "tag:10": {
+          "orig_meta:3": 0,
+          "orig_id:8": "aether:sliderLabyrinthTotem"
+        },
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Labyrinth",
+      "isGlobal:8": "false",
+      "lockedProgress:1": 1,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Time for payback for those deaths from another pack."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "targetNBT:10": {},
+      "damageType:8": "",
+      "required:3": 1,
+      "taskID:8": "bq_standard:hunt",
+      "target:8": "aether.labyrinthEye",
+      "subtypes:1": 1
+    },
+    "1:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "targetNBT:10": {},
+      "damageType:8": "",
+      "required:3": 1,
+      "taskID:8": "bq_standard:hunt",
+      "target:8": "aether.sentryGuardian",
+      "subtypes:1": 1
+    },
+    "2:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "targetNBT:10": {},
+      "damageType:8": "",
+      "required:3": 1,
+      "taskID:8": "bq_standard:hunt",
+      "target:8": "aether.sliderHostMimic",
+      "subtypes:1": 1
+    },
+    "3:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 3,
+      "targetNBT:10": {},
+      "damageType:8": "",
+      "required:3": 1,
+      "taskID:8": "bq_standard:hunt",
+      "target:8": "aether.slider",
+      "subtypes:1": 1
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "chancecubes:Compact_Giant_Chance_Cube",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "betterquesting:extra_life",
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 1,
+      "choices:9": {
+        "0:10": {
+          "id:8": "bq_standard:loot_chest",
+          "Count:3": 1,
+          "Damage:2": 50,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "bq_standard:loot_chest",
+          "Count:3": 1,
+          "Damage:2": 25,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "bq_standard:loot_chest",
+          "Count:3": 1,
+          "Damage:2": 50,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format:8": "3.1.0",
+  "betterquesting:10": {
+    "livesMax:3": 60,
+    "pack_name:8": "",
+    "home_anchor_y:5": 0.0,
+    "home_anchor_x:5": 0.5,
+    "livesDef:3": 6,
+    "hardcore:1": 0,
+    "home_image:8": "ozone:textures/gui/front.png",
+    "party_enable:1": 1,
+    "editMode:1": 0,
+    "pack_version:3": 0,
+    "home_offset_x:3": 512,
+    "home_offset_y:3": 512
+  }
+}

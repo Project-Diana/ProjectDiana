@@ -1,0 +1,147 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {},
+  "questIDLow:4": 23,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "minecraft:blaze_rod",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Mob Hunter",
+      "isGlobal:8": "false",
+      "lockedProgress:1": 1,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Kill Blazes, Magma Cubes and Flame Spiders."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "targetNBT:10": {},
+      "damageType:8": "",
+      "required:3": 4,
+      "taskID:8": "bq_standard:hunt",
+      "target:8": "Blaze",
+      "subtypes:1": 0
+    },
+    "1:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "targetNBT:10": {},
+      "damageType:8": "",
+      "required:3": 4,
+      "taskID:8": "bq_standard:hunt",
+      "target:8": "LavaSlime",
+      "subtypes:1": 0
+    },
+    "2:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "targetNBT:10": {
+        "ForgeData:10": {},
+        "Size:3": 0,
+        "Attributes:9": {
+          "0:10": {
+            "Base:6": 8.0,
+            "Name:8": "generic.attackDamage"
+          }
+        },
+        "Invulnerable:1": 0,
+        "PortalCooldown:3": 0,
+        "AbsorptionAmount:5": 0.0,
+        "FallDistance:5": 0.0,
+        "DeathTime:2": 0,
+        "DropChances:9": {
+          "0:6": 0.08500000089406967
+        },
+        "PersistenceRequired:1": 0,
+        "HealF:5": 50.0,
+        "id:8": "erebus.blackWidow",
+        "Motion:9": {
+          "0:6": 0.0
+        },
+        "Leashed:1": 0,
+        "UUIDLeast:4": -6225458490758956968,
+        "Health:2": 50,
+        "Dimension:3": 0,
+        "OnGround:1": 0,
+        "Air:2": 0,
+        "Rotation:9": {
+          "0:6": 0.0
+        },
+        "Equipment:9": {
+          "0:10": {}
+        },
+        "UUIDMost:4": 5780948263273710801,
+        "CustomName:8": "",
+        "Pos:9": {
+          "0:6": 0.0
+        },
+        "Fire:2": 0,
+        "CanPickUpLoot:1": 0,
+        "HurtTime:2": 0,
+        "AttackTime:2": 0,
+        "CustomNameVisible:1": 0
+      },
+      "damageType:8": "",
+      "required:3": 2,
+      "taskID:8": "bq_standard:hunt",
+      "target:8": "erebus.blackWidow",
+      "subtypes:1": 1
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "chancecubes:Chance_Cube",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 1,
+      "choices:9": {
+        "0:10": {
+          "id:8": "bq_standard:loot_chest",
+          "Count:3": 1,
+          "Damage:2": 25,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "bq_standard:loot_chest",
+          "Count:3": 1,
+          "Damage:2": 25,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "bq_standard:loot_chest",
+          "Count:3": 1,
+          "Damage:2": 50,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

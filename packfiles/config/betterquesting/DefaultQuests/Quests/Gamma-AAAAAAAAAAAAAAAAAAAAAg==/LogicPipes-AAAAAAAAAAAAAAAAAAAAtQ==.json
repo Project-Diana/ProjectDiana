@@ -1,0 +1,101 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {},
+  "questIDLow:4": 181,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "partySingleReward:1": 0,
+      "visibility:8": "ALWAYS",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "LogisticsPipes:logisticsSolidBlock",
+        "Count:3": 1,
+        "Damage:2": 1,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 1,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "Logic Pipes",
+      "isGlobal:8": "false",
+      "lockedProgress:1": 1,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Logistics Pipes allows one to build an advanced logistics network using a number of new pipes. Provider Logistics Pipes are used to provide and send items into the system upon demand from other pipes, either automatic ones such as the Supplier Logistics Pipe, or player-controlled ones like the Request Logistics Pipe. It is also possible to have items crafted automatically when necessary using Crafting Logistics Pipes. A special kind of pipes are the Logistics Chassis, which can hold modules that give the chassis certain abilities. These modules are often equivalent in function to another logistics pipe, making it possible to combine multiple pipes\u0027 functionality into a single one. Liquids can also be handled by the logistics network, using Logistics Fluid Pipes."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "LogisticsPipes:item.PipeItemsBasicLogistics",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "LogisticsPipes:logisticsSolidBlock",
+          "Count:3": 1,
+          "Damage:2": 1,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "LogisticsPipes:logisticsSolidBlock",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "chancecubes:Chance_Cube",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 1,
+      "choices:9": {
+        "0:10": {
+          "id:8": "bq_standard:loot_chest",
+          "Count:3": 1,
+          "Damage:2": 50,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "bq_standard:loot_chest",
+          "Count:3": 1,
+          "Damage:2": 25,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "bq_standard:loot_chest",
+          "Count:3": 1,
+          "Damage:2": 50,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}
