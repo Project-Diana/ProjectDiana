@@ -11,8 +11,6 @@ from assembler.pack_handler import add_packfiles
 
 app = typer.Typer()
 
-PACK_VERSION = "1.0.0"
-
 
 @app.command()
 def assemble(
