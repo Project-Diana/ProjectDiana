@@ -1,1 +1,0 @@
-furnace.addRecipe(<customthings:block0:2>, <ExtraUtilities:cobblestone_compressed>);

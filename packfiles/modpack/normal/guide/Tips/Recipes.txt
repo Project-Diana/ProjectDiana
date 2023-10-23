@@ -1,7 +1,0 @@
-§2Tips Guide
-
-Draconic Evolution Energy Storage Multiblock: Takes "Block of Carbon" from the planet Venus instead of  "Redstone blocks"
-
-If having problems with Capacitor seeds they pretty much must be like this to grow:
-
-{"image":"capacity.png", "scale":-4}

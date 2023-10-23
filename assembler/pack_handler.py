@@ -18,7 +18,7 @@ def add_packfiles(root_folder: str, zip: zipfile.ZipFile, server: bool):
         arcname = str(file.as_posix()).split("local/")[1]
         zip.write(file, arcname=f"{root_folder}/local/{arcname}")
 
-    modpack = packfiles / "modpack"
-    for file in modpack.glob("**/*"):
-        arcname = str(file.as_posix()).split("modpack/")[1]
-        zip.write(file, arcname=f"{root_folder}/modpack/{arcname}")
+    scripts = packfiles / "scripts"
+    for file in scripts.glob("**/*"):
+        arcname = str(file.as_posix()).split("scripts/")[1]
+        zip.write(file, arcname=f"{root_folder}/scripts/{arcname}")

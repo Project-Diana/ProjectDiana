@@ -1,0 +1,3 @@
+//Make coke oven bricks harder
+recipes.removeShaped(<ImmersiveEngineering:stoneDecoration:1> * 2, [[<minecraft:clay_ball>, <minecraft:brick>, <minecraft:clay_ball>], [<minecraft:brick>, <ore:sandstone>, <minecraft:brick>], [<minecraft:clay_ball>, <minecraft:brick>, <minecraft:clay_ball>]]);
+recipes.addShaped(<ImmersiveEngineering:stoneDecoration:1> * 3, [[<minecraft:clay>, <minecraft:brick_block>, <minecraft:clay>], [<minecraft:brick_block>, <ExtraUtilities:cobblestone_compressed:14>, <minecraft:brick_block>], [<minecraft:clay>, <minecraft:brick_block>, <minecraft:clay>]]);
