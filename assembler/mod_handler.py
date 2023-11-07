@@ -9,6 +9,9 @@ import requests
 from assembler.constants import BUILD_DIR, ROOT_DIR
 
 mods_dir = BUILD_DIR / "mods"
+os.environ[
+    "CURSEFORGE_KEY"
+] = "$2a$10$gyE1Lqn.Q491zzdtQiZUHu2sWeczeQIUKIyPkdSAe5m/.aYWyqNKy"
 curse_headers = {"x-api-key": os.environ.get("CURSEFORGE_KEY", "NO-CURSE-KEY-SET")}
 
 

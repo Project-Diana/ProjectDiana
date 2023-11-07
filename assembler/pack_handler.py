@@ -17,8 +17,3 @@ def add_packfiles(root_folder: str, zip: zipfile.ZipFile, server: bool):
     for file in local.glob("**/*"):
         arcname = str(file.as_posix()).split("local/")[1]
         zip.write(file, arcname=f"{root_folder}/local/{arcname}")
-
-    scripts = packfiles / "scripts"
-    for file in scripts.glob("**/*"):
-        arcname = str(file.as_posix()).split("scripts/")[1]
-        zip.write(file, arcname=f"{root_folder}/scripts/{arcname}")
